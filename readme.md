@@ -11,3 +11,5 @@
 - Flexbox
 - Grid
 - JS
+
+Рабочий прототип представлен [здесь](https://project-month.github.io/Everland/).
