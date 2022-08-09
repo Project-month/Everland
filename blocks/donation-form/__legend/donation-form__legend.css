@@ -1,0 +1,24 @@
+.donation-form__legend {
+  text-align: center;
+}
+
+.donation-form__legend::before,
+.donation-form__legend::after {
+  background-color: #dadada;
+  content: '';
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.donation-form__legend::before {
+  margin-left: -100%;
+  left: -14px;
+}
+
+.donation-form__legend::after {
+  margin-right: -100%;
+  right: -14px;
+}
