@@ -3,6 +3,11 @@
 
 @import url(../blocks/page/page.css);
 
+@import url(../blocks/button/button.css);
+@import url(../blocks/button/_theme/button_theme_primary.css);
+@import url(../blocks/button/_theme/button_theme_secondary.css);
+@import url(../blocks/button/_theme/button_theme_secondary-black.css);
+
 /*SECTION NEWS*/
 @import url(../blocks/news/news.css);
 @import url(../blocks/news/title/news__title.css);
