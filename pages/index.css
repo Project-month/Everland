@@ -18,3 +18,12 @@
 @import url(../blocks/button/_theme/button_theme_primary.css);
 @import url(../blocks/button/_theme/button_theme_secondary.css);
 @import url(../blocks/button/_theme/button_theme_secondary-black.css);
+
+@import url(../blocks/donation-form/donation-form.css);
+@import url(../blocks/donation-form/__fieldset/donation-form__fieldset.css);
+@import url(../blocks/donation-form/__legend/donation-form__legend.css);
+@import url(../blocks/donation-form/__text-input/donation-form__text-input.css);
+@import url(../blocks/donation-form/__link/donation-form__link.css);
+
+/* Support */
+@import url(../blocks/support/support.css);

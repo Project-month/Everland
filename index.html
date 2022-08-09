@@ -28,5 +28,79 @@
 
     <link rel="stylesheet" href="./pages/index.css" />
   </head>
-  <body></body>
+  <body>
+    <section class="support" id="support">
+      <section class="content">
+        <h2 class="heading2">Поддержите нас</h2>
+        <form action="#" class="donation-form">
+          <fieldset class="donation-form__fieldset">
+            <legend class="donation-form__legend heading5">
+              Размер пожертвования
+            </legend>
+            <p class="small-text">
+              Регулярные пожертвования очень важны для Everland. Это&nbsp;то,
+              что помогает нашим программам работать бесперебойно, что открывает
+              новые востребованные проекты, что максимально эффективно решает
+              социальную задачу. Если вы&nbsp;захотите поддерживать наши
+              программы постоянно, то&nbsp;каждый месяц с&nbsp;вашей карты будет
+              списываться указанная вами сумма.
+            </p>
+          </fieldset>
+
+          <fieldset class="donation-form__fieldset">
+            <legend class="donation-form__legend heading5">
+              Способ оплаты
+            </legend>
+          </fieldset>
+
+          <fieldset class="donation-form__fieldset">
+            <legend class="donation-form__legend heading5">Ваши данные</legend>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Иван Иванов"
+              class="main-text donation-form__text-input"
+            />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="myemail@example.com"
+              class="main-text donation-form__text-input"
+            />
+
+            <label for="" class="main-text"
+              >Соглашаюсь с
+              <a
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="donation-form__link"
+              >
+                офертой</a
+              ></label
+            >
+            <label for="" class="main-text"
+              >Соглашаюсь на
+              <a
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="donation-form__link"
+              >
+                обработку моих персональных данных
+              </a></label
+            >
+          </fieldset>
+
+          <button type="submit" class="button button_theme_primary">
+            Поддержать
+          </button>
+        </form>
+      </section>
+      <!-- /.content -->
+    </section>
+    <!-- /.support -->
+  </body>
 </html>
