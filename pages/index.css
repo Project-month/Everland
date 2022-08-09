@@ -11,4 +11,14 @@
 /*SECTION NEWS*/
 @import url(../blocks/news/news.css);
 @import url(../blocks/news/title/news__title.css);
-@import url(../blocks/news/container/container.css);
+@import url(../blocks/news/container/news__container.css);
+@import url(../blocks/news/information/news__information.css);
+@import url(../blocks/news/topic/news__topic.css);
+@import url(../blocks/news/card/news__card.css);
+@import url(../blocks/news/topic-image/news__topic-image.css);
+@import url(../blocks/news/topic-title/news__topic-title.css);
+@import url(../blocks/news/topic-subtitle/news__topic-subtitle.css);
+
+*{
+  border: dotted 1px red;
+}

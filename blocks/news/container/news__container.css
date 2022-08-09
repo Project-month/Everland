@@ -1,4 +1,9 @@
-.container {
-display: flex;
-justify-content: space-between;
+.news__container {
+  grid-area: news__container;
+  display: flex;
+  justify-content: space-between;
+
+  margin: 0;
+  padding: 100px 40px 50px;
+  align-items: center;
 }
