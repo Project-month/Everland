@@ -2,8 +2,9 @@
   grid-area: news__container;
   display: flex;
   justify-content: space-between;
-
+  max-width: 1360px;
   margin: 0;
-  padding: 100px 40px 50px;
+  padding: 100px 0px 50px;
   align-items: center;
+  border: dotted 1px rgb(0, 255, 98);
 }

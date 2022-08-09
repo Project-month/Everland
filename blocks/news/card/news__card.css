@@ -3,4 +3,24 @@
   width: 440px;
   height: 800px;
   box-sizing: border-box;
+  border: dotted 1px rgb(0, 38, 255);
+  display: grid;
+  grid-template-areas:
+  "news__topic"
+  "news__topic-image"
+  "news__topic-text"
+  "news__topic-date";
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, minmax(min-content, max-content));
+  gap: 30px;
+  align-content: space-between;
+  border-radius: 30px;
+
+/*
+  grid-template-areas:
+  "news__container"
+  "news__information";
+  grid-template-columns: 1fr;
+  grid-template-rows: 2fr; */
+
 }

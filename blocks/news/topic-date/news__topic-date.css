@@ -1,5 +1,4 @@
-.news__topic {
-grid-area: news__topic;
+.news__topic-date {
 margin: 0;
 padding: 0;
 font-family: 'Raleway';
@@ -11,9 +10,7 @@ line-height: 130%;
 
 font-feature-settings: 'pnum' on, 'lnum' on;
 
-/* Black */
+/* Grey */
 
-color: #333333;
-
-
+color: rgba(38, 38, 38, 0.5);
 }

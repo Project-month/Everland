@@ -2,7 +2,7 @@
   /* padding-top: 100px;
   padding-left: 40px;
   padding-right: 40px; */
-  background-color: antiquewhite;
+  /* background-color: antiquewhite; */
   color: rgb(0, 0, 0);
   margin: 0 auto;
   box-sizing: border-box;
@@ -13,4 +13,5 @@
   "news__information";
   grid-template-columns: 1fr;
   grid-template-rows: 2fr;
+  width: 1440px;
 }

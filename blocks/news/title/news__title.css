@@ -1,4 +1,5 @@
 .news__title {
+grid-area: news__text;
 font-family: 'Raleway';
 font-style: normal;
 font-weight: 700;

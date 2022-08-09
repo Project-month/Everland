@@ -1,5 +1,16 @@
 .news__topic-title {
   margin: 0;
   padding: 0;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 120%;
+  /* or 41px */
 
+  font-feature-settings: 'pnum' on, 'lnum' on;
+
+  /* Black */
+
+  color: #333333;
 }
