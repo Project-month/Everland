@@ -2,3 +2,8 @@
 @import url(../vendor/fonts.css);
 
 @import url(../blocks/page/page.css);
+
+@import url(../blocks/button/button.css);
+@import url(../blocks/button/_theme/button_theme_primary.css);
+@import url(../blocks/button/_theme/button_theme_secondary.css);
+@import url(../blocks/button/_theme/button_theme_secondary-black.css);

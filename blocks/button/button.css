@@ -1,0 +1,14 @@
+.button {
+  background: #fff;
+  border-radius: 10px;
+  border: none;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-family: 'Raleway', Arial, Helvetica, sans-serif;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 120%;
+  padding: 12px 16px;
+  transition: all 0.2s ease-in-out;
+}
