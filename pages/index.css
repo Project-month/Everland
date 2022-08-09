@@ -1,24 +1,20 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
 
-@import url(../blocks/page/page.css);
+@import url(../blocks/content/content.css);
 
+/* Typography */
+@import url(../blocks/heading1/heading1.css);
+@import url(../blocks/heading2/heading2.css);
+@import url(../blocks/heading3/heading3.css);
+@import url(../blocks/heading4/heading4.css);
+@import url(../blocks/heading5/heading5.css);
+@import url(../blocks/big-text/big-text.css);
+@import url(../blocks/main-text/main-text.css);
+@import url(../blocks/small-text/small-text.css);
+
+/* Buttons */
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/_theme/button_theme_primary.css);
 @import url(../blocks/button/_theme/button_theme_secondary.css);
 @import url(../blocks/button/_theme/button_theme_secondary-black.css);
-
-/*SECTION NEWS*/
-@import url(../blocks/news/news.css);
-@import url(../blocks/news/title/news__title.css);
-@import url(../blocks/news/container/news__container.css);
-@import url(../blocks/news/information/news__information.css);
-@import url(../blocks/news/topic/news__topic.css);
-@import url(../blocks/news/card/news__card.css);
-@import url(../blocks/news/topic-image/news__topic-image.css);
-@import url(../blocks/news/topic-title/news__topic-title.css);
-@import url(../blocks/news/topic-subtitle/news__topic-subtitle.css);
-
-*{
-  border: dotted 1px red;
-}
