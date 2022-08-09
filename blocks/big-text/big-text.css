@@ -1,0 +1,18 @@
+.big-text {
+  font-family: 'Raleway', Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+@media screen and (max-width: 1439px) {
+  .big-text {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .big-text {
+    font-size: 14px;
+  }
+}
