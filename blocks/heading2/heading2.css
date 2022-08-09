@@ -4,3 +4,15 @@
   font-weight: 700;
   line-height: 1.2;
 }
+
+@media screen and (max-width: 1439px) {
+  .heading2 {
+    font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .heading2 {
+    font-size: 26px;
+  }
+}
