@@ -1,0 +1,21 @@
+.button_theme_secondary {
+  border: 1px solid #0c4ba0;
+  color: #0c4ba0;
+}
+
+.button_theme_secondary:hover {
+  border: 1px solid #00275c;
+  color: #00275c;
+}
+
+.button_theme_secondary:active {
+  background: #00275c;
+  color: #fff;
+}
+
+.button_theme_secondary:disabled {
+  background: #f5f5f5;
+  border: 2px solid #c4c4c4;
+  color: rgba(38, 38, 38, 0.5);
+  cursor: not-allowed;
+}

@@ -1,0 +1,19 @@
+.button_theme_primary {
+  background: #0c4ba0;
+  color: #fff;
+}
+
+.button_theme_primary:hover {
+  background: #4183dc;
+}
+
+.button_theme_primary:active {
+  background: #00275c;
+}
+
+.button_theme_primary:disabled {
+  background: #f5f5f5;
+  border: 2px solid #c4c4c4;
+  color: rgba(38, 38, 38, 0.5);
+  cursor: not-allowed;
+}
