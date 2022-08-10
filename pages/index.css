@@ -7,3 +7,7 @@
 @import url(../blocks/button/_theme/button_theme_primary.css);
 @import url(../blocks/button/_theme/button_theme_secondary.css);
 @import url(../blocks/button/_theme/button_theme_secondary-black.css);
+
+/*Whom*/
+@import url(../blocks/whom/whom.css);
+@import url(../blocks/cards/cards.css);
