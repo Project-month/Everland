@@ -1,0 +1,19 @@
+.button-text {
+  font-family: 'Raleway', Arial, Helvetica, sans-serif;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+@media screen and (max-width: 1439px) {
+  .button-text {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .button-text {
+    font-size: 14px;
+  }
+}

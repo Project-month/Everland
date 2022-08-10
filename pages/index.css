@@ -12,6 +12,7 @@
 @import url(../blocks/big-text/big-text.css);
 @import url(../blocks/main-text/main-text.css);
 @import url(../blocks/small-text/small-text.css);
+@import url(../blocks/button-text/button-text.css);
 
 /* Buttons */
 @import url(../blocks/button/button.css);
