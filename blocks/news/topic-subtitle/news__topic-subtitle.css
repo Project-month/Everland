@@ -1,13 +1,22 @@
-.news__topic-subtitle{
-  grid-area: news__text;
+.news__topic-subtitle {
+  grid-area: news__topic-text;
   margin: 20px 0 0;
   padding: 0;
-  font-family: 'Raleway';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 130%;
-/* or 26px */
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  /* or 26px */
 
-font-feature-settings: 'pnum' on, 'lnum' on;
+  font-feature-settings: "pnum" on, "lnum" on;
+}
+
+
+@media screen and (max-width: 1439px) {
+  .news__topic-subtitle  {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+  }
 }

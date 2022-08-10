@@ -1,8 +1,8 @@
 .news__topic {
-grid-area: news__topic;
+/* grid-area: news__topic; */
 margin: 0;
 padding: 0;
-font-family: 'Raleway';
+font-family: 'Raleway', Arial, Helvetica, sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 18px;
@@ -16,4 +16,13 @@ font-feature-settings: 'pnum' on, 'lnum' on;
 color: #333333;
 
 
+}
+
+
+@media screen and (max-width: 1439px) {
+  .news__topic {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+  }
 }

@@ -1,10 +1,21 @@
 .news__container {
-  grid-area: news__container;
+  /* grid-area: news__container; */
   display: flex;
   justify-content: space-between;
-  max-width: 1360px;
+  width: 1360px;
+  /* max-width: 100%; */
   margin: 0;
   padding: 100px 0px 50px;
   align-items: center;
-  border: dotted 1px rgb(0, 255, 98);
+  margin: 0 auto;
+
+  /* border: dotted 1px rgb(0, 255, 98); */
+}
+
+@media screen and (max-width: 1439px) {
+  .news__container {
+    padding-bottom: 32px;
+    max-width: 688px;
+
+  }
 }
