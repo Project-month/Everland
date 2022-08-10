@@ -1,0 +1,5 @@
+.donation-form__radio {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}

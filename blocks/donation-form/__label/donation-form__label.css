@@ -1,0 +1,9 @@
+.donation-form__label {
+  background-color: #fff;
+  border: 1px solid #dadada;
+  border-radius: 10px;
+  font-family: 'Raleway', Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
