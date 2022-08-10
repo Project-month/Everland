@@ -1,0 +1,8 @@
+.donation-form__text-input {
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid #dadada;
+  box-sizing: border-box;
+  min-width: 455px;
+  padding: 10px 20px;
+}
