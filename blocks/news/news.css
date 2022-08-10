@@ -10,31 +10,20 @@
   grid-template-rows: 2fr;
   max-width: 1440px;
   /* max-width: 100%; */
-  border: solid 1px rgb(125, 0, 250);
+  border: solid 1px rgb(250, 0, 0);
 
-}
-
-
-/* @media screen and (max-width: 1439px) {
-  .news {
-    max-width: 1440px;
-  }
-} */
-
-
-/* .footer {
-  width: 100%;
-  padding-top: 80px;
 }
 
 @media screen and (max-width: 1439px) {
-  .footer {
-      padding-top: calc(50px + ((100vw - 768px) * (80 - 50) / (1439 - 768)));
+  .news {
+    max-width: 768px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .footer {
-      padding-top: calc(32px + ((100vw - 320px) * (50 - 32) / (767 - 320)));
+  .news {
+    max-width: 320px;
+    display: block;
+
   }
-} */
+}

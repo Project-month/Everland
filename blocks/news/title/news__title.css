@@ -1,22 +1,26 @@
 .news__title {
-grid-area: news__text;
-font-family: 'Raleway', Arial, Helvetica, sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 64px;
-line-height: 120%;
+  grid-area: news__text;
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 120%;
 
-letter-spacing: -0.01em;
-padding: 0;
-margin: 0;
-
+  letter-spacing: -0.01em;
+  padding: 0;
+  margin: 0;
 }
 
-@media screen and (max-width:1439px) {
-  .news__title  {
+@media screen and (max-width: 1439px) {
+  .news__title {
     font-size: 36px;
     line-height: 120%;
   }
 }
 
-
+@media screen and (max-width: 767px) {
+  .news__title {
+    font-size: 18px;
+    line-height: 120%;
+  }
+}

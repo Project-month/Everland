@@ -1,6 +1,6 @@
 .news__topic-subtitle {
-  grid-area: news__topic-text;
-  margin: 20px 0 0;
+  /* grid-area: news__topic-text; */
+  margin: 20px 0 28px;
   padding: 0;
   font-family: "Raleway", Arial, Helvetica, sans-serif;
   font-style: normal;
@@ -12,11 +12,17 @@
   font-feature-settings: "pnum" on, "lnum" on;
 }
 
-
 @media screen and (max-width: 1439px) {
-  .news__topic-subtitle  {
+  .news__topic-subtitle {
     font-weight: 400;
     font-size: 16px;
     line-height: 120%;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .news__topic-subtitle {
+    font-size: 14px;
   }
 }

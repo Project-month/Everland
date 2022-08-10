@@ -2,26 +2,30 @@
   grid-area: news__topic-text;
   margin: 0;
   padding: 0;
-  font-family: 'Raleway', Arial, Helvetica, sans-serif;
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 34px;
   line-height: 120%;
   /* or 41px */
 
-  font-feature-settings: 'pnum' on, 'lnum' on;
+  font-feature-settings: "pnum" on, "lnum" on;
 
   /* Black */
 
   color: #333333;
-
 }
 
-
 @media screen and (max-width: 1439px) {
-  .news__topic-title  {
+  .news__topic-title {
     font-weight: 700;
     font-size: 26px;
     line-height: 120%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .news__topic-title {
+    font-size: 18px;
   }
 }

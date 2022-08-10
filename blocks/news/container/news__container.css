@@ -16,6 +16,14 @@
   .news__container {
     padding-bottom: 32px;
     max-width: 688px;
+    padding: 50px 0px 32px;
+  }
+}
 
+@media screen and (max-width: 767px) {
+  .news__container {
+    padding-bottom: 24px;
+    max-width: 300px;
+    padding: 32px 0px 24px;
   }
 }

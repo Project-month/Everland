@@ -17,3 +17,11 @@ height: 300px;
     height: 212px;
   }
 }
+
+
+@media screen and (max-width: 767px) {
+  .news__topic-image {
+    width: 252px;
+    height: 192px;
+  }
+}

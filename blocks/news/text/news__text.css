@@ -3,6 +3,16 @@ margin: 0;
 padding: 0;
 max-width: 380px;
 /* height: 302px; */
-
 }
 
+@media screen and (max-width:1439px) {
+  .news__text {
+    max-width: 274px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .news__text {
+    width: 252px;
+  }
+}
