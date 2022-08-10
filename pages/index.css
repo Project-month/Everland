@@ -27,6 +27,7 @@
 @import url(../blocks/donation-form/__label/donation-form__label.css);
 @import url(../blocks/donation-form/__text-input/donation-form__text-input.css);
 @import url(../blocks/donation-form/__link/donation-form__link.css);
+@import url(../blocks/donation-form/__check/donation-form__check.css);
 
 /* Support */
 @import url(../blocks/support/support.css);

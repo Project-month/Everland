@@ -34,6 +34,32 @@
         <h2 class="heading2">Поддержите нас</h2>
         <form action="#" class="donation-form">
           <fieldset class="donation-form__fieldset">
+            <input
+              type="radio"
+              name="donation-frequency"
+              id="donation-frequency-monthly"
+              class="donation-form__radio"
+            />
+            <label
+              for="donation-frequency-monthly"
+              class="donation-form__label button-text"
+              >Ежемесячно</label
+            >
+
+            <input
+              type="radio"
+              name="donation-frequency"
+              id="donation-frequency-once"
+              class="donation-form__radio"
+            />
+            <label
+              for="donation-frequency-once"
+              class="donation-form__label button-text"
+              >Разово</label
+            >
+          </fieldset>
+
+          <fieldset class="donation-form__fieldset">
             <legend class="donation-form__legend heading5">
               Размер пожертвования
             </legend>
@@ -43,7 +69,9 @@
               id="donation-amount-250"
               class="donation-form__radio"
             />
-            <label for="donation-amount-250" class="donation-form__label"
+            <label
+              for="donation-amount-250"
+              class="donation-form__label button-text"
               >250</label
             >
 
@@ -53,7 +81,9 @@
               id="donation-amount-500"
               class="donation-form__radio"
             />
-            <label for="donation-amount-500" class="donation-form__label"
+            <label
+              for="donation-amount-500"
+              class="donation-form__label button-text"
               >500</label
             >
 
@@ -63,7 +93,9 @@
               id="donation-amount-750"
               class="donation-form__radio"
             />
-            <label for="donation-amount-750" class="donation-form__label"
+            <label
+              for="donation-amount-750"
+              class="donation-form__label button-text"
               >750</label
             >
 
@@ -73,7 +105,9 @@
               id="donation-amount-1000"
               class="donation-form__radio"
             />
-            <label for="donation-amount-1000" class="donation-form__label"
+            <label
+              for="donation-amount-1000"
+              class="donation-form__label button-text"
               >1000</label
             >
 
@@ -83,7 +117,9 @@
               id="donation-amount-other"
               class="donation-form__radio"
             />
-            <label for="donation-amount-other" class="donation-form__label"
+            <label
+              for="donation-amount-other"
+              class="donation-form__label button-text"
               >Другая сумма</label
             >
 
@@ -120,8 +156,14 @@
               class="main-text donation-form__text-input"
             />
 
-            <label for="" class="main-text"
-              >Соглашаюсь с
+            <input
+              type="checkbox"
+              name="offerta"
+              id="offerta"
+              class="donation-form__check"
+            />
+            <label for="offerta" class="donation-form__label main-text"
+              >Соглашаюсь с&nbsp;
               <a
                 href="#"
                 target="_blank"
@@ -131,8 +173,15 @@
                 офертой</a
               ></label
             >
-            <label for="" class="main-text"
-              >Соглашаюсь на
+
+            <input
+              type="checkbox"
+              name="personal-data"
+              id="personal-data"
+              class="donation-form__check"
+            />
+            <label for="personal-data" class="donation-form__label main-text"
+              >Соглашаюсь на&nbsp;
               <a
                 href="#"
                 target="_blank"
