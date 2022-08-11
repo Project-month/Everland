@@ -1,18 +1,21 @@
 .logo_footer {
-    width: 262.69px;
-    height: 46px;
+  width: 262.69px;
+  height: 46px;
+  padding-bottom: 20px;
 }
 
 @media screen and (max-width: 1439px) {
-    .logo_footer {
-        width: calc(137.05px + ((100vw - 768px) * (262.69 - 137.05) / (1439 - 768)));
-        height: calc(24px + ((100vw - 768px) * (46 - 24) / (1439 - 768)));
-    }
+  .logo_footer {
+    width: calc(
+      137.05px + ((100vw - 768px) * (262.69 - 137.05) / (1439 - 768))
+    );
+    height: calc(24px + ((100vw - 768px) * (46 - 24) / (1439 - 768)));
+  }
 }
 
 @media screen and (max-width: 767px) {
-    .logo_footer {
-        width: 137.05px;
-        height: 24px;
-    }
+  .logo_footer {
+    width: 137.05px;
+    height: 24px;
+  }
 }

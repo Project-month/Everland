@@ -3,4 +3,5 @@
   list-style-type: none;
   grid-template-columns: auto auto;
   grid-template-rows: auto auto auto;
+  row-gap: 10px;
 }
