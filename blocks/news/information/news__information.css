@@ -20,5 +20,6 @@
   .news__information {
     grid-template-columns: 300px;
     gap: 16px;
+
   }
 }

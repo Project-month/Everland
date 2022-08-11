@@ -24,5 +24,6 @@
 @media screen and (max-width: 767px) {
   .news__topic-subtitle {
     font-size: 14px;
+    margin: 10px 0 0;
   }
 }
