@@ -1,15 +1,18 @@
 .news__container {
-  /* grid-area: news__container; */
+  grid-area: news__container;
   display: flex;
   justify-content: space-between;
-  width: 1360px;
+  /* width: 1360px; */
   /* max-width: 100%; */
   margin: 0;
   padding: 100px 0px 50px;
   align-items: center;
-  margin: 0 auto;
+  margin: 0;
 
   /* border: dotted 1px rgb(0, 255, 98); */
+
+  grid-row: 1;
+  grid-column: 1;
 }
 
 @media screen and (max-width: 1439px) {

@@ -4,13 +4,16 @@
   box-sizing: border-box;
   display: grid;
   grid-template-areas:
-  "news__container"
-  "news__information";
-  grid-template-columns: 1fr;
-  grid-template-rows: 2fr;
+    "news__container"
+    "news__information"
+    "news__bt";
+  grid-template-columns: /*3fr;*/ repeat(3, minmax(min-content, max-content));
+  grid-template-rows: 3fr;
   max-width: 1440px;
-  /* max-width: 100%; */
-  /* border: solid 1px rgb(250, 0, 0); */
+  grid-auto-flow: dense;
+  border: solid 1px blue;
+  align-items: center;
+
 
 }
 
@@ -24,6 +27,5 @@
   .news {
     max-width: 320px;
     display: block;
-
   }
 }
