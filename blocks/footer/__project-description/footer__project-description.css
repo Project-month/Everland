@@ -1,0 +1,5 @@
+.footer__project-description {
+  display: flex;
+  flex-direction: column;
+  grid-area: description;
+}
