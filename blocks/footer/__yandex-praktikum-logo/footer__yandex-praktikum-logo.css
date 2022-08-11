@@ -1,20 +1,16 @@
-.footer__contacts {
-  grid-area: contacts;
-  display: flex;
-  padding-top: 20px;
-  gap: 50px;
-  flex-wrap: wrap;
+.footer__yandex-praktikum-logo {
+  max-height: 28px;
 }
 
 @media screen and (max-width: 1439px) {
-  .footer__contacts {
-    gap: 16px;
+  .footer__yandex-praktikum-logo {
+    max-height: 20px;
   }
 }
 
 /* Нижестоящее правило не нужно, оставил чтобы визуально быстро понять что для "мобилок" этот элемент обработан */
 @media screen and (max-width: 767px) {
-  .footer__contacts {
-    gap: 16px;
+  .footer__yandex-praktikum-logo {
+    max-height: 20px;
   }
 }

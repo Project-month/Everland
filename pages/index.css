@@ -33,6 +33,7 @@
 @import url(../blocks/footer/__menu/footer__menu.css);
 @import url(../blocks/footer/__supported/footer__supported.css);
 @import url(../blocks/footer/__supported-logos/footer__supported-logos.css);
+@import url(../blocks/footer/__supported-logo/footer__supported-logo.css);
 @import url(../blocks/footer/__contacts/footer__contacts.css);
 @import url(../blocks/footer/__contacts-phones/footer__contacts-phones.css);
 @import url(../blocks/footer/__contacts-address/footer__address.css);
@@ -41,3 +42,4 @@
 @import url(../blocks/footer/__social-logo/footer__social-logo.css);
 @import url(../blocks/footer/__copyrights/footer__copyrights.css);
 @import url(../blocks/footer/__yandex-praktikum/footer__yandex-praktikum.css);
+@import url(../blocks/footer/__yandex-praktikum-logo/footer__yandex-praktikum-logo.css);

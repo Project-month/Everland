@@ -1,2 +1,18 @@
 .footer__social-logo {
+  margin: 0;
+  padding: 0;
+  max-height: 64px;
+}
+
+@media screen and (max-width: 1439px) {
+  .footer__social-logo {
+    max-height: 40px;
+  }
+}
+
+/* Нижестоящее правило не нужно, оставил чтобы визуально быстро понять что для "мобилок" этот элемент обработан */
+@media screen and (max-width: 767px) {
+  .footer__social-logo {
+    max-height: 40px;
+  }
 }

@@ -2,3 +2,15 @@
   grid-area: social;
   padding-top: 60px;
 }
+
+@media screen and (max-width: 1439px) {
+  .footer__social {
+    padding-top: 17px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__social {
+    padding-top: 32px;
+  }
+}
