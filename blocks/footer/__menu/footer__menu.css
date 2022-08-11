@@ -19,6 +19,8 @@
 /* Нижестоящее правило не нужно, оставил чтобы визуально быстро понять что для "мобилок" этот элемент обработан */
 @media screen and (max-width: 767px) {
   .footer__menu {
-    grid-template-columns: auto auto;
+    padding-top: 10px;
+    column-gap: 15px;
+    grid-template-columns: 2fr 2fr;
   }
 }
