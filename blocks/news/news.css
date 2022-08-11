@@ -1,6 +1,6 @@
 .news {
   color: rgb(0, 0, 0);
-  margin: 0 auto;
+  margin: 100px auto;
   box-sizing: border-box;
   display: grid;
   grid-template-areas:
@@ -11,15 +11,17 @@
   grid-template-rows: 3fr;
   max-width: 1440px;
   grid-auto-flow: dense;
-  border: solid 1px blue;
   align-items: center;
-
+  justify-content: center;
+  border: solid 1px blue;
 
 }
 
 @media screen and (max-width: 1439px) {
   .news {
     max-width: 768px;
+    margin-bottom: 60px;
+    margin-top: 50px;
   }
 }
 
@@ -27,5 +29,7 @@
   .news {
     max-width: 320px;
     display: block;
+    margin-bottom: 32px;
+    margin-top: 32px;
   }
 }

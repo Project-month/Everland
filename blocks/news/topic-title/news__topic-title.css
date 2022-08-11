@@ -7,13 +7,9 @@
   font-weight: 700;
   font-size: 34px;
   line-height: 120%;
-  /* or 41px */
-
   font-feature-settings: "pnum" on, "lnum" on;
-
-  /* Black */
-
-  color: #333333;
+  color: rgb(51, 51, 51);
+  text-overflow: ellipsis;
 }
 
 @media screen and (max-width: 1439px) {

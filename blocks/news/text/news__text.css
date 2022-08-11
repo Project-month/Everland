@@ -1,11 +1,10 @@
 .news__text {
-margin: 0;
-padding: 0;
-max-width: 380px;
-/* height: 302px; */
+  margin: 0;
+  padding: 0;
+  max-width: 380px;
 }
 
-@media screen and (max-width:1439px) {
+@media screen and (max-width: 1439px) {
   .news__text {
     max-width: 274px;
   }

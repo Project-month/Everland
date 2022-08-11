@@ -15,10 +15,11 @@
 
 @media screen and (max-width: 767px) {
   .news__card {
-    max-width: 300px;
+    max-width: 320px;
     height: 468px;
     padding: 24px;
     gap: 20px;
+    /* margin: 0 10px; */
   }
 }
 
