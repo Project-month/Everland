@@ -1,0 +1,7 @@
+.footer__yandex-praktikum {
+  grid-area: yandex-praktikum;
+  display: flex;
+  gap: 21px;
+  align-items: flex-end;
+  padding-top: 8px;
+}
