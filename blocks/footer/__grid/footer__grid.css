@@ -23,7 +23,16 @@
 /* Нижестоящее правило не нужно, оставил чтобы визуально быстро понять что для "мобилок" этот элемент обработан */
 @media screen and (max-width: 767px) {
   .footer__grid {
-    grid-template-columns: 1fr 1fr;
-    column-gap: 16px;
+    grid-template-columns: 2fr;
+    grid-template-areas:
+      "description"
+      "navigation"
+      "supported"
+      "contacts"
+      "social"
+      "copyrights"
+      "yandex-praktikum";
+    column-gap: 0;
+    row-gap: 24px;
   }
 }
