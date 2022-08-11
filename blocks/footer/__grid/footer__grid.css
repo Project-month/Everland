@@ -1,10 +1,14 @@
 .footer__grid {
   display: grid;
+  grid-template-columns: minmax(min-content, 560px) minmax(
+      min-content,
+      max-content
+    );
   grid-template-areas:
     "description navigation"
     "supported social"
     "contacts copyrights"
     "yandex-praktikum yandex-praktikum";
-  column-gap: 57px;
-  row-gap: 29px;
+  column-gap: 40px;
+  row-gap: 30px;
 }

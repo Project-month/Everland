@@ -1,0 +1,6 @@
+.footer__social-logos {
+  display: flex;
+  gap: 10px;
+  padding-top: 9px;
+  overflow: hidden;
+}
