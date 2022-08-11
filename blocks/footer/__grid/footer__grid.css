@@ -12,3 +12,18 @@
   column-gap: 40px;
   row-gap: 30px;
 }
+
+@media screen and (max-width: 1439px) {
+  .footer__grid {
+    grid-template-columns: 3fr 3fr;
+    column-gap: 20px;
+  }
+}
+
+/* Нижестоящее правило не нужно, оставил чтобы визуально быстро понять что для "мобилок" этот элемент обработан */
+@media screen and (max-width: 767px) {
+  .footer__grid {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 16px;
+  }
+}

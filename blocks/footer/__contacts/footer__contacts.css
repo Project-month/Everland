@@ -8,13 +8,14 @@
 
 @media screen and (max-width: 1439px) {
   .footer__contacts {
-    gap: 16px;
+    gap: 12px;
+    padding-top: 0;
   }
 }
 
 /* Нижестоящее правило не нужно, оставил чтобы визуально быстро понять что для "мобилок" этот элемент обработан */
 @media screen and (max-width: 767px) {
   .footer__contacts {
-    gap: 16px;
+    gap: 20px;
   }
 }
