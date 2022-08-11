@@ -6,3 +6,19 @@
   row-gap: 10px;
   column-gap: 110px;
 }
+
+@media screen and (max-width: 1439px) {
+  .footer__menu {
+    row-gap: 8px;
+    padding-top: 8px;
+    grid-template-columns: 3fr 3fr;
+    column-gap: 80px;
+  }
+}
+
+/* Нижестоящее правило не нужно, оставил чтобы визуально быстро понять что для "мобилок" этот элемент обработан */
+@media screen and (max-width: 767px) {
+  .footer__menu {
+    grid-template-columns: auto auto;
+  }
+}

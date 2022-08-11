@@ -5,3 +5,17 @@
   align-items: flex-end;
   padding-top: 8px;
 }
+
+@media screen and (max-width: 1439px) {
+  .footer__yandex-praktikum {
+    padding-top: 1px;
+    gap: 11px;
+  }
+}
+
+/* Нижестоящее правило не нужно, оставил чтобы визуально быстро понять что для "мобилок" этот элемент обработан */
+@media screen and (max-width: 767px) {
+  .footer__yandex-praktikum {
+    gap: 7px;
+  }
+}

@@ -10,6 +10,7 @@
       137.05px + ((100vw - 768px) * (262.69 - 137.05) / (1439 - 768))
     );
     height: calc(24px + ((100vw - 768px) * (46 - 24) / (1439 - 768)));
+    padding-bottom: 16px;
   }
 }
 
@@ -17,5 +18,6 @@
   .logo_footer {
     width: 137.05px;
     height: 24px;
+    padding-bottom: 16px;
   }
 }

@@ -3,3 +3,15 @@
   gap: 50px;
   padding-top: 19px;
 }
+
+@media screen and (max-width: 1439px) {
+  .footer__supported-logos {
+    padding-top: 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__supported-logos {
+    padding-top: 24px;
+  }
+}
