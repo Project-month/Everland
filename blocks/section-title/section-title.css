@@ -1,0 +1,15 @@
+.section-title {
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 1439px) {
+  .section-title {
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .section-title {
+    margin-bottom: 24px;
+  }
+}

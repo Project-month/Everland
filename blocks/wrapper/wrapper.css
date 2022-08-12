@@ -1,4 +1,4 @@
-.content {
+.wrapper {
   box-sizing: border-box;
   margin: 0 auto;
   max-width: 1440px;
@@ -7,15 +7,13 @@
 }
 
 @media screen and (max-width: 1439px) {
-  .content {
+  .wrapper {
     max-width: 768px;
-    margin-left: 158px;
-    margin-right: 160px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .content {
+  .wrapper {
     max-width: 320px;
     margin-left: 10px;
     margin-right: 10px;

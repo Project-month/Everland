@@ -20,6 +20,41 @@
 @import url(../blocks/button/_theme/button_theme_secondary.css);
 @import url(../blocks/button/_theme/button_theme_secondary-black.css);
 
+/*Forwhom*/
+@import url(../blocks/forwhom/forwhom.css);
+
 /*Whom*/
 @import url(../blocks/whom/whom.css);
+@import url(../blocks/whom/__description/whom__description.css);
+@import url(../blocks/whom/__icon/whom__icon.css);
+@import url(../blocks/whom/__item/whom__item.css);
+
+/*directions*/
+@import url(../blocks/directions/directions.css);
+@import url(../blocks/wrapper/wrapper.css);
+
+/*Cards*/
+@import url(../blocks/section-title/section-title.css);
 @import url(../blocks/cards/cards.css);
+@import url(../blocks/cards/__investment/cards__investment.css);
+@import url(../blocks/cards/__investment/_correction/cards__investment_correction.css);
+@import url(../blocks/cards/__item/cards__item.css);
+@import url(../blocks/cards/__item/_blue/cards__item_blue.css);
+@import url(../blocks/cards/__item/_green/cards__item_green.css);
+@import url(../blocks/cards/__item/_orange/cards__item_orange.css);
+@import url(../blocks/cards/__link-arrow/cards__link-arrow.css);
+@import url(../blocks/cards/__link-text/cards__link-text.css);
+@import url(../blocks/cards/__link-text/_black/cards__link-text_black.css);
+@import url(../blocks/cards/__link-text/_blue/cards__link-text_blue.css);
+@import url(../blocks/cards/__link-text/_green/cards__link-text_green.css);
+@import url(../blocks/cards/__link-text/_orange/cards__link-text_orange.css);
+@import url(../blocks/cards/__everland/cards__everland.css);
+@import url(../blocks/cards/__link/cards__link.css);
+@import url(../blocks/cards/__link/_blue/cards__link_blue.css);
+@import url(../blocks/cards/__link/_green/cards__link_green.css);
+@import url(../blocks/cards/__link/_orange/cards__link_orange.css);
+@import url(../blocks/cards/__link/_white/cards__link_white.css);
+@import url(../blocks/cards/__subtitle/cards__subtitle.css);
+@import url(../blocks/cards/__subtitle/_correction/cards__subtitle_correction.css);
+@import url(../blocks/cards/__text/cards__text.css);
+
