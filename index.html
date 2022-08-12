@@ -31,101 +31,112 @@
   <body>
     <section class="support" id="support">
       <div class="content">
-        <h2 class="heading2">Поддержите нас</h2>
+        <h2 class="heading2 support__heading">Поддержите нас</h2>
         <form action="#" class="donation-form">
+          <!-- Donation frequency -->
           <fieldset class="donation-form__fieldset">
-            <input
-              type="radio"
-              name="donation-frequency"
-              id="donation-frequency-monthly"
-              class="donation-form__radio"
-            />
-            <label
-              for="donation-frequency-monthly"
-              class="donation-form__custom-radio donation-form__custom-radio_type_frequency button-text"
-              >Ежемесячно
-              <button type="button" class="donation-form__question"></button>
-            </label>
+            <div class="donation-form__checkboxes-container">
+              <input
+                type="radio"
+                name="donation-frequency"
+                id="donation-frequency-monthly"
+                class="donation-form__radio"
+              />
+              <label
+                for="donation-frequency-monthly"
+                class="donation-form__custom-radio donation-form__custom-radio_type_frequency button-text"
+                >Ежемесячно
+                <button type="button" class="donation-form__question"></button>
+              </label>
 
-            <input
-              type="radio"
-              name="donation-frequency"
-              id="donation-frequency-once"
-              class="donation-form__radio"
-            />
-            <label
-              for="donation-frequency-once"
-              class="donation-form__custom-radio button-text donation-form__custom-radio_type_frequency"
-              >Разово</label
-            >
+              <input
+                type="radio"
+                name="donation-frequency"
+                id="donation-frequency-once"
+                class="donation-form__radio"
+              />
+              <label
+                for="donation-frequency-once"
+                class="donation-form__custom-radio button-text donation-form__custom-radio_type_frequency"
+                >Разово</label
+              >
+            </div>
+            <!-- /.donation-form__checkboxes-container -->
           </fieldset>
 
-          <!-- Размер пожертвования -->
-          <fieldset class="donation-form__fieldset">
-            <legend class="donation-form__legend heading5">
+          <!-- Donatiom amount -->
+          <fieldset
+            class="donation-form__fieldset donation-form__fieldset_for_amount"
+          >
+            <legend
+              class="donation-form__legend donation-form__legend_for_amount heading5"
+            >
               Размер пожертвования
             </legend>
-            <input
-              type="radio"
-              name="donation-amount"
-              id="donation-amount-250"
-              class="donation-form__radio"
-            />
-            <label
-              for="donation-amount-250"
-              class="donation-form__custom-radio button-text"
-              >250</label
-            >
+            <div class="donation-form__checkboxes-container">
+              <input
+                type="radio"
+                name="donation-amount"
+                id="donation-amount-250"
+                class="donation-form__radio"
+              />
+              <label
+                for="donation-amount-250"
+                class="donation-form__custom-radio button-text"
+                >250</label
+              >
 
-            <input
-              type="radio"
-              name="donation-amount"
-              id="donation-amount-500"
-              class="donation-form__radio"
-            />
-            <label
-              for="donation-amount-500"
-              class="donation-form__custom-radio button-text"
-              >500</label
-            >
+              <input
+                type="radio"
+                name="donation-amount"
+                id="donation-amount-500"
+                class="donation-form__radio"
+              />
+              <label
+                for="donation-amount-500"
+                class="donation-form__custom-radio button-text"
+                >500</label
+              >
 
-            <input
-              type="radio"
-              name="donation-amount"
-              id="donation-amount-750"
-              class="donation-form__radio"
-            />
-            <label
-              for="donation-amount-750"
-              class="donation-form__custom-radio button-text"
-              >750</label
-            >
+              <input
+                type="radio"
+                name="donation-amount"
+                id="donation-amount-750"
+                class="donation-form__radio"
+              />
+              <label
+                for="donation-amount-750"
+                class="donation-form__custom-radio button-text"
+                >750</label
+              >
 
-            <input
-              type="radio"
-              name="donation-amount"
-              id="donation-amount-1000"
-              class="donation-form__radio"
-            />
-            <label
-              for="donation-amount-1000"
-              class="donation-form__custom-radio button-text"
-              >1000</label
-            >
+              <input
+                type="radio"
+                name="donation-amount"
+                id="donation-amount-1000"
+                class="donation-form__radio"
+              />
+              <label
+                for="donation-amount-1000"
+                class="donation-form__custom-radio button-text"
+                >1000</label
+              >
 
-            <input
-              type="radio"
-              name="donation-amount"
-              id="donation-amount-other"
-              class="donation-form__radio"
-            />
-            <label
-              for="donation-amount-other"
-              class="donation-form__custom-radio button-text"
-              >Другая сумма</label
-            >
+              <input
+                type="radio"
+                name="donation-amount"
+                id="donation-amount-other"
+                class="donation-form__radio"
+              />
+              <label
+                for="donation-amount-other"
+                class="donation-form__custom-radio button-text"
+                >Другая сумма</label
+              >
+            </div>
+            <!-- /.donation-form__checkboxes-container -->
 
-            <p class="small-text">
+            <p class="donation-form__text small-text">
               Регулярные пожертвования очень важны для Everland. Это&nbsp;то,
               что помогает нашим программам работать бесперебойно, что открывает
               новые востребованные проекты, что максимально эффективно решает
@@ -135,76 +146,91 @@
             </p>
           </fieldset>
 
-          <!-- Способ оплаты -->
-          <fieldset class="donation-form__fieldset">
-            <legend class="donation-form__legend heading5">
+          <!-- Donation method -->
+          <fieldset
+            class="donation-form__fieldset donation-form__fieldset_for_method"
+          >
+            <legend
+              class="donation-form__legend donation-form__legend_for_method heading5"
+            >
               Способ оплаты
             </legend>
-            <input
-              type="radio"
-              name="donation-method"
-              id="donation-method-card"
-              class="donation-form__radio"
-            />
-            <label
-              for="donation-method-card"
-              class="donation-form__custom-radio button-text"
-              ><img
-                src="./images/payment-methods/mir.svg"
-                alt="Платежная система Мир."
-                class="donation-form__payment-logo donation-form__payment-logo_type_mir"
+            <div class="donation-form__checkboxes-container">
+              <input
+                type="radio"
+                name="donation-method"
+                id="donation-method-card"
+                class="donation-form__radio"
               />
-              <img
-                src="./images/payment-methods/maestro.svg"
-                alt="Платежная система Maestro."
-                class="donation-form__payment-logo donation-form__payment-logo_type_maestro"
-              />
-              <img
-                src="./images/payment-methods/visa.svg"
-                alt="Платежная система Visa."
-                class="donation-form__payment-logo donation-form__payment-logo_type_visa"
-              />
-              <img
-                src="./images/payment-methods/mastercard.svg"
-                alt="Платежная система Mastercard."
-                class="donation-form__payment-logo donation-form__payment-logo_type_mastercard"
-              />
-            </label>
+              <label
+                for="donation-method-card"
+                class="donation-form__custom-radio button-text"
+                ><img
+                  src="./images/payment-methods/mir.svg"
+                  alt="Платежная система Мир."
+                  class="donation-form__payment-logo donation-form__payment-logo_type_mir"
+                />
+                <img
+                  src="./images/payment-methods/maestro.svg"
+                  alt="Платежная система Maestro."
+                  class="donation-form__payment-logo donation-form__payment-logo_type_maestro"
+                />
+                <img
+                  src="./images/payment-methods/visa.svg"
+                  alt="Платежная система Visa."
+                  class="donation-form__payment-logo donation-form__payment-logo_type_visa"
+                />
+                <img
+                  src="./images/payment-methods/mastercard.svg"
+                  alt="Платежная система Mastercard."
+                  class="donation-form__payment-logo donation-form__payment-logo_type_mastercard"
+                />
+              </label>
 
-            <input
-              type="radio"
-              name="donation-method"
-              id="donation-method-umoney"
-              class="donation-form__radio"
-            />
-            <label
-              for="donation-method-umoney"
-              class="donation-form__custom-radio button-text"
-              ><img
-                src="./images/payment-methods/u-money.svg"
-                alt="Платежная система ЮMoney."
-                class="donation-form__payment-logo donation-form__payment-logo_type_umoney"
-            /></label>
+              <input
+                type="radio"
+                name="donation-method"
+                id="donation-method-umoney"
+                class="donation-form__radio"
+              />
+              <label
+                for="donation-method-umoney"
+                class="donation-form__custom-radio button-text"
+                ><img
+                  src="./images/payment-methods/u-money.svg"
+                  alt="Платежная система ЮMoney."
+                  class="donation-form__payment-logo donation-form__payment-logo_type_umoney"
+              /></label>
 
-            <input
-              type="radio"
-              name="donation-method"
-              id="donation-method-webmoney"
-              class="donation-form__radio"
-            />
-            <label
-              for="donation-method-webmoney"
-              class="donation-form__custom-radio button-text"
-              ><img
-                src="./images/payment-methods/webmoney.svg"
-                alt="Платежная система Webmoney."
-                class="donation-form__payment-logo donation-form__payment-logo_type_webmoney"
-            /></label>
+              <input
+                type="radio"
+                name="donation-method"
+                id="donation-method-webmoney"
+                class="donation-form__radio"
+              />
+              <label
+                for="donation-method-webmoney"
+                class="donation-form__custom-radio button-text"
+                ><img
+                  src="./images/payment-methods/webmoney.svg"
+                  alt="Платежная система Webmoney."
+                  class="donation-form__payment-logo donation-form__payment-logo_type_webmoney"
+              /></label>
+
+              <button type="button" class="donation-form__right-arrow"></button>
+            </div>
+            <!-- /.donation-form__checkboxes-container -->
           </fieldset>
 
-          <!-- Ваши данные -->
-          <fieldset class="donation-form__fieldset">
-            <legend class="donation-form__legend heading5">Ваши данные</legend>
+          <!-- Your data -->
+          <fieldset
+            class="donation-form__fieldset donation-form__fieldset_for_data"
+          >
+            <legend
+              class="donation-form__legend heading5 donation-form__legend_for_data"
+            >
+              Ваши данные
+            </legend>
             <input
               type="text"
               name="name"
@@ -259,7 +285,10 @@
             >
           </fieldset>
 
-          <button type="submit" class="button button_theme_primary button-text">
+          <button
+            type="submit"
+            class="button button_theme_primary button-text donation-form__submit-button"
+          >
             Поддержать
           </button>
         </form>

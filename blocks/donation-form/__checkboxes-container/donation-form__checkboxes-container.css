@@ -1,0 +1,7 @@
+.donation-form__checkboxes-container {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  row-gap: 12px;
+}

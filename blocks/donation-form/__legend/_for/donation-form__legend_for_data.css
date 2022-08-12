@@ -1,0 +1,15 @@
+.donation-form__legend_for_data {
+  margin-bottom: 28px;
+}
+
+@media screen and (max-width: 1439px) {
+  .donation-form__legend_for_data {
+    margin-bottom: 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .donation-form__legend_for_data {
+    margin-bottom: 25px;
+  }
+}

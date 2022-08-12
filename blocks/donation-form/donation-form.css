@@ -4,5 +4,5 @@
   box-shadow: 0px 4px 30px rgba(42, 48, 56, 0.1);
   box-sizing: border-box;
   padding: 30px 17px;
-  width: 691px;
+  max-width: 691px;
 }
