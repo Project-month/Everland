@@ -28,6 +28,12 @@
 @import url(../blocks/donation-form/__text-input/donation-form__text-input.css);
 @import url(../blocks/donation-form/__link/donation-form__link.css);
 @import url(../blocks/donation-form/__check/donation-form__check.css);
+@import url(../blocks/donation-form/__payment-logo/_type/donation-form__payment-logo_type_maestro.css);
+@import url(../blocks/donation-form/__payment-logo/_type/donation-form__payment-logo_type_mastercard.css);
+@import url(../blocks/donation-form/__payment-logo/_type/donation-form__payment-logo_type_mir.css);
+@import url(../blocks/donation-form/__payment-logo/_type/donation-form__payment-logo_type_umoney.css);
+@import url(../blocks/donation-form/__payment-logo/_type/donation-form__payment-logo_type_visa.css);
+@import url(../blocks/donation-form/__payment-logo/_type/donation-form__payment-logo_type_webmoney.css);
 
 /* Support */
 @import url(../blocks/support/support.css);

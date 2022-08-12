@@ -30,7 +30,7 @@
   </head>
   <body>
     <section class="support" id="support">
-      <section class="content">
+      <div class="content">
         <h2 class="heading2">Поддержите нас</h2>
         <form action="#" class="donation-form">
           <fieldset class="donation-form__fieldset">
@@ -59,6 +59,7 @@
             >
           </fieldset>
 
+          <!-- Размер пожертвования -->
           <fieldset class="donation-form__fieldset">
             <legend class="donation-form__legend heading5">
               Размер пожертвования
@@ -133,12 +134,74 @@
             </p>
           </fieldset>
 
+          <!-- Способ оплаты -->
           <fieldset class="donation-form__fieldset">
             <legend class="donation-form__legend heading5">
               Способ оплаты
             </legend>
+            <input
+              type="radio"
+              name="donation-method"
+              id="donation-method-card"
+              class="donation-form__radio"
+            />
+            <label
+              for="donation-method-card"
+              class="donation-form__label button-text"
+              ><img
+                src="./images/payment-methods/mir.svg"
+                alt="Платежная система Мир."
+                class="donation-form__payment-logo donation-form__payment-logo_type_mir"
+              />
+              <img
+                src="./images/payment-methods/maestro.svg"
+                alt="Платежная система Maestro."
+                class="donation-form__payment-logo donation-form__payment-logo_type_maestro"
+              />
+              <img
+                src="./images/payment-methods/visa.svg"
+                alt="Платежная система Visa."
+                class="donation-form__payment-logo donation-form__payment-logo_type_visa"
+              />
+              <img
+                src="./images/payment-methods/mastercard.svg"
+                alt="Платежная система Mastercard."
+                class="donation-form__payment-logo donation-form__payment-logo_type_mastercard"
+              />
+            </label>
+
+            <input
+              type="radio"
+              name="donation-method"
+              id="donation-method-umoney"
+              class="donation-form__radio"
+            />
+            <label
+              for="donation-method-umoney"
+              class="donation-form__label button-text"
+              ><img
+                src="./images/payment-methods/u-money.svg"
+                alt="Платежная система ЮMoney."
+                class="donation-form__payment-logo donation-form__payment-logo_type_umoney"
+            /></label>
+
+            <input
+              type="radio"
+              name="donation-method"
+              id="donation-method-webmoney"
+              class="donation-form__radio"
+            />
+            <label
+              for="donation-method-webmoney"
+              class="donation-form__label button-text"
+              ><img
+                src="./images/payment-methods/webmoney.svg"
+                alt="Платежная система Webmoney."
+                class="donation-form__payment-logo donation-form__payment-logo_type_webmoney"
+            /></label>
           </fieldset>
 
+          <!-- Ваши данные -->
           <fieldset class="donation-form__fieldset">
             <legend class="donation-form__legend heading5">Ваши данные</legend>
             <input
@@ -197,7 +260,7 @@
             Поддержать
           </button>
         </form>
-      </section>
+      </div>
       <!-- /.content -->
     </section>
     <!-- /.support -->
