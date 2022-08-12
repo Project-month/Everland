@@ -20,20 +20,22 @@
 @import url(../blocks/button/_theme/button_theme_secondary.css);
 @import url(../blocks/button/_theme/button_theme_secondary-black.css);
 
+/* Donation form */
 @import url(../blocks/donation-form/donation-form.css);
+@import url(../blocks/donation-form/__check/donation-form__check.css);
+@import url(../blocks/donation-form/__custom-check/donation-form__custom-check.css);
+@import url(../blocks/donation-form/__custom-radio/donation-form__custom-radio.css);
 @import url(../blocks/donation-form/__fieldset/donation-form__fieldset.css);
 @import url(../blocks/donation-form/__legend/donation-form__legend.css);
-@import url(../blocks/donation-form/__radio/donation-form__radio.css);
-@import url(../blocks/donation-form/__label/donation-form__label.css);
-@import url(../blocks/donation-form/__text-input/donation-form__text-input.css);
 @import url(../blocks/donation-form/__link/donation-form__link.css);
-@import url(../blocks/donation-form/__check/donation-form__check.css);
 @import url(../blocks/donation-form/__payment-logo/_type/donation-form__payment-logo_type_maestro.css);
 @import url(../blocks/donation-form/__payment-logo/_type/donation-form__payment-logo_type_mastercard.css);
 @import url(../blocks/donation-form/__payment-logo/_type/donation-form__payment-logo_type_mir.css);
 @import url(../blocks/donation-form/__payment-logo/_type/donation-form__payment-logo_type_umoney.css);
 @import url(../blocks/donation-form/__payment-logo/_type/donation-form__payment-logo_type_visa.css);
 @import url(../blocks/donation-form/__payment-logo/_type/donation-form__payment-logo_type_webmoney.css);
+@import url(../blocks/donation-form/__radio/donation-form__radio.css);
+@import url(../blocks/donation-form/__text-input/donation-form__text-input.css);
 
-/* Support */
+/* Support section */
 @import url(../blocks/support/support.css);

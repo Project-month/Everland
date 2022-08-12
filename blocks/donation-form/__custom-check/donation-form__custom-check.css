@@ -1,4 +1,4 @@
-.donation-form__label {
+.donation-form__custom-check {
   align-items: center;
   background-color: #fff;
   border-radius: 10px;
@@ -6,27 +6,11 @@
   cursor: pointer;
   display: inline-flex;
   justify-content: center;
-  padding: 5px 10px;
   position: relative;
+  padding: 5px 10px 5px 32px;
 }
 
-/* Radiobutton */
-.donation-form__radio + .donation-form__label {
-  border: 1px solid #dadada;
-  height: 48px;
-  width: 159px;
-}
-
-.donation-form__radio:checked + .donation-form__label {
-  border: 1px solid #0c4ba0;
-}
-
-/* Checkbox */
-.donation-form__check + .donation-form__label {
-  padding-left: 32px;
-}
-
-.donation-form__check + .donation-form__label::before {
+.donation-form__custom-check::before {
   content: '';
   width: 25px;
   height: 25px;
@@ -39,7 +23,7 @@
   /* TODO: add vertical align for this */
 }
 
-.donation-form__check:checked + .donation-form__label::before {
+.donation-form__check:checked + .donation-form__custom-check::before {
   background-color: #dadada;
   background-image: url(../../../images/check.svg);
   background-position: center center;
