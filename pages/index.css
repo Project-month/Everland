@@ -21,7 +21,7 @@
 @import url(../blocks/button/_theme/button_theme_secondary-black.css);
 
 /* In work section*/
-@import url(../blocks/in-work);
+@import url(../blocks/in-work/in-work.css);
 
 /*Accordion*/
 @import url(../blocks/accordion/accordion.css);
