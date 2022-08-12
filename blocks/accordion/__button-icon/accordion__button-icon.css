@@ -1,0 +1,8 @@
+.accordion__button-icon{
+  /*transform: rotate(45deg);*/
+}
+
+.accordion__button_close .accordion__button-icon{
+  transform: rotate(45deg);
+}
+
