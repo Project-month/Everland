@@ -1,0 +1,30 @@
+.history__main {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: repeat(2, auto);
+  padding-top: 100px;
+  align-items: center;
+}
+
+.history__main > :nth-child(3) {
+  grid-column: 1 / -1;
+}
+
+@media (max-width: 1289px) {
+  .history__main {
+    grid-template-columns: 1fr;
+  }
+
+  .history__main > button:nth-child(2) {
+    grid-row: 4 / 5;
+    margin: 40px auto 50px;
+
+  }
+}
+
+
+@media (max-width: 767px) {
+  .history__main > button:nth-child(2) {
+    margin: 24px auto 32px;
+  }
+}

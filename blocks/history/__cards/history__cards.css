@@ -1,0 +1,20 @@
+.history__cards {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  margin-block: 0;
+  padding-inline: 0;
+  row-gap: 150px;
+}
+
+@media (max-width: 1289px) {
+  .history__cards {
+    row-gap: 32px;
+  }
+}
+
+@media (max-width: 767px) {
+  .history__cards {
+    row-gap: 32px;
+  }
+}

@@ -1,0 +1,16 @@
+.history__image {
+  border-radius: 50%;
+  max-width: 224px;
+}
+
+@media (max-width: 1289px) {
+  .history__image {
+    max-width: 204px;
+  }
+}
+
+@media (max-width: 767px) {
+  .history__image {
+    max-width: 80px;
+  }
+}

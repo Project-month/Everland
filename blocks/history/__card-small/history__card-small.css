@@ -1,0 +1,9 @@
+.history__card-small {
+  align-items: flex-start;
+  column-gap: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+

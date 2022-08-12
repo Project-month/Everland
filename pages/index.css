@@ -19,3 +19,18 @@
 @import url(../blocks/button/_theme/button_theme_primary.css);
 @import url(../blocks/button/_theme/button_theme_secondary.css);
 @import url(../blocks/button/_theme/button_theme_secondary-black.css);
+
+/* history */
+
+@import url(../blocks/history/history.css);
+@import url(../blocks/history/__main/history__main.css);
+@import url(../blocks/history/__content/history__content.css);
+@import url(../blocks/history/__cards/history__cards.css);
+@import url(../blocks/history/__card/history__card.css);
+@import url(../blocks/history/__card-small/history__card-small.css);
+@import url(../blocks/history/__image/history__image.css);
+@import url(../blocks/history/__info/history__info.css);
+@import url(../blocks/history/__Icon-quote/history__Icon-quote.css);
+@import url(../blocks/history/__card/_view/history__card_view_reverse.css);
+@import url(../blocks/history/__button/history__button.css);
+@import url(../blocks/arrow__forward/arrow__forward.css);
