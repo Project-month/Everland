@@ -27,8 +27,8 @@
 /* Donation form */
 @import url(../blocks/donation-form/donation-form.css);
 @import url(../blocks/donation-form/__check/donation-form__check.css);
-@import url(../blocks/donation-form/__checkboxes-container/donation-form__checkboxes-container.css);
-@import url(../blocks/donation-form/__checkboxes-container/_for/donation-form__checkboxes-container_for_methods.css);
+@import url(../blocks/donation-form/__radiobuttons-container/donation-form__radiobuttons-container.css);
+@import url(../blocks/donation-form/__radiobuttons-container/_for/donation-form__radiobuttons-container_for_methods.css);
 @import url(../blocks/donation-form/__custom-check/donation-form__custom-check.css);
 @import url(../blocks/donation-form/__custom-radio/donation-form__custom-radio.css);
 @import url(../blocks/donation-form/__custom-radio/_for/donation-form__custom-radio_for_cards.css);
