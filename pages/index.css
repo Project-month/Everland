@@ -35,6 +35,6 @@
 @import url(../blocks/news/bt/news__bt.css);
 
 
-/* * {
-  border: dotted 1px rgb(25, 0, 255);
-} */
+* {
+  border: dotted 1px rgb(255, 0, 0);
+}
