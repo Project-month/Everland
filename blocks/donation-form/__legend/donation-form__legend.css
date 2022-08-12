@@ -1,5 +1,7 @@
 .donation-form__legend {
+  overflow: hidden;
   text-align: center;
+  width: 100%;
 }
 
 .donation-form__legend::before,
@@ -13,7 +15,6 @@
   width: 100%;
 }
 
-/* TODO: fix overflow */
 .donation-form__legend::before {
   margin-left: -100%;
   left: -14px;
