@@ -8,6 +8,11 @@
   max-width: 455px;
   padding: 10px 20px;
   width: 100%;
+  outline: none;
+}
+
+.donation-form__text-input:focus-visible {
+  border: 1px solid #0c4ba0;
 }
 
 @media screen and (max-width: 1439px) {
