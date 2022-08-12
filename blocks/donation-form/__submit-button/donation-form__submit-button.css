@@ -1,3 +1,17 @@
 .donation-form__submit-button {
+  align-self: center;
   margin-top: 24px;
+  width: 194px;
+}
+
+@media screen and (max-width: 1439px) {
+  .donation-form__submit-button {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .donation-form__submit-button {
+    width: 260px;
+  }
 }
