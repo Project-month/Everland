@@ -20,12 +20,17 @@
 @import url(../blocks/button/_theme/button_theme_secondary.css);
 @import url(../blocks/button/_theme/button_theme_secondary-black.css);
 
+/* Support section */
+@import url(../blocks/support/support.css);
+@import url(../blocks/support/__heading/support__heading.css);
+
 /* Donation form */
 @import url(../blocks/donation-form/donation-form.css);
 @import url(../blocks/donation-form/__check/donation-form__check.css);
 @import url(../blocks/donation-form/__checkboxes-container/donation-form__checkboxes-container.css);
 @import url(../blocks/donation-form/__custom-check/donation-form__custom-check.css);
 @import url(../blocks/donation-form/__custom-radio/donation-form__custom-radio.css);
+@import url(../blocks/donation-form/__custom-radio/_for/donation-form__custom-radio_for_cards.css);
 @import url(../blocks/donation-form/__custom-radio/_type/donation-form__custom-radio_type_frequency.css);
 @import url(../blocks/donation-form/__custom-radio/_type/donation-form__custom-radio_type_method.css);
 @import url(../blocks/donation-form/__fieldset/donation-form__fieldset.css);
@@ -49,7 +54,3 @@
 @import url(../blocks/donation-form/__text/donation-form__text.css);
 @import url(../blocks/donation-form/__right-arrow/donation-form__right-arrow.css);
 @import url(../blocks/donation-form/__submit-button/donation-form__submit-button.css);
-
-/* Support section */
-@import url(../blocks/support/support.css);
-@import url(../blocks/support/__heading/support__heading.css); ;
