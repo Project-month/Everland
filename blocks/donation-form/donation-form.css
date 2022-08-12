@@ -5,4 +5,8 @@
   box-sizing: border-box;
   padding: 30px 17px;
   max-width: 691px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
