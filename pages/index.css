@@ -36,6 +36,7 @@
 @import url(../blocks/donation-form/__payment-logo/_type/donation-form__payment-logo_type_umoney.css);
 @import url(../blocks/donation-form/__payment-logo/_type/donation-form__payment-logo_type_visa.css);
 @import url(../blocks/donation-form/__payment-logo/_type/donation-form__payment-logo_type_webmoney.css);
+@import url(../blocks/donation-form/__question/donation-form__question.css);
 @import url(../blocks/donation-form/__radio/donation-form__radio.css);
 @import url(../blocks/donation-form/__text-input/donation-form__text-input.css);
 
