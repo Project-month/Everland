@@ -1,0 +1,10 @@
+.donation-form__radiobuttons-container_for_frequency {
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 20px;
+}
+
+@media screen and (max-width: 1439px) {
+  .donation-form__radiobuttons-container_for_frequency {
+    column-gap: 16px;
+  }
+}

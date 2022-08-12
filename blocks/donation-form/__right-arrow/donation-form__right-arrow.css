@@ -3,6 +3,7 @@
   border: none;
   cursor: pointer;
   height: 20px;
+  justify-self: center;
   padding: 0;
   transition: all 0.2s ease-in-out;
   width: 20px;
