@@ -1,0 +1,16 @@
+.support__contributors-heading {
+  text-align: center;
+  max-width: 488px;
+}
+
+@media screen and (max-width: 1439px) {
+  .support__contributors-heading {
+    max-width: 531px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .support__contributors-heading {
+    max-width: 300px;
+  }
+}

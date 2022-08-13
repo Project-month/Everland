@@ -1,0 +1,13 @@
+.support__container {
+  align-items: center;
+  display: grid;
+  grid-template: auto / repeat(2, 1fr);
+  justify-content: space-between;
+  justify-items: center;
+}
+
+@media screen and (max-width: 1439px) {
+  .support__container {
+    grid-template: repeat(2, 1fr) / auto;
+  }
+}

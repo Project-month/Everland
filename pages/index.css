@@ -23,6 +23,8 @@
 /* Support section */
 @import url(../blocks/support/support.css);
 @import url(../blocks/support/__heading/support__heading.css);
+@import url(../blocks/support/__container/support__container.css);
+@import url(../blocks/support/__contributors-heading/support__contributors-heading.css);
 
 /* Donation form */
 @import url(../blocks/donation-form/donation-form.css);
