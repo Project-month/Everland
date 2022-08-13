@@ -2,13 +2,14 @@
   grid-area: yandex-praktikum;
   display: flex;
   gap: 21px;
-  align-items: flex-end;
-  padding-top: 8px;
+  align-items: center;
+  padding: 0;
+  margin: 0;
 }
 
 @media screen and (max-width: 1439px) {
   .footer__yandex-praktikum {
-    padding-top: 4px;
+    padding: 8px 0 0;
     gap: 11px;
   }
 }

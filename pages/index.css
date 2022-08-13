@@ -22,8 +22,8 @@
 
 /* Logo */
 @import url(../blocks/logo/logo.css);
-@import url(../blocks/logo/_header/logo_header.css);
-@import url(../blocks/logo/_footer/logo_footer.css);
+@import url(../blocks/logo/_place/logo_place_header.css);
+@import url(../blocks/logo/_place/logo_place_footer.css);
 
 /* Footer */
 @import url(../blocks/footer/footer.css);
@@ -31,7 +31,7 @@
 @import url(../blocks/footer/__project-description/footer__project-description.css);
 @import url(../blocks/footer/__navigation/footer__navigation.css);
 @import url(../blocks/footer/__menu/footer__menu.css);
-@import url(../blocks/footer/__menu-link/footer__menu-link.css);
+@import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__supported/footer__supported.css);
 @import url(../blocks/footer/__supported-logos/footer__supported-logos.css);
 @import url(../blocks/footer/__supported-logo/footer__supported-logo.css);

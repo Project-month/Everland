@@ -1,11 +1,11 @@
 .footer__social {
   grid-area: social;
-  padding-top: 60px;
+  padding-top: 59px;
 }
 
 @media screen and (max-width: 1439px) {
   .footer__social {
-    padding-top: 28px;
+    padding-top: 29px;
   }
 }
 

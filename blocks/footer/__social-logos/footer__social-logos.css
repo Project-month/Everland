@@ -1,19 +1,20 @@
 .footer__social-logos {
   display: flex;
   gap: 10px;
-  padding-top: 9px;
-  overflow: hidden;
+  list-style-type: none;
+  margin: 0;
+  padding: 11px 0 0;
 }
 
 @media screen and (max-width: 1439px) {
   .footer__social-logos {
-    padding-top: 12px;
     gap: 4px;
+    padding: 12px 0 0;
   }
 }
 
 @media screen and (max-width: 767px) {
   .footer__social-logos {
-    padding-top: 10px;
+    padding: 3px 0 0;
   }
 }

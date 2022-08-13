@@ -1,17 +1,20 @@
 .footer__supported-logos {
   display: flex;
   gap: 50px;
-  padding-top: 19px;
+  list-style-type: none;
+  margin: 0;
+  padding: 19px 0 0;
 }
 
 @media screen and (max-width: 1439px) {
   .footer__supported-logos {
-    padding-top: 24px;
+    gap: 20px;
+    padding: 24px 0 0;
   }
 }
 
 @media screen and (max-width: 767px) {
   .footer__supported-logos {
-    padding-top: 24px;
+    padding: 24px 0 0;
   }
 }
