@@ -17,6 +17,7 @@
 /* Нижестоящее правило не нужно, оставил чтобы визуально быстро понять что для "мобилок" этот элемент обработан */
 @media screen and (max-width: 767px) {
   .footer__contacts {
+    flex-direction: column;
     gap: 9px;
     flex-wrap: wrap;
   }
