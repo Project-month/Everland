@@ -1,4 +1,5 @@
 .news__title {
+  grid-area: news__title;
   font-family: "Raleway", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -7,17 +8,23 @@
   text-overflow: ellipsis;
   letter-spacing: -0.01em;
   padding: 0;
-  margin: 0;
+  margin: 0 0 50px;
+  grid-row: 1;
+  grid-column: 1;
+  text-overflow: ellipsis;
 }
 
 @media screen and (max-width: 1439px) {
   .news__title {
     font-size: 36px;
+    margin-bottom: 32px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .news__title {
     font-size: 26px;
+    margin-left: 10px;
+    margin-bottom: 24px;
   }
 }

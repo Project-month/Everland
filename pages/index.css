@@ -24,7 +24,6 @@
 /* Sections News */
 @import url(../blocks/news/news.css);
 @import url(../blocks/news/title/news__title.css);
-@import url(../blocks/news/container/news__container.css);
 @import url(../blocks/news/information/news__information.css);
 @import url(../blocks/news/topic/news__topic.css);
 @import url(../blocks/news/card/news__card.css);
