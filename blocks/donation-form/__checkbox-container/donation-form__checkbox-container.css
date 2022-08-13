@@ -1,6 +1,6 @@
 .donation-form__checkbox-container {
   align-items: center;
-  display: inline-flex;
+  display: flex;
   margin-bottom: 18px;
 }
 
