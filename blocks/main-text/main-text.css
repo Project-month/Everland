@@ -11,6 +11,7 @@
 @media screen and (max-width: 1439px) {
   .main-text {
     font-size: 16px;
+    line-height: 1.2;
   }
 }
 

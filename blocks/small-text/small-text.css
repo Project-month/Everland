@@ -11,6 +11,7 @@
 @media screen and (max-width: 1439px) {
   .small-text {
     font-size: 14px;
+    line-height: 1.2;
   }
 }
 
