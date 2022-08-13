@@ -21,3 +21,9 @@
 .donation-form__question:disabled {
   background-image: url(../../../images/question/question_disabled.svg);
 }
+
+@media screen and (max-width: 767px) {
+  .donation-form__question {
+    margin-left: 4px;
+  }
+}
