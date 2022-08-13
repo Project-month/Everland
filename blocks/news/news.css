@@ -7,7 +7,8 @@
   grid-template-areas:
     "news__container"
     "news__information"
-    "news__bt";
+    /* "news__bt"; */
+    "button_theme_news_section";
   grid-template-columns: /*3fr;*/ repeat(3, minmax(min-content, max-content));
   grid-template-rows: 3fr;
   max-width: 1440px;
@@ -30,3 +31,4 @@
     padding: 32px 0;
   }
 }
+

@@ -33,9 +33,3 @@
 @import url(../blocks/news/topic-subtitle/news__topic-subtitle.css);
 @import url(../blocks/news/text/news__text.css);
 @import url(../blocks/news/topic-date/news__topic-date.css);
-@import url(../blocks/news/bt/news__bt.css);
-
-
-/* * {
-  border: dotted 1px rgb(255, 0, 0);
-} */
