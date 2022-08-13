@@ -9,8 +9,7 @@
 
 @media screen and (max-width: 1439px) {
   .footer__menu {
-    row-gap: 8px;
-    padding-top: 8px;
+    padding-top: 6px;
     grid-template-columns: 3fr 3fr;
     column-gap: 80px;
   }
@@ -19,7 +18,7 @@
 /* Нижестоящее правило не нужно, оставил чтобы визуально быстро понять что для "мобилок" этот элемент обработан */
 @media screen and (max-width: 767px) {
   .footer__menu {
-    padding-top: 10px;
+    padding-top: 15px;
     column-gap: 15px;
     grid-template-columns: 2fr 2fr;
   }

@@ -17,6 +17,7 @@
   .footer__grid {
     grid-template-columns: 3fr 3fr;
     column-gap: 20px;
+    row-gap: 28px;
   }
 }
 
