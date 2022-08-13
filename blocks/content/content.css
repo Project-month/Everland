@@ -5,3 +5,11 @@
   padding-left: 40px;
   padding-right: 40px;
 }
+
+
+@media (max-width: 767px) {
+  .content {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}

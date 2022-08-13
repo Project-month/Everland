@@ -3,13 +3,13 @@
   max-width: 224px;
 }
 
-@media (max-width: 1289px) {
+@media (max-width: 1439px) {
   .history__image {
     max-width: 204px;
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1289px) {
   .history__image {
     max-width: 80px;
   }

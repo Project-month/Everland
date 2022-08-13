@@ -2,9 +2,15 @@
   padding-top: 100px;
 }
 
-@media (max-width: 1289px) {
+@media (max-width: 1439px) {
   .history__content {
     padding-top: 55px;
+  }
+}
+
+@media (max-width: 1289px) {
+  .history__content {
+    padding-top: 36px;
   }
 }
 

@@ -7,13 +7,7 @@
   row-gap: 150px;
 }
 
-@media (max-width: 1289px) {
-  .history__cards {
-    row-gap: 32px;
-  }
-}
-
-@media (max-width: 767px) {
+@media (max-width: 1439px) {
   .history__cards {
     row-gap: 32px;
   }

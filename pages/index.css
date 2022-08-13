@@ -29,8 +29,14 @@
 @import url(../blocks/history/__card/history__card.css);
 @import url(../blocks/history/__card-small/history__card-small.css);
 @import url(../blocks/history/__image/history__image.css);
+@import url(../blocks/history/__story-image/history__story-image.css);
 @import url(../blocks/history/__info/history__info.css);
 @import url(../blocks/history/__Icon-quote/history__Icon-quote.css);
 @import url(../blocks/history/__card/_view/history__card_view_reverse.css);
 @import url(../blocks/history/__button/history__button.css);
 @import url(../blocks/arrow__forward/arrow__forward.css);
+@import url(../blocks/history/__story/history__story.css);
+@import url(../blocks/history/__story-info/history__story-info.css);
+@import url(../blocks/history/__story-title/history__story-title.css);
+@import url(../blocks/history/__audio/history__audio.css);
+@import url(../blocks/history/__audio-info/history__audio-info.css);

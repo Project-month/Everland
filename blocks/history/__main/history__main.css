@@ -13,6 +13,7 @@
 @media (max-width: 1289px) {
   .history__main {
     grid-template-columns: 1fr;
+    padding-top: 64px;
   }
 
   .history__main > button:nth-child(2) {
@@ -21,7 +22,6 @@
 
   }
 }
-
 
 @media (max-width: 767px) {
   .history__main > button:nth-child(2) {
