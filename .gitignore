@@ -1,2 +1,5 @@
 # Config file for Prettier extension
 .prettierrc.json
+
+# build directory for artifacts
+build
