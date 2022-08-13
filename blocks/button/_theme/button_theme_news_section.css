@@ -1,0 +1,9 @@
+.button_theme_news_section {
+  width: 200px;
+}
+
+@media screen and (max-width: 767px) {
+  .button_theme_news_section {
+    width: 300px;
+  }
+}

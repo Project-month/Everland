@@ -1,4 +1,6 @@
 .news__topic-date {
+  grid-area: news__topic-date;
+  grid-row: 4;
   font-family: "Raleway", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -6,11 +8,12 @@
   line-height: 130%;
   font-feature-settings: "pnum" on, "lnum" on;
   color: rgba(38, 38, 38, 0.5);
-  position: absolute;
-  bottom: 30px;
+  /* position: absolute; */
+  /* bottom: 30px; */
   margin: 0;
   padding: 0;
   text-overflow: ellipsis;
+
 }
 
 @media screen and (max-width: 1439px) {

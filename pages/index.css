@@ -19,6 +19,7 @@
 @import url(../blocks/button/_theme/button_theme_primary.css);
 @import url(../blocks/button/_theme/button_theme_secondary.css);
 @import url(../blocks/button/_theme/button_theme_secondary-black.css);
+@import url(../blocks/button/_theme/button_theme_news_section.css);
 
 /* Sections News */
 @import url(../blocks/news/news.css);
@@ -35,6 +36,6 @@
 @import url(../blocks/news/bt/news__bt.css);
 
 
-* {
+/* * {
   border: dotted 1px rgb(255, 0, 0);
-}
+} */

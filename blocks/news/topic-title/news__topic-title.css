@@ -1,5 +1,4 @@
 .news__topic-title {
-  grid-area: news__topic-text;
   margin: 0;
   padding: 0;
   font-family: "Raleway", Arial, Helvetica, sans-serif;
@@ -16,7 +15,6 @@
   .news__topic-title {
     font-weight: 700;
     font-size: 26px;
-    line-height: 120%;
   }
 }
 

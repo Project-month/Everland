@@ -1,17 +1,24 @@
 .news__text {
-  margin: 0;
+  grid-area: news__text;
+  grid-row: 3;
   padding: 0;
   max-width: 380px;
+  margin: 0 0 30px 0;
+
 }
 
 @media screen and (max-width: 1439px) {
   .news__text {
     max-width: 274px;
+    margin: 0;
   }
 }
 
 @media screen and (max-width: 767px) {
   .news__text {
     width: 252px;
+    /* margin: 0 0 20px 0; */
   }
 }
+
+
