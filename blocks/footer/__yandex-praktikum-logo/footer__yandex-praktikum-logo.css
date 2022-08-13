@@ -1,0 +1,9 @@
+.footer__yandex-praktikum-logo {
+  max-height: 28px;
+}
+
+@media screen and (max-width: 1439px) {
+  .footer__yandex-praktikum-logo {
+    max-height: 20px;
+  }
+}

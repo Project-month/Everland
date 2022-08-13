@@ -1,0 +1,21 @@
+.logo_place_footer {
+  width: 262.69px;
+  height: 46px;
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 1439px) {
+  .logo_place_footer {
+    width: 137px;
+    height: 24px;
+    padding-bottom: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .logo_place_footer {
+    width: 137px;
+    height: 24px;
+    padding-bottom: 16px;
+  }
+}
