@@ -4,7 +4,6 @@
   padding: 0;
   max-width: 380px;
   margin: 0 0 30px 0;
-
 }
 
 @media screen and (max-width: 1439px) {
@@ -17,8 +16,5 @@
 @media screen and (max-width: 767px) {
   .news__text {
     width: 252px;
-    /* margin: 0 0 20px 0; */
   }
 }
-
-

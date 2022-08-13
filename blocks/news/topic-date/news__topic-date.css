@@ -8,12 +8,9 @@
   line-height: 130%;
   font-feature-settings: "pnum" on, "lnum" on;
   color: rgba(38, 38, 38, 0.5);
-  /* position: absolute; */
-  /* bottom: 30px; */
   margin: 0;
   padding: 0;
   text-overflow: ellipsis;
-
 }
 
 @media screen and (max-width: 1439px) {

@@ -2,8 +2,6 @@
   grid-area: news__container;
   display: flex;
   margin: 0 0 50px;
-  /* padding: 100px 0px 50px; */
-  /* padding: 0px 0px 50px; */
   align-items: center;
   grid-row: 1;
   grid-column: 1;
@@ -12,9 +10,7 @@
 
 @media screen and (max-width: 1439px) {
   .news__container {
-
     max-width: 688px;
-    /* padding: 50px 0px 32px; */
     margin-bottom: 32px;
   }
 }
