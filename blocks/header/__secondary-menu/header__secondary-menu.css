@@ -1,0 +1,8 @@
+.header__secondary-menu {
+  margin: 0;
+  padding-left: 2px;
+  padding-right: 16px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}

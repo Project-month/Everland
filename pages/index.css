@@ -25,6 +25,22 @@
 @import url(../blocks/logo/_place/logo_place_header.css);
 @import url(../blocks/logo/_place/logo_place_footer.css);
 
+/* Header */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__main/header__main.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__menu-toggler/header__toggler.css);
+@import url(../blocks/header/__menu-button/header__menu-button.css);
+@import url(../blocks/header/__menu-text/header__menu-text.css);
+
+@import url(../blocks/header/__secondary/header__secondary.css);
+@import url(../blocks/header/__secondary-menu/header__secondary-menu.css);
+@import url(../blocks/header/__secondary-menu-item/header__secondary-menu-item.css);
+@import url(../blocks/header/__buttons/header__buttons.css);
+@import url(../blocks/header/__button/header__button.css);
+@import url(../blocks/header/__link/header__link.css);
+
 /* Footer */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__grid/footer__grid.css);
@@ -44,3 +60,21 @@
 @import url(../blocks/footer/__copyrights/footer__copyrights.css);
 @import url(../blocks/footer/__yandex-praktikum/footer__yandex-praktikum.css);
 @import url(../blocks/footer/__yandex-praktikum-logo/footer__yandex-praktikum-logo.css);
+
+body {
+  padding: 0;
+  margin: 0;
+  text-rendering: optimizeLegibility;
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  flex-shrink: 0;
+}

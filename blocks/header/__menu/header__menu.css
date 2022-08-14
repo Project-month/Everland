@@ -1,0 +1,14 @@
+.header__menu {
+  grid-area: menu;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding-left: 77px;
+}
+
+@media screen and (max-width: 1439px) {
+  .header__menu {
+    padding: 0;
+  }
+}

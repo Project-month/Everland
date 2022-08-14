@@ -1,0 +1,8 @@
+.header__secondary {
+}
+
+@media screen and (max-width: 1439px) {
+  .header__secondary {
+    display: none;
+  }
+}
