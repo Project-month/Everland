@@ -33,6 +33,8 @@
 @import url(../blocks/header/__menu-toggler/header__toggler.css);
 @import url(../blocks/header/__menu-button/header__menu-button.css);
 @import url(../blocks/header/__menu-text/header__menu-text.css);
+@import url(../blocks/header/__primary-menu/header__primary-menu.css);
+@import url(../blocks/header/__primary-menu-items/header__primary-menu-items.css);
 
 @import url(../blocks/header/__secondary/header__secondary.css);
 @import url(../blocks/header/__secondary-menu/header__secondary-menu.css);

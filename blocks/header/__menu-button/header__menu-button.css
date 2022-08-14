@@ -16,7 +16,26 @@
   height: 3px;
   background-color: black;
   position: absolute;
+  transition-duration: 0.25s;
 }
+
+.header__menu-toggler:checked ~ .header__menu-button > span {
+  transform: rotate(45deg);
+}
+.header__menu-toggler:checked ~ .header__menu-button > span::before {
+  top: 0;
+  transform: rotate(0);
+}
+.header__menu-toggler:checked ~ .header__menu-button > span::after {
+  top: 0;
+  transform: rotate(90deg);
+}
+
+.header__menu-toggler:checked ~ .header__primary-menu {
+  visibility: visible;
+  top: 80px;
+}
+
 .header__menu-button > span::before {
   content: "";
   top: -10px;
