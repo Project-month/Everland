@@ -7,13 +7,14 @@
   grid-template-areas:
     "news__title"
     "news__information"
-    "button_theme_news_section";
+    "button_place_news-section";
   grid-template-columns: /*3fr;*/ repeat(3, minmax(min-content, max-content));
   grid-template-rows: 3fr;
   max-width: 1440px;
   grid-auto-flow: dense;
   align-items: center;
   justify-content: center;
+
 }
 
 @media screen and (max-width: 1439px) {

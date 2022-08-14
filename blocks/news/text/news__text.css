@@ -4,6 +4,9 @@
   padding: 0;
   max-width: 380px;
   margin: 0 0 30px 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
 }
 
 @media screen and (max-width: 1439px) {

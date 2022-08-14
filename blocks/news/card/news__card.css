@@ -31,6 +31,7 @@
   position: relative;
   align-items: flex-start;
   border: 1px solid rgb(218, 218, 218);
+  overflow: hidden;
 }
 
 @media screen and (max-width: 767px) {

@@ -19,7 +19,7 @@
 @import url(../blocks/button/_theme/button_theme_primary.css);
 @import url(../blocks/button/_theme/button_theme_secondary.css);
 @import url(../blocks/button/_theme/button_theme_secondary-black.css);
-@import url(../blocks/button/_theme/button_theme_news_section.css);
+@import url(../blocks/button/_theme/button_place_news-section.css);
 
 /* Sections News */
 @import url(../blocks/news/news.css);

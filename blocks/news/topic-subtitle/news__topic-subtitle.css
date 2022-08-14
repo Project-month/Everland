@@ -9,6 +9,8 @@
   font-feature-settings: "pnum" on, "lnum" on;
   text-overflow: ellipsis;
   box-sizing: border-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 @media screen and (max-width: 1439px) {
