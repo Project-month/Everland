@@ -1,0 +1,35 @@
+.news {
+  color: rgb(0, 0, 0);
+  margin: 0 auto;
+  padding: 100px 0;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-areas:
+    "news__title"
+    "news__information"
+    "button_place_news-section";
+  /* grid-template-columns: repeat(3, minmax(min-content, max-content));
+  grid-template-rows: 3fr; */
+  grid-template-columns: repeat(3, minmax(440px));
+  grid-template-rows: repeat(3, minmax(880px));
+  max-width: 1440px;
+  grid-auto-flow: dense;
+  align-items: center;
+  justify-content: center;
+
+}
+
+@media screen and (max-width: 1439px) {
+  .news {
+    padding: 50px 0 60px;
+
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .news {
+    max-width: 320px;
+    display: block;
+    padding: 32px 0;
+  }
+}

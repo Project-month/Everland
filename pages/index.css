@@ -19,9 +19,9 @@
 @import url(../blocks/button/_theme/button_theme_primary.css);
 @import url(../blocks/button/_theme/button_theme_secondary.css);
 @import url(../blocks/button/_theme/button_theme_secondary-black.css);
+@import url(../blocks/button/_theme/button_place_news-section.css);
 
-/* history */
-
+/* History */
 @import url(../blocks/history/history.css);
 @import url(../blocks/history/__main/history__main.css);
 @import url(../blocks/history/__content/history__content.css);
@@ -40,3 +40,40 @@
 @import url(../blocks/history/__story-title/history__story-title.css);
 @import url(../blocks/history/__audio/history__audio.css);
 @import url(../blocks/history/__audio-info/history__audio-info.css);
+
+/* Sections News */
+@import url(../blocks/news/news.css);
+@import url(../blocks/news/title/news__title.css);
+@import url(../blocks/news/information/news__information.css);
+@import url(../blocks/news/topic/news__topic.css);
+@import url(../blocks/news/card/news__card.css);
+@import url(../blocks/news/topic-image/news__topic-image.css);
+@import url(../blocks/news/topic-title/news__topic-title.css);
+@import url(../blocks/news/topic-subtitle/news__topic-subtitle.css);
+@import url(../blocks/news/text/news__text.css);
+@import url(../blocks/news/topic-date/news__topic-date.css);
+
+/* Logo */
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/_place/logo_place_header.css);
+@import url(../blocks/logo/_place/logo_place_footer.css);
+
+/* Footer */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__grid/footer__grid.css);
+@import url(../blocks/footer/__project-description/footer__project-description.css);
+@import url(../blocks/footer/__navigation/footer__navigation.css);
+@import url(../blocks/footer/__menu/footer__menu.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__supported/footer__supported.css);
+@import url(../blocks/footer/__supported-logos/footer__supported-logos.css);
+@import url(../blocks/footer/__supported-logo/footer__supported-logo.css);
+@import url(../blocks/footer/__contacts/footer__contacts.css);
+@import url(../blocks/footer/__contacts-phones/footer__contacts-phones.css);
+@import url(../blocks/footer/__contacts-address/footer__address.css);
+@import url(../blocks/footer/__social/footer__social.css);
+@import url(../blocks/footer/__social-logos/footer__social-logos.css);
+@import url(../blocks/footer/__social-logo/footer__social-logo.css);
+@import url(../blocks/footer/__copyrights/footer__copyrights.css);
+@import url(../blocks/footer/__yandex-praktikum/footer__yandex-praktikum.css);
+@import url(../blocks/footer/__yandex-praktikum-logo/footer__yandex-praktikum-logo.css);
