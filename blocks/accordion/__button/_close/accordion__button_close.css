@@ -3,5 +3,6 @@
   stroke: white;
 }
 .accordion__button_close .accordion__button-icon{
+  stroke: white;
   transform: rotate(45deg);
 }

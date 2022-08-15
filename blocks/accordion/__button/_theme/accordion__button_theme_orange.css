@@ -2,3 +2,11 @@
   background-color: #FEEFEA;
   stroke: #E98509;
 }
+
+.accordion__button.accordion__button_theme_orange:hover{
+  background-color: #E98509;
+}
+
+.accordion__button_close.accordion__button_theme_orange{
+  background-color: #E98509;
+}
