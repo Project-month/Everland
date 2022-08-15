@@ -1,0 +1,12 @@
+.accordion__description_close{
+
+  margin: 0;
+  height: 0;
+
+
+
+
+  opacity: 0;
+
+  transition: height 1s linear ;
+}

@@ -15,5 +15,20 @@
 
   background-position: center;
   background-repeat: no-repeat;
+
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.accordion__button:disabled{
+  cursor: auto;
+  background-color: #C4C4C4;
+}
+.accordion__button:disabled .accordion__button-icon{
+  stroke: #262626;
+}
+
+.accordion__button_close .accordion__button-icon{
+  transform: rotate(45deg);
 }
 
