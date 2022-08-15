@@ -1,0 +1,17 @@
+.footer__supported-logo {
+  margin: 0;
+  padding: 0;
+  max-height: 52px;
+}
+
+@media screen and (max-width: 1439px) {
+  .footer__supported-logo {
+    max-height: 40px;
+  }
+}
+
+@media screen and (max-width: 1439px) {
+  .footer__supported-logo {
+    max-height: 24px;
+  }
+}

@@ -1,0 +1,17 @@
+.footer__social {
+  grid-area: social;
+  padding-top: 59px;
+}
+
+@media screen and (max-width: 1439px) {
+  .footer__social {
+    padding-top: 29px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__social {
+    padding-top: 0;
+    max-width: 200px;
+  }
+}
