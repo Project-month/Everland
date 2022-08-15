@@ -1,10 +1,6 @@
 .news__topic-date {
   grid-area: news__topic-date;
   grid-row: 4;
-  /* /* font-family: "Raleway", Arial, Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px; */
   line-height: 130%;
   font-feature-settings: "pnum" on, "lnum" on;
   color: rgba(38, 38, 38, 0.5);

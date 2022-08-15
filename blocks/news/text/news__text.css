@@ -3,21 +3,13 @@
   grid-row: 3;
   padding: 0;
   max-width: 380px;
-  margin: 0 0 30px 0;
+  margin: 0;
+  height: 302px;
   overflow: hidden;
   text-overflow: ellipsis;
 
 }
 
-@media screen and (max-width: 1439px) {
-  .news__text {
-    max-width: 274px;
-    margin: 0;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .news__text {
-    width: 252px;
-  }
+.news__text:nth-child(2) {
+  height: 634px;
 }

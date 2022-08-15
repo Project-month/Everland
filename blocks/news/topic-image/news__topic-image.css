@@ -5,7 +5,6 @@
   border-radius: 30px;
   object-fit: cover;
   box-sizing: border-box;
-  margin: 0 0 30px 0;
   width: 380px;
   height: 300px;
 }
@@ -14,7 +13,6 @@
   .news__topic-image {
     width: 274px;
     height: 212px;
-    margin: 0 0 20px 0;
   }
 }
 
@@ -22,6 +20,5 @@
   .news__topic-image {
     width: 252px;
     height: 192px;
-    margin: 0 0 20px 0;
   }
 }
