@@ -1,0 +1,22 @@
+.history__story-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 366px;
+  row-gap: 20px;
+}
+
+@media (max-width: 1439px) {
+  .history__story-info {
+    max-width: 158px;
+    row-gap: 6px;
+  }
+}
+
+@media (max-width: 767px) {
+  .history__story-info {
+    max-width: 172px;
+    row-gap: 6px;
+  }
+}
+
