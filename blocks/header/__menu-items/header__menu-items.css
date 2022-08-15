@@ -1,0 +1,30 @@
+.header__menu-items {
+  display: grid;
+  padding-top: 40px;
+  list-style-type: none;
+  padding-inline-start: 0;
+  grid-template-columns:
+    minmax(min-content, 345px) minmax(min-content, 350px) minmax(
+      min-content,
+      340px
+    )
+    3fr;
+}
+
+@media screen and (max-width: 1439px) {
+  .header__menu-items {
+    grid-template-columns: minmax(min-content, 237px) minmax(min-content, 238px) minmax(
+        min-content,
+        250px
+      );
+    row-gap: 35px;
+    padding-top: 32px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__menu-items {
+    display: flex;
+    flex-direction: column;
+  }
+}

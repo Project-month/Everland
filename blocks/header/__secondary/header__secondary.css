@@ -1,4 +1,5 @@
 .header__secondary {
+  min-height: 50px;
 }
 
 @media screen and (max-width: 1439px) {

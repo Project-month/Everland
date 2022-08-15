@@ -1,0 +1,17 @@
+.header__burger {
+  grid-area: burger;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding-left: 90px;
+}
+
+@media screen and (max-width: 1439px) {
+  .header__burger {
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: 10px;
+    padding-left: 14px;
+  }
+}

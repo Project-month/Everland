@@ -1,0 +1,15 @@
+.header__submenu-items {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding-inline-start: 0;
+  padding-top: 30px;
+  gap: 20px;
+}
+
+@media screen and (max-width: 1439px) {
+  .header__submenu-items {
+    padding-top: 24px;
+    gap: 16px;
+  }
+}
