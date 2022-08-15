@@ -19,6 +19,19 @@
 @import url(../blocks/button/_theme/button_theme_primary.css);
 @import url(../blocks/button/_theme/button_theme_secondary.css);
 @import url(../blocks/button/_theme/button_theme_secondary-black.css);
+@import url(../blocks/button/_theme/button_place_news-section.css);
+
+/* Sections News */
+@import url(../blocks/news/news.css);
+@import url(../blocks/news/title/news__title.css);
+@import url(../blocks/news/information/news__information.css);
+@import url(../blocks/news/topic/news__topic.css);
+@import url(../blocks/news/card/news__card.css);
+@import url(../blocks/news/topic-image/news__topic-image.css);
+@import url(../blocks/news/topic-title/news__topic-title.css);
+@import url(../blocks/news/topic-subtitle/news__topic-subtitle.css);
+@import url(../blocks/news/text/news__text.css);
+@import url(../blocks/news/topic-date/news__topic-date.css);
 
 /* Logo */
 @import url(../blocks/logo/logo.css);
