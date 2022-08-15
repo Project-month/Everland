@@ -35,6 +35,7 @@
 @import url(../blocks/accordion/__description/_close/accordion__description_close.css);
 
 @import url(../blocks/accordion/__button/accordion__button.css);
+@import url(../blocks/accordion/__button/_close/accordion__button_close.css);
 @import url(../blocks/accordion/__button/_theme/accordion__button_theme_orange.css);
 @import url(../blocks/accordion/__button/_theme/accordion__button_theme_green.css);
 @import url(../blocks/accordion/__button/_theme/accordion__button_theme_purple.css);

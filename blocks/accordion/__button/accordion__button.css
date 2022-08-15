@@ -20,6 +20,13 @@
   transition: 0.5s;
 }
 
+.accordion__button:hover{
+  background-color: #0C4BA0;
+}
+.accordion__button:hover .accordion__button-icon{
+  stroke: white;
+}
+
 .accordion__button:disabled{
   cursor: auto;
   background-color: #C4C4C4;
@@ -28,7 +35,5 @@
   stroke: #262626;
 }
 
-.accordion__button_close .accordion__button-icon{
-  transform: rotate(45deg);
-}
+
 
