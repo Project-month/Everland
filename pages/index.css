@@ -19,6 +19,18 @@
 @import url(../blocks/button/_theme/button_theme_primary.css);
 @import url(../blocks/button/_theme/button_theme_secondary.css);
 @import url(../blocks/button/_theme/button_theme_secondary-black.css);
+@import url(../blocks/button/__click-back/button__click-back.css);
+@import url(../blocks/button/__click-forward/button__click-forward.css);
+
+/*Capital*/
+@import url(../blocks/optimization/optimization.css);
+@import url(../blocks/capital/capital.css);
+@import url(../blocks/capital/__image-one/capital__image-one.css);
+@import url(../blocks/capital/__image-two/capital__image-two.css);
+@import url(../blocks/capital/__slide/capital__slide.css);
+@import url(../blocks/capital/__subtitle/capital__subtitle.css);
+@import url(../blocks/capital/__title/capital__title.css);
+@import url(../blocks/capital/__everland/capital__everland.css);
 
 /*Forwhom*/
 @import url(../blocks/forwhom/forwhom.css);

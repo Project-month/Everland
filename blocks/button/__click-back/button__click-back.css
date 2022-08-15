@@ -1,0 +1,19 @@
+.button__click-back {
+  background-color: #0C4BA0;
+  background-image: url(../../../images/icon/arrow_back.svg);
+  background-size: 17px 17px;
+  width: 35px;
+  height: 35px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 10px;
+  border: none;
+}
+ @media screen and (max-width: 1439px) {
+  .button__click-back {
+    background-size: 10px 10px;
+    width: 24px;
+    height: 24px;
+    border-radius: 6px;
+  }
+ }

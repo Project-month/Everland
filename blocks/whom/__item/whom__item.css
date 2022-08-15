@@ -18,5 +18,6 @@
 @media screen and (max-width: 767px) {
   .whom__item {
     min-height: 293px;
+    max-width: 300px;
   }
 }

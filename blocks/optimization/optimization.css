@@ -1,19 +1,22 @@
-.wrapper {
+.optimization {
   box-sizing: border-box;
   margin: 0 auto;
   max-width: 1440px;
   margin-left: 40px;
+  margin-right: 40px;
 }
 
 @media screen and (max-width: 1439px) {
-  .wrapper {
+  .optimization {
     max-width: 768px;
+    margin-left: 40px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .wrapper {
+  .optimization {
     max-width: 320px;
     margin-left: 10px;
+    margin-right: 9px;
   }
 }

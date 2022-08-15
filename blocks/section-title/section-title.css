@@ -1,5 +1,6 @@
 .section-title {
   margin-bottom: 50px;
+  letter-spacing: -0.01em;
 }
 
 @media screen and (max-width: 1439px) {
@@ -11,5 +12,6 @@
 @media screen and (max-width: 767px) {
   .section-title {
     margin-bottom: 24px;
+    letter-spacing: -0.02em;
   }
 }

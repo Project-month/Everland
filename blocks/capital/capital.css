@@ -1,0 +1,16 @@
+.capital {
+  padding-top: 50px;
+  position: relative;
+}
+
+@media screen and (max-width: 1439px) {
+  .capital {
+    padding-top: 56px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .capital {
+    padding-top: 50px;
+  }
+}
