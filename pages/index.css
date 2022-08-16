@@ -21,6 +21,13 @@
 @import url(../blocks/button/_theme/button_theme_secondary-black.css);
 @import url(../blocks/button/_theme/button_place_news-section.css);
 
+/* Navigation */
+
+@import url(../blocks/navigation/navigation.css);
+@import url(../blocks/navigation/__menu/navigation__menu.css);
+@import url(../blocks/navigation/__menu-item/navigation__menu-item.css);
+@import url(../blocks/navigation/__link/navigation__link.css);
+
 /* History */
 @import url(../blocks/history/history.css);
 @import url(../blocks/history/__main/history__main.css);
