@@ -1,0 +1,23 @@
+.agency__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style-type: none;
+  margin-block: 0;
+  padding-inline: 0;
+  padding-top: 50px;
+  gap: 30px 20px
+}
+
+@media (max-width: 1439px) {
+  .agency__cards {
+    padding-top: 22px;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .agency__cards {
+    padding-top: 24px;
+  }
+}

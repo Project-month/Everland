@@ -102,6 +102,17 @@
 @import url(../blocks/history/__audio/history__audio.css);
 @import url(../blocks/history/__audio-info/history__audio-info.css);
 
+/* Agency */
+
+@import url(../blocks/agency/agency.css);
+@import url(../blocks/agency/__content/agency__content.css);
+@import url(../blocks/agency/__subtitle/agency__subtitle.css);
+@import url(../blocks/agency/__cards/agency__cards.css);
+@import url(../blocks/agency/__card/agency__card.css);
+@import url(../blocks/agency/__card/_view/agency__card_view_hidden.css);
+@import url(../blocks/agency/__card-image/agency__card-image.css);
+@import url(../blocks/agency/__button/agency__button.css);
+
 /* Sections News */
 @import url(../blocks/news/news.css);
 @import url(../blocks/news/title/news__title.css);
