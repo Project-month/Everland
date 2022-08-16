@@ -1,0 +1,18 @@
+.button_place_foto-project-section {
+  grid-area: button_place_foto-project-section;
+  grid-row: 4;
+  grid-column: 1;
+
+}
+
+@media screen and (max-width: 767px) {
+  .button_place_foto-project-section {
+
+  }
+}
+
+@media screen and (max-width: 1439px) {
+  .button_place_foto-project-section {
+
+  }
+}

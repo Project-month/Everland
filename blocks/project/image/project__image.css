@@ -1,0 +1,6 @@
+.project__image {
+  max-width: 555px;
+  max-height: 393px;
+  grid-row: 1/4;
+  grid-column: 3;
+}

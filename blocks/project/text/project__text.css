@@ -1,0 +1,6 @@
+.project__text {
+box-sizing: border-box;
+grid-row: 2/3;
+grid-column: 1;
+width: 603px;
+}

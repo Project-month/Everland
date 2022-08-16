@@ -22,6 +22,9 @@
 @import url(../blocks/button/_place/button_place_news-section.css);
 @import url(../blocks/button/__click-back/button__click-back.css);
 @import url(../blocks/button/__click-forward/button__click-forward.css);
+@import url(../blocks/button/_place/button_place_foto-project-section.css);
+@import url(../blocks/button/_theme/button_theme_black_click-back.css);
+@import url(../blocks/button/_theme/button_theme_black_click-forward.css);
 
 /* Navigation */
 @import url(../blocks/navigation/navigation.css);
@@ -176,20 +179,11 @@
 @import url(../blocks/footer/__yandex-praktikum/footer__yandex-praktikum.css);
 @import url(../blocks/footer/__yandex-praktikum-logo/footer__yandex-praktikum-logo.css);
 
-body {
-  padding: 0;
-  margin: 0;
-  text-rendering: optimizeLegibility;
-  position: relative;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-
-main {
-  flex: 1;
-}
-
-footer {
-  flex-shrink: 0;
-}
+/* Photo project "Family as a family" */
+@import url(../blocks/project/project.css);
+@import url(../blocks/project/container/project__container.css);
+@import url(../blocks/project/topic/project__topic.css);
+@import url(../blocks/project/topic-title/project__topic-title.css);
+@import url(../blocks/project/topic-subtitle/project__topic-subtitle.css);
+@import url(../blocks/project/image/project__image.css);
+@import url(../blocks/project/text/project__text.css);
