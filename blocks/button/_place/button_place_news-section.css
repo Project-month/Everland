@@ -1,20 +1,17 @@
 .button_place_news-section {
   width: 200px;
-}
-
-@media screen and (max-width: 767px) {
-  .button_place_news-section {
-    width: 300px;
-  }
-}
-
-.button_place_news-section {
   grid-area: button_place_news-section;
   margin: 0 0 50px;
   display: block;
   grid-row: 1;
   grid-column: 2/3;
   justify-self: end;
+}
+
+@media screen and (max-width: 767px) {
+  .button_place_news-section {
+    width: 300px;
+  }
 }
 
 @media screen and (max-width: 1439px) {
