@@ -1,0 +1,27 @@
+.capital__image-one {
+  width: 392px;
+  height: 407px;
+  position: absolute;
+  top: 158px;
+  right: 168px;
+  border-radius: 10px;
+  z-index: -1;
+}
+
+@media screen and (max-width: 1439px) {
+  .capital__image-one {
+    width: 170px;
+    height: 175px;
+    top: 110px;
+    right: 114px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .capital__image-one {
+    width: 170px;
+    height: 160px;
+    left: 11px;
+    top: 286px;
+  }
+}

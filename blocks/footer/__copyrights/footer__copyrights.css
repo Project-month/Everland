@@ -1,0 +1,16 @@
+.footer__copyrights {
+  grid-area: copyrights;
+  padding-top: 20px;
+}
+
+@media screen and (max-width: 1439px) {
+  .footer__copyrights {
+    padding-top: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__copyrights {
+    padding-top: 8px;
+  }
+}

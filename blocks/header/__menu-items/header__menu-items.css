@@ -1,0 +1,30 @@
+.header__menu-items {
+  display: grid;
+  padding-top: 40px;
+  list-style-type: none;
+  padding-inline-start: 0;
+  grid-template-columns: repeat(4, 3fr);
+  grid-template-rows: repeat(5, minmax(min-content, max-content));
+  column-gap: 20px;
+  margin-block-start: 0;
+}
+
+@media screen and (max-width: 1439px) {
+  .header__menu-items {
+    grid-template-columns: repeat(3, 2fr);
+    grid-template-rows: repeat(1, minmax(min-content, max-content));
+    grid-auto-rows: 2fr 4fr;
+    column-gap: 20px;
+    row-gap: 24px;
+    padding-top: 32px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__menu-items {
+    display: flex;
+    flex-direction: column;
+    padding-top: 18px;
+    gap: 22px;
+  }
+}
