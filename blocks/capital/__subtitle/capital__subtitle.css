@@ -1,0 +1,22 @@
+.capital__subtitle {
+  line-height: 1.3;
+  max-width: 543px;
+  min-height: 78px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 1439px) {
+  .capital__subtitle {
+    line-height: 1.2;
+    max-width: 401px;
+    min-height: 57px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .capital__subtitle {
+    max-width: 294px;
+    min-height: 68px;
+    margin-top: 16px;
+  }
+}

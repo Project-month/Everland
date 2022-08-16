@@ -1,0 +1,26 @@
+.header__content {
+  display: grid;
+  grid-template-columns: minmax(min-content, max-content) 1fr minmax(
+      min-content,
+      max-content
+    );
+  grid-template-areas: "logo burger links";
+  grid-template-rows: 80px;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+@media screen and (max-width: 1439px) {
+  .header__content {
+    grid-template-areas: "logo links burger";
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__content {
+    grid-template-columns: repeat(2, minmax(min-content, max-content));
+    grid-template-areas: "logo burger";
+    grid-template-rows: 54px;
+  }
+}

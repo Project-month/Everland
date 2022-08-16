@@ -6,8 +6,11 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 130%;
+  -webkit-font-feature-settings: "pnum" on, "lnum" on;
   font-feature-settings: "pnum" on, "lnum" on;
+  -o-text-overflow: ellipsis;
   text-overflow: ellipsis;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   overflow: hidden;
   text-overflow: ellipsis;

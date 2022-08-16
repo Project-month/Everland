@@ -1,0 +1,5 @@
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .cards__investment_correction {
+    min-height: 215px;
+  }
+}
