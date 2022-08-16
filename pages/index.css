@@ -48,9 +48,9 @@
 @import url(../blocks/agency/__subtitle/agency__subtitle.css);
 @import url(../blocks/agency/__cards/agency__cards.css);
 @import url(../blocks/agency/__card/agency__card.css);
+@import url(../blocks/agency/__card/_view/agency__card_view_hidden.css);
 @import url(../blocks/agency/__card-image/agency__card-image.css);
 @import url(../blocks/agency/__button/agency__button.css);
-@import url(../blocks/agency/__card/_view/agency__card_view_hiden.css);
 
 /* Sections News */
 @import url(../blocks/news/news.css);

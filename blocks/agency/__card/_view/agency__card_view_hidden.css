@@ -1,11 +1,11 @@
 @media (max-width: 1439px) {
-  .agency__card_view_hiden {
+  .agency__card_view_hidden {
     display: none;
   }
 }
 
 @media (max-width: 767px) {
-  .agency__card_view_hiden {
+  .agency__card_view_hidden {
     display: block;
   }
 }
