@@ -1,0 +1,10 @@
+.history__button {
+  background: #E7F0FF;
+  border-radius: 10px;
+  border: none;
+  box-sizing: border-box;
+  cursor: pointer;
+  padding: 12px 10px;
+  transition: all 0.2s ease-in-out;
+  color: #0c4ba0;
+}

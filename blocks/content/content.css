@@ -3,18 +3,21 @@
   margin: 0 auto;
   max-width: 1440px;
   padding-left: 40px;
+  padding-right: 40px;
   width: 100%;
 }
 
-@media screen and (max-width: 1439px) {
+@media screen and (max-width: 767px) {
   .content {
     padding-left: 10px;
     padding-right: 10px;
   }
 }
 
-@media screen and (max-width: 767px) {
+
+@media (max-width: 767px) {
   .content {
     padding-left: 10px;
+    padding-right: 10px;
   }
 }
