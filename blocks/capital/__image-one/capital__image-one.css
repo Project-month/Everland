@@ -2,7 +2,7 @@
   width: 392px;
   height: 407px;
   position: absolute;
-  top: 209px;
+  top: 158px;
   right: 168px;
   border-radius: 10px;
   z-index: -1;
@@ -12,7 +12,7 @@
   .capital__image-one {
     width: 170px;
     height: 175px;
-    top: 167px;
+    top: 110px;
     right: 114px;
   }
 }
@@ -22,6 +22,6 @@
     width: 170px;
     height: 160px;
     left: 11px;
-    top: 336px;
+    top: 286px;
   }
 }

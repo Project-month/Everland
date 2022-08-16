@@ -37,6 +37,7 @@
 
 /*Whom*/
 @import url(../blocks/whom/whom.css);
+@import url(../blocks/fit/fit.css);
 @import url(../blocks/whom/__description/whom__description.css);
 @import url(../blocks/whom/__icon/whom__icon.css);
 @import url(../blocks/whom/__item/whom__item.css);

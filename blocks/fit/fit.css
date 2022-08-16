@@ -1,15 +1,13 @@
-.optimization {
-  position: relative;
-}
-
 @media screen and (max-width: 1439px) {
-  .optimization {
+  .fit {
     max-width: 768px;
+    padding-left: 158px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .optimization {
+  .fit {
     max-width: 320px;
+    padding-left: 10px;
   }
 }
