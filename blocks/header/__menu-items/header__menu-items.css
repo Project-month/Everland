@@ -3,21 +3,23 @@
   padding-top: 40px;
   list-style-type: none;
   padding-inline-start: 0;
-  grid-template-columns:
-    minmax(min-content, 345px) minmax(min-content, 350px) minmax(
-      min-content,
-      340px
-    )
-    3fr;
+  grid-template-columns: repeat(4, 3fr);
+  grid-template-rows: repeat(5, minmax(min-content, max-content));
+  column-gap: 20px;
+
 }
 
 @media screen and (max-width: 1439px) {
   .header__menu-items {
-    grid-template-columns: minmax(min-content, 237px) minmax(min-content, 238px) minmax(
-        min-content,
-        250px
-      );
-    row-gap: 35px;
+    grid-template-columns: repeat(3, 2fr);
+    grid-template-rows: repeat(1, minmax(min-content, max-content));
+    grid-auto-rows: 2fr 4fr;
+    grid-template-areas: 
+      "menu menu menu"
+      "menu menu ."
+      "menu menu .";
+    column-gap: 20px;
+    row-gap: 24px;
     padding-top: 32px;
   }
 }
@@ -26,5 +28,6 @@
   .header__menu-items {
     display: flex;
     flex-direction: column;
+    padding-top: 20px;
   }
 }

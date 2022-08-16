@@ -36,11 +36,16 @@
 @import url(../blocks/header/__burger-text/header__burger-text.css);
 @import url(../blocks/header/__menu-items/header__menu-items.css);
 @import url(../blocks/header/__menu-item/header__menu-item.css);
+@import url(../blocks/header/__menu-item/_with-submenu/header__menu-item_with-submenu.css);
+
+@import url(../blocks/header/__menu-item/_place/header__menu-item_place_row2col1.css);
+@import url(../blocks/header/__menu-item/_place/header__menu-item_place_row2col2.css);
+@import url(../blocks/header/__menu-item/_place/header__menu-item_place_row3col1.css);
+@import url(../blocks/header/__menu-item/_place/header__menu-item_place_row3col2.css);
+
 @import url(../blocks/header/__submenu-items/header__submenu-items.css);
 @import url(../blocks/header/__submenu-item/header__submenu-item.css);
 
-@import url(../blocks/header/__primary-menu/header__primary-menu.css);
-@import url(../blocks/header/__primary-menu-items/header__primary-menu-items.css);
 
 @import url(../blocks/header/__secondary/header__secondary.css);
 @import url(../blocks/header/__secondary-menu/header__secondary-menu.css);
