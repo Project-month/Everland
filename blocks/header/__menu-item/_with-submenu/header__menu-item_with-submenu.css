@@ -8,3 +8,11 @@
         padding-bottom: 40px;
     }
 }
+
+@media screen and (max-width: 767px) {
+    .header__menu-item_with-submenu {
+        grid-row: unset;
+        padding-bottom: 0;
+        position: relative;
+    }
+}

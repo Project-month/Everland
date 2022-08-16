@@ -32,10 +32,16 @@
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__burger/header__burger.css);
 @import url(../blocks/header/__burger-toggler/header__burger-toggler.css);
+
 @import url(../blocks/header/__burger-button/header__burger-button.css);
 @import url(../blocks/header/__burger-text/header__burger-text.css);
+
 @import url(../blocks/header/__menu-items/header__menu-items.css);
 @import url(../blocks/header/__menu-item/header__menu-item.css);
+@import url(../blocks/header/__menu-item-title/header__menu-item-title.css);
+@import url(../blocks/header/__menu-item-arrow/header__menu-item-arrow.css);
+@import url(../blocks/header/__menu-item-toggler/header__menu-item-toggler.css);
+
 @import url(../blocks/header/__menu-item/_with-submenu/header__menu-item_with-submenu.css);
 
 @import url(../blocks/header/__menu-item/_place/header__menu-item_place_row2col1.css);

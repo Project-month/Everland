@@ -13,3 +13,11 @@
     gap: 16px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .header__submenu-items {
+    display: none;
+    padding-top: 24px;
+    gap: 16px;
+  }
+}
