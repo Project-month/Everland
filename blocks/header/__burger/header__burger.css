@@ -13,5 +13,18 @@
     justify-content: flex-end;
     gap: 10px;
     padding-left: 14px;
+    padding-right: 2px;
+    padding-bottom: 2px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .header__burger {
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: 0;
+    padding-top: 8px;
+    padding-right: 0;
+  }
+}
+

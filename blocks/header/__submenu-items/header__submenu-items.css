@@ -17,7 +17,8 @@
 @media screen and (max-width: 767px) {
   .header__submenu-items {
     display: none;
-    padding-top: 24px;
-    gap: 16px;
+    padding-top: 26px;  
+    gap: 10px;
+    padding-bottom: 2px;
   }
 }

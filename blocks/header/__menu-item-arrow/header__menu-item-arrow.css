@@ -4,7 +4,7 @@
     height: 7px;
     border-top: 2px solid #333333;
     border-right: 2px solid #333333; 
-    transform: rotate(-45deg);
+    transform: rotate(-225deg);
     transition-duration: 0.25s; 
     position: static;
 }
@@ -13,8 +13,8 @@
     .header__menu-item-arrow {
       display: inline;
       position: absolute;
-      top: 0;
-      right: 7px;
+      top: 4px;
+      right: 8px;
     }
   }
   

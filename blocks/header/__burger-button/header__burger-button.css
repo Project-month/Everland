@@ -44,6 +44,12 @@
   top: 10px;
 }
 
+@media screen and (max-width: 1439px) {
+  .header__burger-button {
+    padding-bottom: 3px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .header__burger-button {
     height: 16px;
