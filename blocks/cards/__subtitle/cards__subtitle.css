@@ -1,0 +1,17 @@
+.cards__subtitle {
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1439px) {
+  .cards__subtitle {
+    margin-bottom: 10px;
+    margin-right: 45px;
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cards__subtitle {
+    font-size: 18px;
+  }
+}

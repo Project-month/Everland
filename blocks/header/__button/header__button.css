@@ -1,0 +1,12 @@
+.header__button {
+  display: flex;
+  text-decoration: none;
+  min-width: 180px;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1439px) {
+  .header__button {
+    min-width: 134px;
+  }
+}

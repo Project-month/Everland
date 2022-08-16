@@ -1,0 +1,28 @@
+.header__navigation {
+  box-sizing: border-box;
+  background-color: white;
+  display: none;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  min-height: 520px;
+  z-index: 1;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+@media screen and (max-width: 1439px) {
+  .header__navigation {
+    min-height: 507px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__navigation {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}

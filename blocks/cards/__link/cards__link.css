@@ -1,0 +1,10 @@
+.cards__link {
+  max-width: 165px;
+  height: 48px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  text-decoration: none;
+  align-items: center;
+  display: flex;
+}

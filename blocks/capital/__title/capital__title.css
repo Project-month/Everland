@@ -1,0 +1,21 @@
+.capital__title {
+  max-width: 845px;
+  min-height: 258px;
+  letter-spacing: -0.02em;
+}
+
+@media screen and (max-width: 1439px) {
+  .capital__title {
+    max-width: 446px;
+    min-height: 138px;
+    letter-spacing: -0.03em;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .capital__title {
+    max-width: 304px;
+    min-height: 136px;
+    letter-spacing: -0.05em;
+  }
+}
