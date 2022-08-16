@@ -1,0 +1,17 @@
+.accordion{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+  width: 670px;
+  height: fit-content;
+
+
+  padding: 29px 20px;
+
+  box-sizing: border-box;
+
+  border: solid 2px #DADADA;
+  border-radius: 30px;
+}

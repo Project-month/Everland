@@ -82,6 +82,31 @@
 @import url(../blocks/cards/__subtitle/_correction/cards__subtitle_correction.css);
 @import url(../blocks/cards/__text/cards__text.css);
 
+/* In work */
+@import url(../blocks/in-work/in-work.css);
+
+/*Accordion*/
+@import url(../blocks/accordion/accordion.css);
+@import url(../blocks/accordion/_theme/accordion_theme_green.css);
+@import url(../blocks/accordion/_theme/accordion_theme_orange.css);
+@import url(../blocks/accordion/_theme/accordion_theme_blue.css);
+@import url(../blocks/accordion/_theme/accordion_theme_purple.css);
+
+@import url(../blocks/accordion/__title/accordion__title.css);
+@import url(../blocks/accordion/__description/accordion__description.css);
+@import url(../blocks/accordion/__description/_close/accordion__description_close.css);
+
+@import url(../blocks/accordion/__button/accordion__button.css);
+@import url(../blocks/accordion/__button/_close/accordion__button_close.css);
+@import url(../blocks/accordion/__button/_theme/accordion__button_theme_orange.css);
+@import url(../blocks/accordion/__button/_theme/accordion__button_theme_green.css);
+@import url(../blocks/accordion/__button/_theme/accordion__button_theme_purple.css);
+
+@import url(../blocks/accordion/__button-icon/accordion__button-icon.css);
+
+/* Accordions */
+@import url(../blocks/accordions/accordions.css);
+
 /* History */
 @import url(../blocks/history/history.css);
 @import url(../blocks/history/__main/history__main.css);
@@ -103,7 +128,6 @@
 @import url(../blocks/history/__audio-info/history__audio-info.css);
 
 /* Agency */
-
 @import url(../blocks/agency/agency.css);
 @import url(../blocks/agency/__content/agency__content.css);
 @import url(../blocks/agency/__subtitle/agency__subtitle.css);
@@ -113,7 +137,7 @@
 @import url(../blocks/agency/__card-image/agency__card-image.css);
 @import url(../blocks/agency/__button/agency__button.css);
 
-/* Sections News */
+/* News */
 @import url(../blocks/news/news.css);
 @import url(../blocks/news/title/news__title.css);
 @import url(../blocks/news/information/news__information.css);
@@ -175,21 +199,3 @@
 @import url(../blocks/footer/__copyrights/footer__copyrights.css);
 @import url(../blocks/footer/__yandex-praktikum/footer__yandex-praktikum.css);
 @import url(../blocks/footer/__yandex-praktikum-logo/footer__yandex-praktikum-logo.css);
-
-body {
-  padding: 0;
-  margin: 0;
-  text-rendering: optimizeLegibility;
-  position: relative;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-
-main {
-  flex: 1;
-}
-
-footer {
-  flex-shrink: 0;
-}
