@@ -1,0 +1,20 @@
+.whom {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 440px);
+  gap: 20px;
+}
+
+@media screen and (max-width: 1439px) {
+  .whom {
+    grid-template-columns: repeat(auto-fit, 450px);
+  }
+}
+@media screen and (max-width: 767px) {
+  .whom {
+    grid-template-columns: repeat(auto-fit, 300px);
+    gap: 16px;
+  }
+}

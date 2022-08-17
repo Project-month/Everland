@@ -1,0 +1,23 @@
+.footer__contacts {
+  grid-area: contacts;
+  display: flex;
+  padding: 15px 0 0;
+  gap: 45px;
+}
+
+@media screen and (max-width: 1439px) {
+  .footer__contacts {
+    gap: 10px;
+    padding: 0;
+    flex-wrap: wrap;
+  }
+}
+
+/* Нижестоящее правило не нужно, оставил чтобы визуально быстро понять что для "мобилок" этот элемент обработан */
+@media screen and (max-width: 767px) {
+  .footer__contacts {
+    flex-direction: column;
+    gap: 9px;
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,20 @@
+.footer__project-description {
+  display: flex;
+  flex-direction: column;
+  grid-area: description;
+  min-width: 300px;
+}
+
+@media screen and (max-width: 1439px) {
+  .footer__project-description {
+    grid-template-columns: 3fr 3fr;
+    min-width: none;
+  }
+}
+
+/* Нижестоящее правило не нужно, оставил чтобы визуально быстро понять что для "мобилок" этот элемент обработан */
+@media screen and (max-width: 767px) {
+  .footer__project-description {
+    min-width: none;
+  }
+}

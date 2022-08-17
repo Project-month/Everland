@@ -1,0 +1,23 @@
+.history__card-small {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+
+@media (max-width: 1439px) {
+  .history__card-small {
+    padding-bottom: 0px;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .history__card-small {
+    flex-direction: column;
+    gap: 16px;
+    padding-bottom: 0px;
+  }
+}
