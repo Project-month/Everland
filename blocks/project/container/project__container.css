@@ -16,6 +16,30 @@
   box-sizing: border-box;
   overflow: hidden;
   text-overflow: ellipsis;
+
+  /*слайдер*/
+  position: relative;
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+      opacity: .4
+  }
+  to {
+      opacity: 1
+  }
+}
+@keyframes fade {
+  from {
+      opacity: .4
+  }
+  to {
+      opacity: 1
+  }
 }
 
 @media screen and (max-width: 1439px) {
@@ -36,3 +60,5 @@
     min-height: 496px;
   }
 }
+
+
