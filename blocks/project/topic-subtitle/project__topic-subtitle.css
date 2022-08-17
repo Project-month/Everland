@@ -1,7 +1,7 @@
 .project__topic-subtitle {
- /* grid-area: project__topic-subtitle; */
- /* grid-row: 2/3;
- grid-column: 1; */
-
-
+ grid-area: project__topic-subtitle;
+ grid-row: 3/3;
+ grid-column: 1;
+ width: 427px;
+padding-bottom: 8px;
 }

@@ -2,6 +2,10 @@
   grid-area: button_place_foto-project-section;
   grid-row: 4;
   grid-column: 1;
+width: 194px;
+height: 48px;
+justify-self: start;
+align-self: end;
 
 }
 

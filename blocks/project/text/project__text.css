@@ -1,6 +1,17 @@
 .project__text {
-box-sizing: border-box;
-grid-row: 2/3;
-grid-column: 1;
-width: 603px;
+  grid-area: buttons;
+  box-sizing: border-box;
+  grid-row: 1/5;
+  grid-column: 2;
+  margin-right: 4px;
+  justify-self: center;
+  align-self: end;
+  height: 35px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-self: start;
 }
+
+/* width: 603px; */
+/* height: 154px; */

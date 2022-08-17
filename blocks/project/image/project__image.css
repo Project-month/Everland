@@ -1,6 +1,20 @@
 .project__image {
   max-width: 555px;
   max-height: 393px;
-  grid-row: 1/4;
+  grid-row: 1/5;
   grid-column: 3;
+  justify-self: end;
+  /* background-image: url(../../../images/Image_fpf.png); */
+
 }
+
+/* @media screen and (max-width: 1439px) {
+  .project__image {
+    width: 259px;
+    height: 284px;
+    background-position: center;
+
+    border-radius: 10px;
+    background-size: cover;
+  }
+} */
