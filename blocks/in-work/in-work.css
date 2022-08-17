@@ -2,13 +2,13 @@
   padding-top: 150px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1439px) {
   .in-work{
     padding-top: 100px;
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 767px) {
   .in-work{
     padding-top: 64px;
   }

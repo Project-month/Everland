@@ -36,7 +36,7 @@
   stroke: #262626;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1439px) {
   .accordion__button {
     width: 32px;
     height: 32px;
