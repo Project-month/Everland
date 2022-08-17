@@ -12,14 +12,19 @@
     "project__topic-title"
     "project__topic-subtitle"
     "buttons";
-  margin-top: 150px;
-  justify-items: start;
-  align-items: start;
+  /* margin-top: 150px; */
+  margin: 0 auto;
+  /* justify-items: start;
+  align-items: start; */
+  box-sizing: border-box;
 }
 
-/* @media screen and (max-width: 1439px) {
+@media screen and (max-width: 1439px) {
   .project__container {
-    grid-template-columns: minmax(339px) minmax(42px) minmax(259px);
+    grid-template-columns: minmax(320px) minmax(259px);
+    /* grid-template-columns: repeat(auto-fit, 2fr); */
+    border-radius: 20px;
+    width: 688px;
   }
 }
 
@@ -27,4 +32,4 @@
   .project__container {
 
   }
-} */
+}

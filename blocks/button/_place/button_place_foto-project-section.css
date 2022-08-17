@@ -2,21 +2,20 @@
   grid-area: button_place_foto-project-section;
   grid-row: 4;
   grid-column: 1;
-width: 194px;
-height: 48px;
-justify-self: start;
-align-self: end;
-
+  width: 194px;
+  /* height: 48px; */
+  justify-self: start;
+  align-self: end;
+  /* margin: 0;
+  padding: 0; */
 }
 
 @media screen and (max-width: 767px) {
   .button_place_foto-project-section {
-
   }
 }
 
 @media screen and (max-width: 1439px) {
   .button_place_foto-project-section {
-
   }
 }

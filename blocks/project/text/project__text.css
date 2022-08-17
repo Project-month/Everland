@@ -9,9 +9,19 @@
   height: 35px;
   margin: 0;
   padding: 0;
-  display: flex;
+  /* display: flex; */
   justify-self: start;
 }
 
-/* width: 603px; */
-/* height: 154px; */
+@media screen and (max-width: 1439px) {
+  .project__text {
+    grid-column: 1;
+    grid-row: 1/5;
+    justify-self: end;
+    height: 24px;
+    margin-right: 12px;
+    /* height: 0; */
+    /* margin-right: 35px; */
+
+  }
+}

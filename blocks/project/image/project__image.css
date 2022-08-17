@@ -1,20 +1,25 @@
 .project__image {
-  max-width: 555px;
-  max-height: 393px;
+  width: 555px;
+  height: 393px;
   grid-row: 1/5;
   grid-column: 3;
   justify-self: end;
-  /* background-image: url(../../../images/Image_fpf.png); */
+
+  /*version-2*/
+  background-image: url(../../../images/Image_fpf.png);
+  border-radius: 30px;
+  background-size: cover;
+  background-position: center;
 
 }
 
-/* @media screen and (max-width: 1439px) {
+@media screen and (max-width: 1439px) {
   .project__image {
+    background-image: url(../../../images/Imageqwe.png); /*Изображение на фото тоже самое, но сама фотография другая (первый вариант не подходит под Perfect-Pixel)*/
     width: 259px;
     height: 284px;
-    background-position: center;
-
     border-radius: 10px;
-    background-size: cover;
+    grid-column: 2;
+    /* box-sizing: content-box; */
   }
-} */
+}

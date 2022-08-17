@@ -1,6 +1,8 @@
 .button_theme_black_click-back {
   background-color: rgb(51, 51, 51);
   margin-right: 8px;
+  cursor: pointer;
+
   /* grid-area: buttons;
   grid-row: 1/5;
   grid-column: 2;
@@ -10,3 +12,12 @@
 
 }
 
+
+@media screen and (max-width: 1439px) {
+  .button_theme_black_click-back {
+    width: 24px;
+    height: 24px;
+    /* margin-right: 35px; */
+
+  }
+}

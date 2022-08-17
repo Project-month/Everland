@@ -1,7 +1,13 @@
 .project__topic-subtitle {
- grid-area: project__topic-subtitle;
- grid-row: 3/3;
- grid-column: 1;
- width: 427px;
-padding-bottom: 8px;
+  grid-area: project__topic-subtitle;
+  grid-row: 3/3;
+  grid-column: 1;
+  width: 427px;
+  padding-bottom: 8px;
+}
+
+@media screen and (max-width: 1439px) {
+  .project__topic-subtitle {
+    max-width: 315px;
+  }
 }
