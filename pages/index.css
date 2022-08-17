@@ -107,6 +107,20 @@
 /* Accordions */
 @import url(../blocks/accordions/accordions.css);
 
+/* Everland in numbers*/
+@import url(../blocks/everland-in-numbers/everland-in-numbers.css);
+@import url(../blocks/section-group/section-group.css);
+@import url(../blocks/image/image.css);
+
+/* Numbers*/
+@import url(../blocks/numbers/numbers.css);
+@import url(../blocks/number/number.css);
+@import url(../blocks/number/__title/number__title.css);
+@import url(../blocks/number/__description/number__description.css);
+@import url(../blocks/number/__count/number__count.css);
+
+
+
 /* History */
 @import url(../blocks/history/history.css);
 @import url(../blocks/history/__main/history__main.css);

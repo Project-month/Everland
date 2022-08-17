@@ -1,0 +1,15 @@
+.everland-in-numbers{
+  padding-top: 150px;
+}
+
+@media screen and (max-width: 768px) {
+  .everland-in-numbers{
+    padding-top: 100px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .everland-in-numbers{
+    padding-top: 64px;
+  }
+}
