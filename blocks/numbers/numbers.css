@@ -1,6 +1,15 @@
 .numbers{
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  row-gap: 30px;
 
   width: 670px;
+}
+
+@media screen and (max-width: 768px) {
+  .numbers{
+    width: 688px;
+  }
 }
