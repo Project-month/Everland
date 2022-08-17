@@ -2,7 +2,7 @@
   margin-top: 23px;
 }
 
-@media screen and (max-width: 1439px) {
+@media screen and (max-width: 767px) {
   .donation-form__fieldset_for_amount {
     margin-top: 32px;
   }

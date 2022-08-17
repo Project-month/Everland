@@ -8,7 +8,7 @@
   }
 }
 
-@media screen and (max-width: 1439px) {
+@media screen and (max-width: 767px) {
   .donation-form__fieldset_for_data {
     margin-top: 19px;
   }
