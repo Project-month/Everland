@@ -4,13 +4,10 @@
   grid-row: 1/5;
   grid-column: 3;
   justify-self: end;
-
-  /*version-2*/
   background-image: url(../../../images/Image_fpf.png);
   border-radius: 30px;
   background-size: cover;
   background-position: center;
-
 }
 
 @media screen and (max-width: 1439px) {

@@ -1,4 +1,4 @@
-.project__text {
+.project__btn-wrapper {
   grid-area: buttons;
   box-sizing: border-box;
   grid-row: 1/5;
@@ -9,29 +9,23 @@
   height: 35px;
   margin: 0;
   padding: 0;
-  /* display: flex; */
   justify-self: start;
 }
 
 @media screen and (max-width: 1439px) {
-  .project__text {
+  .project__btn-wrapper {
     grid-column: 1;
     grid-row: 1/5;
     justify-self: end;
     height: 24px;
     margin-right: 12px;
-    /* height: 0; */
-    /* margin-right: 35px; */
-
   }
 }
 
-
 @media screen and (max-width: 767px) {
-  .project__text {
+  .project__btn-wrapper {
     grid-row: 1;
     grid-column: 1;
-    /* margin-bottom: 25px; */
     margin-right: 0px;
     align-self: flex-start;
   }

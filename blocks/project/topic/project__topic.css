@@ -4,8 +4,6 @@
   grid-column: 1;
   margin: 0;
   padding: 0;
-  /* justify-items: start;
-  align-items: start; */
   min-width: 167px;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -13,8 +11,6 @@
 
 @media screen and (max-width: 767px) {
   .project__topic {
-    /* margin-bottom: 24px; */
     font-size: 14px;
-
   }
 }

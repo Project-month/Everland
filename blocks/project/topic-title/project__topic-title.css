@@ -10,7 +10,6 @@
 @media screen and (max-width: 1439px) {
   .project__topic-title {
     width: 339px;
-
   }
 }
 
@@ -19,6 +18,5 @@
     grid-row: 3;
     width: 245px;
     margin-top: 14px;
-
   }
 }
