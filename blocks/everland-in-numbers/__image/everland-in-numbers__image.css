@@ -2,13 +2,13 @@
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 425px) and (max-width: 768px) {
   .everland-in-numbers__image{
     display: none;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 425px) {
   .everland-in-numbers__image{
     align-self: end;
   }
