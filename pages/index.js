@@ -51,15 +51,15 @@ function handleDonatFormSubmit(evt) {
   supportForm.scrollIntoView();
 }
 
+document.querySelectorAll('.accordion__button').forEach((button) => {
+  button.addEventListener('click', (evt) => closeDescription(evt));
+});
+
+donatForm.addEventListener('submit', handleDonatFormSubmit);
+
 if (
   document.documentElement.clientWidth >= 768 &&
   document.documentElement.clientWidth <= 1439
 ) {
   changeNameButtonNews();
 }
-
-document.querySelectorAll('.accordion__button').forEach((button) => {
-  button.addEventListener('click', (evt) => closeDescription(evt));
-});
-
-donatForm.addEventListener('submit', handleDonatFormSubmit);
