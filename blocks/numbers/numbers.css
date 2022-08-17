@@ -13,3 +13,11 @@
     width: 688px;
   }
 }
+
+@media screen and (max-width: 425px) {
+  .numbers{
+    gap: 16px;
+    row-gap: 16px;
+    width: 300px;
+  }
+}

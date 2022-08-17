@@ -13,3 +13,9 @@
     margin: 32px auto 0;
   }
 }
+
+@media screen and (max-width: 425px) {
+  .section-group{
+    margin: 24px auto 0;
+  }
+}
