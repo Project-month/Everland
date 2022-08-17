@@ -32,6 +32,9 @@
 /* Optimization */
 @import url(../blocks/optimization/optimization.css);
 
+/* Donat */
+@import url(../blocks/donat/donat.css);
+
 /* Capital */
 @import url(../blocks/capital/capital.css);
 @import url(../blocks/capital/__image-one/capital__image-one.css);
@@ -194,14 +197,17 @@
 
 /* Donation form */
 @import url(../blocks/donation-form/donation-form.css);
+@import url(../blocks/donation-form/_place/donation-form_place_donat.css);
 @import url(../blocks/donation-form/__check/donation-form__check.css);
 @import url(../blocks/donation-form/__radiobuttons-container/donation-form__radiobuttons-container.css);
+@import url(../blocks/donation-form/__radiobuttons-container/_for/donation-form__radiobuttons-container_for_donat.css);
 @import url(../blocks/donation-form/__radiobuttons-container/_for/donation-form__radiobuttons-container_for_methods.css);
 @import url(../blocks/donation-form/__radiobuttons-container/_for/donation-form__radiobuttons-container_for_amount.css);
 @import url(../blocks/donation-form/__radiobuttons-container/_for/donation-form__radiobuttons-container_for_frequency.css);
 @import url(../blocks/donation-form/__custom-check/donation-form__custom-check.css);
 @import url(../blocks/donation-form/__custom-radio/donation-form__custom-radio.css);
 @import url(../blocks/donation-form/__custom-radio/_for/donation-form__custom-radio_for_cards.css);
+@import url(../blocks/donation-form/__custom-radio/_for/donation-form__custom-radio_for_other-sum.css);
 @import url(../blocks/donation-form/__fieldset/donation-form__fieldset.css);
 @import url(../blocks/donation-form/__fieldset/_for/donation-form__fieldset_for_amount.css);
 @import url(../blocks/donation-form/__fieldset/_for/donation-form__fieldset_for_data.css);
@@ -223,6 +229,7 @@
 @import url(../blocks/donation-form/__text/donation-form__text.css);
 @import url(../blocks/donation-form/__right-arrow/donation-form__right-arrow.css);
 @import url(../blocks/donation-form/__submit-button/donation-form__submit-button.css);
+@import url(../blocks/donation-form/__submit-button/_for/donation-form__submit-button_for_donat.css);
 @import url(../blocks/donation-form/__checkbox-container/donation-form__checkbox-container.css);
 
 /* Footer */
