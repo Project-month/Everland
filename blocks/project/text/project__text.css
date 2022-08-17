@@ -25,3 +25,14 @@
 
   }
 }
+
+
+@media screen and (max-width: 767px) {
+  .project__text {
+    grid-row: 1;
+    grid-column: 1;
+    /* margin-bottom: 25px; */
+    margin-right: 0px;
+    align-self: flex-start;
+  }
+}

@@ -20,6 +20,17 @@
     height: 284px;
     border-radius: 10px;
     grid-column: 2;
-    /* box-sizing: content-box; */
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .project__image {
+    background-image: url(../../../images/Image_fpf.png);
+    width: 254px;
+    height: 180px;
+    grid-column: 1;
+    grid-row: 2;
+    justify-self: start;
+    margin-top: 8px;
   }
 }

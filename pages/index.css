@@ -187,3 +187,7 @@
 @import url(../blocks/project/topic-subtitle/project__topic-subtitle.css);
 @import url(../blocks/project/image/project__image.css);
 @import url(../blocks/project/text/project__text.css);
+
+/* * {
+  border: solid 1px red;
+} */

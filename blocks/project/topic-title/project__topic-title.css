@@ -13,3 +13,12 @@
 
   }
 }
+
+@media screen and (max-width: 767px) {
+  .project__topic-title {
+    grid-row: 3;
+    width: 245px;
+    margin-top: 14px;
+
+  }
+}

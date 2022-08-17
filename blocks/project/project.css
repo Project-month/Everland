@@ -1,5 +1,19 @@
 .project {
-padding: 0;
-margin: 0;
-background: slategray;
+/* padding: 0;
+margin: 0; */
+/* background: slategray; */
+padding-top: 150px;
+}
+
+
+@media screen and (max-width: 1439px) {
+  .project {
+    padding-top: 100px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .project {
+    padding-top: 64px;
+  }
 }

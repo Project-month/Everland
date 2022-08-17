@@ -11,3 +11,11 @@
     max-width: 315px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .project__topic-subtitle {
+    grid-row: 4;
+    width: 244px;
+    margin-bottom: 48px;
+  }
+}
