@@ -8,13 +8,13 @@
   width: 670px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1439px) {
   .numbers{
     width: 688px;
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 767px) {
   .numbers{
     gap: 16px;
     row-gap: 16px;

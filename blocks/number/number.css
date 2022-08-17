@@ -3,13 +3,13 @@
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1439px) {
   .number{
     width: 333px;
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 767px) {
   .number{
     width: 300px;
   }

@@ -2,7 +2,7 @@
   margin-top: 5px;
 }
 
-@media screen and (min-width: 425px) and (max-width: 768px) {
+@media screen and (min-width: 321px) and (max-width: 1439px) {
   .number__description{
     margin-top: 10px;
   }

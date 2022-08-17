@@ -8,14 +8,14 @@
   gap: 135px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1439px) {
   .section-group{
     flex-wrap: wrap-reverse;
     margin: 32px auto 0;
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 767px) {
   .section-group{
     margin: 24px auto 0;
     gap: 24px;
