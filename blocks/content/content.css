@@ -7,14 +7,6 @@
   width: 100%;
 }
 
-@media screen and (max-width: 767px) {
-  .content {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-}
-
-
 @media (max-width: 767px) {
   .content {
     padding-left: 10px;
