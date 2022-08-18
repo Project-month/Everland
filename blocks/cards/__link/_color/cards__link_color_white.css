@@ -1,0 +1,8 @@
+.cards__link_color_white {
+  background-color: #FFFFFF;
+}
+
+.cards__link_color_white:disabled {
+  color: #C4C4C4;
+  cursor: not-allowed;
+}

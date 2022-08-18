@@ -8,7 +8,23 @@
   background-position: center;
   border-radius: 10px;
   border: none;
+  cursor: pointer;
 }
+
+.button__click-back:hover {
+  background-color: #4183DC;
+}
+
+.button__click-back:active {
+  background-color: #00275C;
+}
+
+.button__click-back:disabled {
+  background-color: #C4C4C4;
+  color: rgba(38, 38, 38, 0.5);
+  cursor: not-allowed;
+}
+
  @media screen and (max-width: 1439px) {
   .button__click-back {
     background-size: 10px 10px;

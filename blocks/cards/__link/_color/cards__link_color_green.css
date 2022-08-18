@@ -1,0 +1,16 @@
+.cards__link_color_green {
+  background-color: #DAEFD5;
+}
+
+.cards__link_color_green:hover {
+  background-color: #319B17;
+}
+
+.cards__link_color_green:active {
+  background-color: #0E4900;
+}
+
+.cards__link_color_green:disabled {
+  background: #C4C4C4;
+  cursor: not-allowed;
+}
