@@ -1,15 +1,15 @@
-.optimization {
+.capital__content {
   position: relative;
 }
 
 @media screen and (max-width: 1439px) {
-  .optimization {
+  .capital__content {
     max-width: 768px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .optimization {
+  .capital__content {
     max-width: 320px;
   }
 }
