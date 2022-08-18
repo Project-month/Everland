@@ -1,5 +1,11 @@
 'use strict';
 
+const donatForm = document.querySelector('.donat .donation-form');
+const submitButton = donatForm.querySelector('.donation-form__submit-button');
+
+const supportSection = document.querySelector('.support');
+const supportForm = supportSection.querySelector('.donation-form');
+
 function changeNameButtonNews() {
   // функция меняет текст кнопки "Все новости" на "Посмотреть все"
   // при расширении экрана от 768px до 1439px
@@ -30,13 +36,30 @@ function closeDescription(evt) {
   }
 }
 
+function handleDonatFormSubmit(evt) {
+  evt.preventDefault();
+  const checkedCheckbox = donatForm.querySelector(
+    '.donation-form__radio:checked'
+  );
+
+  if (checkedCheckbox !== null) {
+    const id = checkedCheckbox.id.replace('donat', 'donation');
+    const checkbox = supportForm.querySelector(`#${id}`);
+    checkbox.checked = true;
+  }
+
+  supportForm.scrollIntoView();
+}
+
+document.querySelectorAll('.accordion__button').forEach((button) => {
+  button.addEventListener('click', (evt) => closeDescription(evt));
+});
+
+donatForm.addEventListener('submit', handleDonatFormSubmit);
+
 if (
   document.documentElement.clientWidth >= 768 &&
   document.documentElement.clientWidth <= 1439
 ) {
   changeNameButtonNews();
 }
-
-document.querySelectorAll('.accordion__button').forEach((button) => {
-  button.addEventListener('click', (evt) => closeDescription(evt));
-});

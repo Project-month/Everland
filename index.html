@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" class="scroll-container">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -254,6 +254,88 @@
             ></button>
           </div>
         </div>
+      </section>
+
+      <!-- Donat -->
+      <section class="donat" id="donat" aria-label="Секция доната">
+        <div class="content">
+          <form class="donation-form donation-form_place_donat">
+            <fieldset class="donation-form__fieldset">
+              <div
+                class="donation-form__radiobuttons-container donation-form__radiobuttons-container_for_donat"
+              >
+                <input
+                  type="radio"
+                  name="donation-amount"
+                  id="donat-amount-250"
+                  class="donation-form__radio"
+                />
+                <label
+                  for="donat-amount-250"
+                  class="donation-form__custom-radio button-text"
+                  >250</label
+                >
+
+                <input
+                  type="radio"
+                  name="donation-amount"
+                  id="donat-amount-500"
+                  class="donation-form__radio"
+                />
+                <label
+                  for="donat-amount-500"
+                  class="donation-form__custom-radio button-text"
+                  >500</label
+                >
+
+                <input
+                  type="radio"
+                  name="donation-amount"
+                  id="donat-amount-750"
+                  class="donation-form__radio"
+                />
+                <label
+                  for="donat-amount-750"
+                  class="donation-form__custom-radio button-text"
+                  >750</label
+                >
+
+                <input
+                  type="radio"
+                  name="donation-amount"
+                  id="donat-amount-1000"
+                  class="donation-form__radio"
+                />
+                <label
+                  for="donat-amount-1000"
+                  class="donation-form__custom-radio button-text"
+                  >1000</label
+                >
+
+                <input
+                  type="radio"
+                  name="donation-amount"
+                  id="donat-amount-other"
+                  class="donation-form__radio"
+                />
+                <label
+                  for="donat-amount-other"
+                  class="donation-form__custom-radio donation-form__custom-radio_for_other-sum button-text"
+                  >Другая сумма</label
+                >
+              </div>
+              <!-- /.donation-form__radiobuttons-container -->
+            </fieldset>
+
+            <button
+              type="submit"
+              class="button button_theme_primary button-text donation-form__submit-button donation-form__submit-button_for_donat"
+            >
+              Поддержать
+            </button>
+          </form>
+        </div>
+        <!-- /.content -->
       </section>
 
       <!-- For whom -->
@@ -997,7 +1079,7 @@
                   />
                   <label
                     for="donation-amount-other"
-                    class="donation-form__custom-radio button-text"
+                    class="donation-form__custom-radio donation-form__custom-radio_for_other-sum button-text"
                     >Другая сумма</label
                   >
                 </div>
