@@ -1,0 +1,15 @@
+.accordion__title{
+ max-width: 565px;
+}
+
+@media screen and (max-width: 1439px) {
+  .accordion__title{
+    max-width: 596px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .accordion__title{
+    max-width: 180px;
+  }
+}

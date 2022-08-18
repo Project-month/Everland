@@ -1,0 +1,12 @@
+.agency__card {
+  display: flex;
+  flex-direction: column;
+  max-width: 440px;
+  gap: 16px;
+}
+
+@media (max-width: 1439px) {
+  .agency__card {
+    width: 334px;
+  }
+}

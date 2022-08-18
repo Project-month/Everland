@@ -1,0 +1,25 @@
+.donation-form_place_donat {
+  align-items: center;
+  background: #e7f0ff;
+  border-radius: 10px;
+  box-shadow: none;
+  flex-direction: row;
+  gap: 90px;
+  max-width: 1360px;
+  padding: 58px 30px;
+}
+
+@media screen and (max-width: 1439px) {
+  .donation-form_place_donat {
+    gap: 22px;
+    padding: 32px 24px 36px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .donation-form_place_donat {
+    flex-direction: column;
+    gap: 32px;
+    padding: 32px 20px;
+  }
+}

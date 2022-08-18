@@ -1,0 +1,16 @@
+.support__contributor {
+  display: grid;
+  grid-template: repeat(2, auto) / max-content 1fr max-content;
+}
+
+@media screen and (max-width: 1439px) {
+  .support__contributor:nth-child(n + 8) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .support__contributor:nth-child(n + 6) {
+    display: none;
+  }
+}

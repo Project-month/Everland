@@ -1,0 +1,16 @@
+.donation-form__radiobuttons-container_for_amount {
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px 5px;
+}
+
+@media screen and (max-width: 1439px) {
+  .donation-form__radiobuttons-container_for_amount {
+    column-gap: 16px;
+  }
+}
+
+@media screen and (max-width: 1439px) {
+  .donation-form__radiobuttons-container_for_amount {
+    grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+  }
+}

@@ -1,0 +1,20 @@
+.donation-form__right-arrow {
+  background: url(../../../images/right-arrow.svg);
+  border: none;
+  cursor: pointer;
+  height: 20px;
+  justify-self: center;
+  padding: 0;
+  transition: all 0.2s ease-in-out;
+  width: 20px;
+}
+
+.donation-form__right-arrow:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 767px) {
+  .donation-form__right-arrow {
+    transform: rotate(90deg);
+  }
+}

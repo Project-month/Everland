@@ -1,0 +1,15 @@
+.header__menu-item_padding-left {
+  padding-left: 5px;
+}
+
+@media screen and (max-width: 1439px) {
+  .header__menu-item_padding-left {
+    padding-left: 2px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+    .header__menu-item_padding-left {
+      padding-left: 0;
+    }
+  }

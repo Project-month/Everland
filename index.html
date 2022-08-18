@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" class="scroll-container">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -28,150 +28,1582 @@
 
     <link rel="stylesheet" href="./pages/index.css" />
   </head>
+
   <body>
+    <header class="header">
+      <div class="content header__content">
+        <img
+          src="./images/logo.svg"
+          alt="Логотип Everland"
+          class="logo logo_place_header header__logo"
+        />
+        <div class="header__burger">
+          <input
+            class="header__burger-toggler"
+            id="burger-toggler"
+            type="checkbox"
+          />
+          <label
+            class="header__burger-button header__link"
+            for="burger-toggler"
+          >
+            <span></span>
+          </label>
+          <p class="header__burger-text big-text">Меню</p>
+          <nav class="header__navigation">
+            <ul class="header__menu-items heading4">
+              <li class="header__menu-item header__menu-item_with-submenu">
+                <p class="header__menu-item-title">
+                  <a href="#" class="header__link">О проекте</a>
+                </p>
+                <input
+                  class="header__menu-item-toggler"
+                  id="menu-item-toggler1"
+                  type="checkbox"
+                />
+                <label
+                  class="header__menu-item-arrow"
+                  for="menu-item-toggler1"
+                ></label>
+                <ul class="header__submenu-items main-text">
+                  <li class="header__submenu-item">
+                    <a href="#" class="header__link"
+                      >АНО Пространство равных&nbsp;возможностей</a
+                    >
+                  </li>
+                  <li class="header__submenu-item">
+                    <a href="#" class="header__link">Новости</a>
+                  </li>
+                  <li class="header__submenu-item">
+                    <a href="#" class="header__link">Сотрудничество</a>
+                  </li>
+                  <li class="header__submenu-item">
+                    <a href="#" class="header__link">Инклюзия</a>
+                  </li>
+                  <li class="header__submenu-item">
+                    <a href="#" class="header__link">Учебным заведениям</a>
+                  </li>
+                  <li class="header__submenu-item">
+                    <a href="#" class="header__link">Годовые отчеты</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="header__menu-item header__menu-item_with-submenu">
+                <p class="header__menu-item-title">
+                  <a href="#" class="header__link"
+                    >Людям с&nbsp;инвалидностью</a
+                  >
+                </p>
+                <input
+                  class="header__menu-item-toggler"
+                  id="menu-item-toggler2"
+                  type="checkbox"
+                />
+                <label
+                  class="header__menu-item-arrow"
+                  for="menu-item-toggler2"
+                ></label>
+                <ul class="header__submenu-items main-text">
+                  <li class="header__submenu-item">
+                    <a href="#" class="header__link">Платформа</a>
+                  </li>
+                  <li class="header__submenu-item">
+                    <a href="#" class="header__link">Курсы</a>
+                  </li>
+                  <li class="header__submenu-item">
+                    <a href="#" class="header__link">Everland Profi</a>
+                  </li>
+                  <li class="header__submenu-item">
+                    <a href="#" class="header__link">Бесплатное такси</a>
+                  </li>
+                </ul>
+              </li>
+              <li
+                class="header__menu-item header__menu-item_with-submenu header__menu-item_padding-left"
+              >
+                <p class="header__menu-item-title">
+                  <a href="#" class="header__link">Услуги</a>
+                </p>
+                <input
+                  class="header__menu-item-toggler"
+                  id="menu-item-toggler3"
+                  type="checkbox"
+                />
+                <label
+                  class="header__menu-item-arrow"
+                  for="menu-item-toggler3"
+                ></label>
+                <ul class="header__submenu-items main-text">
+                  <li class="header__submenu-item">
+                    <a href="#" class="header__link">Услуги агентства</a>
+                  </li>
+                  <li class="header__submenu-item">
+                    <a href="#" class="header__link">Готовые сайты</a>
+                  </li>
+                  <li class="header__submenu-item">
+                    <a href="#" class="header__link"
+                      >Доступность для людей с&nbsp;инвалидностью</a
+                    >
+                  </li>
+                  <li class="header__submenu-item">
+                    <a href="#" class="header__link">Работодателям</a>
+                  </li>
+                  <li class="header__submenu-item">
+                    <a href="#" class="header__link">Портфолио</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="header__menu-item header__menu-item_place_row2col1">
+                <a href="#" class="header__link">Мы благодарим</a>
+              </li>
+              <li class="header__menu-item header__menu-item_place_row3col1">
+                <a href="#" class="header__link">Программы</a>
+              </li>
+              <li class="header__menu-item header__menu-item_place_row2col2">
+                <a href="#" class="header__link">Наставникам</a>
+              </li>
+              <li class="header__menu-item header__menu-item_place_row3col2">
+                <a href="#" class="header__link">Помочь</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <ul class="header__buttons">
+          <li>
+            <a
+              href="#"
+              class="header__button button button-text button_theme_secondary"
+              >Платформа</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="header__button button button-text button_theme_primary"
+              >Поддержать</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+
     <main>
+      <!-- Navigation -->
+      <nav class="navigation">
+        <div class="content">
+          <ul class="navigation__menu big-text">
+            <li class="navigation__menu-item">
+              <a class="navigation__link" href="#">Для кого</a>
+            </li>
+            <li class="navigation__menu-item">
+              <a class="navigation__link" href="#">Направления работы</a>
+            </li>
+            <li class="navigation__menu-item">
+              <a class="navigation__link" href="#">Преимущества</a>
+            </li>
+            <li class="navigation__menu-item">
+              <a class="navigation__link" href="#">Основные цифры</a>
+            </li>
+            <li class="navigation__menu-item">
+              <a class="navigation__link" href="#">Спецпроекты</a>
+            </li>
+            <li class="navigation__menu-item">
+              <a class="navigation__link" href="#">Истории</a>
+            </li>
+            <li class="navigation__menu-item">
+              <a class="navigation__link" href="#">Агенство</a>
+            </li>
+            <li class="navigation__menu-item">
+              <a class="navigation__link" href="#">Новости</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
 
       <section class="capital" id="capital">
         <div class="capital__content content">
-          <h1 class="capital__title heading1"><span class="capital__everland">Everland</span> — социальный предпринимательский проект</h1>
-          <p class="capital__subtitle main-text">Мы работаем с 2016 года по России и СНГ и помогаем людям с инвалидностью устойчиво интегрироваться в открытый рынок труда</p>
-          <img class="capital__image-one" src="./images/Image_1.jpg" alt="Беседы">
-          <img class="capital__image-two" src="./images/Image_2.jpg" alt="Семинары">
+          <h1 class="capital__title heading1">
+            <span class="capital__everland">Everland</span> — социальный
+            предпринимательский проект
+          </h1>
+          <p class="capital__subtitle main-text">
+            Мы работаем с 2016 года по России и СНГ и помогаем людям с
+            инвалидностью устойчиво интегрироваться в открытый рынок труда
+          </p>
+          <img
+            class="capital__image-one"
+            src="./images/Image_1.jpg"
+            alt="Беседы"
+          />
+          <img
+            class="capital__image-two"
+            src="./images/Image_2.jpg"
+            alt="Семинары"
+          />
+
           <div class="capital__slide">
-            <button class="button__click-back" type="button" aria-label="Назад"></button>
+            <button
+              class="button__click-back"
+              type="button"
+              aria-label="Назад"
+            ></button>
             <p class="big-text">1/6</p>
-            <button class="button__click-forward" type="button" aria-label="Вперед"></button>
+            <button
+              class="button__click-forward"
+              type="button"
+              aria-label="Вперед"
+            ></button>
           </div>
         </div>
       </section>
 
+      <!-- Donat -->
+      <section class="donat" id="donat" aria-label="Секция доната">
+        <div class="content">
+          <form class="donation-form donation-form_place_donat">
+            <fieldset class="donation-form__fieldset">
+              <div
+                class="donation-form__radiobuttons-container donation-form__radiobuttons-container_for_donat"
+              >
+                <input
+                  type="radio"
+                  name="donation-amount"
+                  id="donat-amount-250"
+                  class="donation-form__radio"
+                />
+                <label
+                  for="donat-amount-250"
+                  class="donation-form__custom-radio button-text"
+                  >250</label
+                >
+
+                <input
+                  type="radio"
+                  name="donation-amount"
+                  id="donat-amount-500"
+                  class="donation-form__radio"
+                />
+                <label
+                  for="donat-amount-500"
+                  class="donation-form__custom-radio button-text"
+                  >500</label
+                >
+
+                <input
+                  type="radio"
+                  name="donation-amount"
+                  id="donat-amount-750"
+                  class="donation-form__radio"
+                />
+                <label
+                  for="donat-amount-750"
+                  class="donation-form__custom-radio button-text"
+                  >750</label
+                >
+
+                <input
+                  type="radio"
+                  name="donation-amount"
+                  id="donat-amount-1000"
+                  class="donation-form__radio"
+                />
+                <label
+                  for="donat-amount-1000"
+                  class="donation-form__custom-radio button-text"
+                  >1000</label
+                >
+
+                <input
+                  type="radio"
+                  name="donation-amount"
+                  id="donat-amount-other"
+                  class="donation-form__radio"
+                />
+                <label
+                  for="donat-amount-other"
+                  class="donation-form__custom-radio donation-form__custom-radio_for_other-sum button-text"
+                  >Другая сумма</label
+                >
+              </div>
+              <!-- /.donation-form__radiobuttons-container -->
+            </fieldset>
+
+            <button
+              type="submit"
+              class="button button_theme_primary button-text donation-form__submit-button donation-form__submit-button_for_donat"
+            >
+              Поддержать
+            </button>
+          </form>
+        </div>
+        <!-- /.content -->
+      </section>
+
+      <!-- For whom -->
       <section class="forwhom" id="forwhom">
         <div class="forwhom__content content">
           <h2 class="section-title heading2">Для кого мы работаем</h2>
           <ul class="whom">
             <li class="whom__item">
-              <img class="whom__icon" src="./images/icon/disabled.svg" alt="человек с ограниченными способностями">
+              <img
+                class="whom__icon"
+                src="./images/icon/disabled.svg"
+                alt="человек с ограниченными способностями"
+              />
               <div class="whom__description">
-                <h4 class="cards__subtitle heading4">Для людей с инвалидностью</h4>
-                <p class="cards__text main-text">Помогаем найти работу, пройти обучение, предоставляем разные виды поддержки</p>
+                <h4 class="cards__subtitle heading4">
+                  Для людей с инвалидностью
+                </h4>
+                <p class="cards__text main-text">
+                  Помогаем найти работу, пройти обучение, предоставляем разные
+                  виды поддержки
+                </p>
               </div>
+
               <a class="cards__link cards__link_color_blue" href="#">
-                <p class="button-text cards__link-text cards__link-text_color_blue">Подробнее</p>
-                <svg class="cards__link-arrow cards__link-arrow_color_blue" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16">
-                  <path fill="currentColor" fill-rule="evenodd" d="M8 0 6.59 1.41 12.17 7H0v2h12.17l-5.58 5.59L8 16l8-8-8-8Z" clip-rule="evenodd"/>
+                <p
+                  class="button-text cards__link-text cards__link-text_color_blue"
+                >
+                  Подробнее
+                </p>
+                <svg
+                  class="cards__link-arrow cards__link-arrow_color_blue"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                    d="M8 0 6.59 1.41 12.17 7H0v2h12.17l-5.58 5.59L8 16l8-8-8-8Z"
+                    clip-rule="evenodd"
+                  />
                 </svg>
               </a>
             </li>
             <li class="whom__item">
-              <img class="whom__icon" src="./images/icon/briefcase.svg" alt="Работодатель">
+              <img
+                class="whom__icon"
+                src="./images/icon/briefcase.svg"
+                alt="Работодатель"
+              />
               <div class="whom__description">
                 <h4 class="cards__subtitle heading4">Для работодателя</h4>
-                <p class="cards__text main-text">Помогаем создать устойчивые инклюзивные команды, вовлекаем интеллектуальных волонтеров</p>
+                <p class="cards__text main-text">
+                  Помогаем создать устойчивые инклюзивные команды, вовлекаем
+                  интеллектуальных волонтеров
+                </p>
               </div>
+
               <a class="cards__link cards__link_color_orange" href="#">
-                <p class="button-text cards__link-text cards__link-text_color_orange">Подробнее</p>
-                <svg class="cards__link-arrow cards__link-arrow_color_orange" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16">
-                  <path fill="currentColor" fill-rule="evenodd" d="M8 0 6.59 1.41 12.17 7H0v2h12.17l-5.58 5.59L8 16l8-8-8-8Z" clip-rule="evenodd"/>
+                <p
+                  class="button-text cards__link-text cards__link-text_color_orange"
+                >
+                  Подробнее
+                </p>
+                <svg
+                  class="cards__link-arrow cards__link-arrow_color_orange"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                    d="M8 0 6.59 1.41 12.17 7H0v2h12.17l-5.58 5.59L8 16l8-8-8-8Z"
+                    clip-rule="evenodd"
+                  />
                 </svg>
               </a>
             </li>
             <li class="whom__item">
-              <img class="whom__icon" src="./images/icon/person.svg" alt="Сотрудничество">
+              <img
+                class="whom__icon"
+                src="./images/icon/person.svg"
+                alt="Сотрудничество"
+              />
               <div class="whom__description">
-                <h4 class="cards__subtitle cards__everland heading4">Для КСО-партнеров</h4>
-                <p class="cards__text main-text">Помогаем найти работу, пройти обучение, предоставляем разные виды поддержки</p>
+                <h4 class="cards__subtitle cards__everland heading4">
+                  Для КСО-партнеров
+                </h4>
+                <p class="cards__text main-text">
+                  Помогаем найти работу, пройти обучение, предоставляем разные
+                  виды поддержки
+                </p>
               </div>
+
               <a class="cards__link cards__link_color_green" href="#">
-                <p class="button-text cards__link-text cards__link-text_color_green">Подробнее</p>
-                <svg class="cards__link-arrow cards__link-arrow_color_green" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16">
-                  <path fill="currentColor" fill-rule="evenodd" d="M8 0 6.59 1.41 12.17 7H0v2h12.17l-5.58 5.59L8 16l8-8-8-8Z" clip-rule="evenodd"/>
+                <p
+                  class="button-text cards__link-text cards__link-text_color_green"
+                >
+                  Подробнее
+                </p>
+                <svg
+                  class="cards__link-arrow cards__link-arrow_color_green"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                    d="M8 0 6.59 1.41 12.17 7H0v2h12.17l-5.58 5.59L8 16l8-8-8-8Z"
+                    clip-rule="evenodd"
+                  />
                 </svg>
               </a>
             </li>
           </ul>
-      </div>
+        </div>
       </section>
 
+      <!-- Directions -->
       <section class="directions" id="directions">
         <div class="capital__content content">
           <h2 class="section-title heading2">Наши направления</h2>
           <ul class="cards">
             <li class="cards__item cards__item_color_orange">
               <div class="cards__investment">
-                <h4 class="cards__subtitle heading4">Доступность услуг DisQuestion</h4>
-                <p class="cards__paragraph main-text">Сервисы для бизнеса по повышению доступности услуг маломобильных клиентов - контракты с крупнейшими компаниями в России</p>
+                <h4 class="cards__subtitle heading4">
+                  Доступность услуг DisQuestion
+                </h4>
+                <p class="cards__paragraph main-text">
+                  Сервисы для бизнеса по повышению доступности услуг
+                  маломобильных клиентов - контракты с крупнейшими компаниями в
+                  России
+                </p>
               </div>
+
               <a class="cards__link cards__link_color_white" href="#">
-                <p class="button-text cards__link-text cards__link-text_color_black">Подробнее</p>
-                <svg class="cards__link-arrow cards__link-arrow_color_black" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16">
-                  <path fill="currentColor" fill-rule="evenodd" d="M8 0 6.59 1.41 12.17 7H0v2h12.17l-5.58 5.59L8 16l8-8-8-8Z" clip-rule="evenodd"/>
+                <p
+                  class="button-text cards__link-text cards__link-text_color_black"
+                >
+                  Подробнее
+                </p>
+                <svg
+                  class="cards__link-arrow cards__link-arrow_color_black"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                    d="M8 0 6.59 1.41 12.17 7H0v2h12.17l-5.58 5.59L8 16l8-8-8-8Z"
+                    clip-rule="evenodd"
+                  />
                 </svg>
               </a>
             </li>
             <li class="cards__item cards__item_color_blue">
               <div class="cards__investment">
                 <h4 class="cards__subtitle heading4">Трудоустройство</h4>
-                <p class="cards__paragraph main-text">Решение социальной проблемы с использованием предпринимательских инструментов: оказываем услуги разным компаниям и НКО, таким образом зарабатываем и даем работу людям с инвалидностью</p>
+                <p class="cards__paragraph main-text">
+                  Решение социальной проблемы с использованием
+                  предпринимательских инструментов: оказываем услуги разным
+                  компаниям и НКО, таким образом зарабатываем и даем работу
+                  людям с инвалидностью
+                </p>
               </div>
+
               <a class="cards__link cards__link_color_white" href="#">
-                <p class="button-text cards__link-text cards__link-text_color_black">Подробнее</p>
-                <svg class="cards__link-arrow cards__link-arrow_color_black" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16">
-                  <path fill="currentColor" fill-rule="evenodd" d="M8 0 6.59 1.41 12.17 7H0v2h12.17l-5.58 5.59L8 16l8-8-8-8Z" clip-rule="evenodd"/>
+                <p
+                  class="button-text cards__link-text cards__link-text_color_black"
+                >
+                  Подробнее
+                </p>
+                <svg
+                  class="cards__link-arrow cards__link-arrow_color_black"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                    d="M8 0 6.59 1.41 12.17 7H0v2h12.17l-5.58 5.59L8 16l8-8-8-8Z"
+                    clip-rule="evenodd"
+                  />
                 </svg>
               </a>
             </li>
             <li class="cards__item cards__item_color_green">
               <div class="cards__investment">
-                <h4 class="cards__subtitle cards__subtitle_correction heading4">Биржа проектов и готовые решения</h4>
-                <p class="cards__paragraph main-text">ИТ-система для интеграции в открытый рынок труда людей с инвалидностью  в качестве самозанятых и в рамках трудоустройства в другие компании</p>
+                <h4 class="cards__subtitle cards__subtitle_correction heading4">
+                  Биржа проектов и готовые решения
+                </h4>
+                <p class="cards__paragraph main-text">
+                  ИТ-система для интеграции в открытый рынок труда людей с
+                  инвалидностью в качестве самозанятых и в рамках
+                  трудоустройства в другие компании
+                </p>
               </div>
+
               <a class="cards__link cards__link_color_white" href="#">
-                <p class="button-text cards__link-text cards__link-text_color_black">Подробнее</p>
-                <svg class="cards__link-arrow cards__link-arrow_color_black" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16">
-                  <path fill="currentColor" fill-rule="evenodd" d="M8 0 6.59 1.41 12.17 7H0v2h12.17l-5.58 5.59L8 16l8-8-8-8Z" clip-rule="evenodd"/>
+                <p
+                  class="button-text cards__link-text cards__link-text_color_black"
+                >
+                  Подробнее
+                </p>
+                <svg
+                  class="cards__link-arrow cards__link-arrow_color_black"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                    d="M8 0 6.59 1.41 12.17 7H0v2h12.17l-5.58 5.59L8 16l8-8-8-8Z"
+                    clip-rule="evenodd"
+                  />
                 </svg>
               </a>
             </li>
             <li class="cards__item cards__item_color_blue">
               <div class="cards__investment cards__investment_correction">
                 <h4 class="cards__subtitle heading4">Агенство</h4>
-                <p class="cards__paragraph main-text">Услуги специалистов с инвалидностью для крупных компаний (дизайн, право, контент и другие)</p>
+                <p class="cards__paragraph main-text">
+                  Услуги специалистов с инвалидностью для крупных компаний
+                  (дизайн, право, контент и другие)
+                </p>
               </div>
+
               <a class="cards__link cards__link_color_white" href="#">
-                <p class="button-text cards__link-text cards__link-text_color_black">Подробнее</p>
-                <svg class="cards__link-arrow cards__link-arrow_color_black" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16">
-                  <path fill="currentColor" fill-rule="evenodd" d="M8 0 6.59 1.41 12.17 7H0v2h12.17l-5.58 5.59L8 16l8-8-8-8Z" clip-rule="evenodd"/>
+                <p
+                  class="button-text cards__link-text cards__link-text_color_black"
+                >
+                  Подробнее
+                </p>
+                <svg
+                  class="cards__link-arrow cards__link-arrow_color_black"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                    d="M8 0 6.59 1.41 12.17 7H0v2h12.17l-5.58 5.59L8 16l8-8-8-8Z"
+                    clip-rule="evenodd"
+                  />
                 </svg>
               </a>
             </li>
             <li class="cards__item cards__item_color_green">
               <div class="cards__investment">
                 <h4 class="cards__subtitle heading4">Коворкинг</h4>
-                <p class="cards__paragraph main-text">Уникальное пространство, в котором специалисты с инвалидностью могут работать и офлайн – приходить, участвовать в образовательных мероприятиях, встречаться с заказчиками, работать в команде</p>
+                <p class="cards__paragraph main-text">
+                  Уникальное пространство, в котором специалисты с инвалидностью
+                  могут работать и офлайн – приходить, участвовать в
+                  образовательных мероприятиях, встречаться с заказчиками,
+                  работать в команде
+                </p>
               </div>
+
               <a class="cards__link cards__link_color_white" href="#">
-                <p class="button-text cards__link-text cards__link-text_color_black">Подробнее</p>
-                <svg class="cards__link-arrow cards__link-arrow_color_black" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16">
-                  <path fill="currentColor" fill-rule="evenodd" d="M8 0 6.59 1.41 12.17 7H0v2h12.17l-5.58 5.59L8 16l8-8-8-8Z" clip-rule="evenodd"/>
+                <p
+                  class="button-text cards__link-text cards__link-text_color_black"
+                >
+                  Подробнее
+                </p>
+                <svg
+                  class="cards__link-arrow cards__link-arrow_color_black"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                    d="M8 0 6.59 1.41 12.17 7H0v2h12.17l-5.58 5.59L8 16l8-8-8-8Z"
+                    clip-rule="evenodd"
+                  />
                 </svg>
               </a>
             </li>
             <li class="cards__item cards__item_color_orange">
               <div class="cards__investment">
-                <h4 class="cards__subtitle heading4">Для людей с инвалидностью</h4>
-                <p class="cards__paragraph main-text">Помогаем найти работу, пройти обучение, предоставляем разные виды поддержки</p>
+                <h4 class="cards__subtitle heading4">
+                  Для людей с инвалидностью
+                </h4>
+                <p class="cards__paragraph main-text">
+                  Помогаем найти работу, пройти обучение, предоставляем разные
+                  виды поддержки
+                </p>
               </div>
+
               <a class="cards__link cards__link_color_white" href="#">
-                <p class="button-text cards__link-text cards__link-text_color_black">Подробнее</p>
-                <svg class="cards__link-arrow cards__link-arrow_color_black" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16">
-                  <path fill="currentColor" fill-rule="evenodd" d="M8 0 6.59 1.41 12.17 7H0v2h12.17l-5.58 5.59L8 16l8-8-8-8Z" clip-rule="evenodd"/>
+                <p
+                  class="button-text cards__link-text cards__link-text_color_black"
+                >
+                  Подробнее
+                </p>
+                <svg
+                  class="cards__link-arrow cards__link-arrow_color_black"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                    d="M8 0 6.59 1.41 12.17 7H0v2h12.17l-5.58 5.59L8 16l8-8-8-8Z"
+                    clip-rule="evenodd"
+                  />
                 </svg>
               </a>
             </li>
           </ul>
-      </div>
+        </div>
       </section>
 
+      <!-- In work -->
+      <section class="in-work">
+        <div class="content">
+          <h2 class="heading2">Главное в работе</h2>
+          <div class="accordions">
+            <div class="accordion">
+              <h4 class="accordion__title heading4">Заработанные средства</h4>
+              <button class="accordion__button">
+                <svg
+                  class="accordion__button-icon"
+                  width="17"
+                  height="17"
+                  viewBox="0 0 21 21"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M10.5 19V10.5M10.5 10.5V2M10.5 10.5H19M10.5 10.5H2"
+                    stroke-width="4"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </button>
+              <p
+                class="accordion__description main-text accordion__description_close"
+              >
+                За время сущетсования проекта с 2016 года социальная
+                предпринимательская модель Everland доказала свою эффективность
+                - мы действительно умеем давать работу людям с разными видами
+                инвалидности
+              </p>
+            </div>
+            <div class="accordion">
+              <h4 class="accordion__title heading4">Крупные клиенты</h4>
+              <button class="accordion__button">
+                <svg
+                  class="accordion__button-icon"
+                  width="17"
+                  height="17"
+                  viewBox="0 0 21 21"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M10.5 19V10.5M10.5 10.5V2M10.5 10.5H19M10.5 10.5H2"
+                    stroke-width="4"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </button>
+              <p
+                class="accordion__description main-text accordion__description_close"
+              >
+                За время сущетсования проекта с 2016 года социальная
+                предпринимательская модель Everland доказала свою эффективность
+                - мы действительно умеем давать работу людям с разными видами
+                инвалидности
+              </p>
+            </div>
+            <div class="accordion">
+              <h4 class="accordion__title heading4">Инклюзивность</h4>
+              <button class="accordion__button">
+                <svg
+                  class="accordion__button-icon"
+                  width="17"
+                  height="17"
+                  viewBox="0 0 21 21"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M10.5 19V10.5M10.5 10.5V2M10.5 10.5H19M10.5 10.5H2"
+                    stroke-width="4"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </button>
+              <p
+                class="accordion__description main-text accordion__description_close"
+              >
+                За время сущетсования проекта с 2016 года социальная
+                предпринимательская модель Everland доказала свою эффективность
+                - мы действительно умеем давать работу людям с разными видами
+                инвалидности
+              </p>
+            </div>
+            <div class="accordion">
+              <h4 class="accordion__title heading4">Свои исследования</h4>
+              <button class="accordion__button">
+                <svg
+                  class="accordion__button-icon"
+                  width="17"
+                  height="17"
+                  viewBox="0 0 21 21"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M10.5 19V10.5M10.5 10.5V2M10.5 10.5H19M10.5 10.5H2"
+                    stroke-width="4"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </button>
+              <p
+                class="accordion__description main-text accordion__description_close"
+              >
+                За время сущетсования проекта с 2016 года социальная
+                предпринимательская модель Everland доказала свою эффективность
+                - мы действительно умеем давать работу людям с разными видами
+                инвалидности
+              </p>
+            </div>
+            <div class="accordion">
+              <h4 class="accordion__title heading4">Использование Digital</h4>
+              <button class="accordion__button">
+                <svg
+                  class="accordion__button-icon"
+                  width="17"
+                  height="17"
+                  viewBox="0 0 21 21"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M10.5 19V10.5M10.5 10.5V2M10.5 10.5H19M10.5 10.5H2"
+                    stroke-width="4"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </button>
+              <p
+                class="accordion__description main-text accordion__description_close"
+              >
+                За время сущетсования проекта с 2016 года социальная
+                предпринимательская модель Everland доказала свою эффективность
+                - мы действительно умеем давать работу людям с разными видами
+                инвалидности
+              </p>
+            </div>
+            <div class="accordion">
+              <h4 class="accordion__title heading4">Большой опыт</h4>
+              <button class="accordion__button">
+                <svg
+                  class="accordion__button-icon"
+                  width="17"
+                  height="17"
+                  viewBox="0 0 21 21"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M10.5 19V10.5M10.5 10.5V2M10.5 10.5H19M10.5 10.5H2"
+                    stroke-width="4"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </button>
+              <p
+                class="accordion__description main-text accordion__description_close"
+              >
+                За время сущетсования проекта с 2016 года социальная
+                предпринимательская модель Everland доказала свою эффективность
+                - мы действительно умеем давать работу людям с разными видами
+                инвалидности
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Everland in numbers -->
+      <section class="everland-in-numbers" id="everland-in-numbers">
+        <div class="content">
+          <h2 class="heading2">Everland в цифрах</h2>
+          <div class="section-group">
+            <img
+              class="image everland-in-numbers__image"
+              src="./images/everland-in-numbers/people.jpg"
+              alt="Фото с 2 людьми"
+            />
+            <div class="numbers">
+              <div class="number">
+                <h4 class="heading4">
+                  <span class="number__count">380+</span> человек
+                </h4>
+                <h4 class="number__description main-text">
+                  прошли обучение и получили работу в разных статусах
+                </h4>
+              </div>
+              <div class="number">
+                <h4 class="number__title heading4">
+                  <span class="number__count">1200+</span> человек
+                </h4>
+                <h4 class="number__description main-text">
+                  наше сообщество ― люди с разными видами инвалидности
+                </h4>
+              </div>
+              <div class="number">
+                <h4 class="number__title heading4">
+                  <span class="number__count">35 000</span> рублей
+                </h4>
+                <h4 class="number__description main-text">
+                  средний заработок в проекте/в рамках работы агентства
+                </h4>
+              </div>
+              <div class="number">
+                <h4 class="number__title heading4">
+                  <span class="number__count">3</span> недели
+                </h4>
+                <h4 class="number__description main-text">
+                  нужно, чтобы получить первую оплату после прокачки в Everland
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- History -->
+      <section class="history">
+        <div class="content">
+          <div class="history__main">
+            <h2 class="heading2">Истории</h2>
+            <button
+              type="button"
+              title="Все истории"
+              class="button button_theme_secondary button-text"
+            >
+              Все истории
+            </button>
+            <div class="history__content">
+              <ul class="history__cards">
+                <li class="history__card">
+                  <img
+                    class="history__image"
+                    src="./images/history/profile1.jpg"
+                    alt="Фото профиля"
+                  />
+                  <div class="history__info">
+                    <img
+                      class="history__Icon-quote"
+                      src="./images/history/Icon_quote.svg"
+                      alt="Иконка цитаты"
+                    />
+                    <h4 class="heading4">
+                      Мне интересно слушать интервью с людьми. Это мотивация и
+                      вдохновение, которых так не хватает
+                    </h4>
+                    <p class="main-text">
+                      Максиму Гильфанову из Узбекистана 41 год. Диплом
+                      программиста и курсы по веб-дизайну не решили проблему с
+                      трудоустройством
+                    </p>
+                    <button
+                      type="button"
+                      title="История Максима"
+                      class="history__button button-text"
+                    >
+                      История Максима
+                      <img
+                        class="arrow__forward"
+                        src="./images/history/arrow_forward.svg"
+                        alt="Иконка цитаты"
+                      />
+                    </button>
+                  </div>
+                </li>
+                <li class="history__card history__card_view_reverse">
+                  <img
+                    class="history__image"
+                    src="./images/history/profile2.jpg"
+                    alt="Фото профиля"
+                  />
+                  <div class="history__info">
+                    <img
+                      class="history__Icon-quote"
+                      src="./images/history/Icon_quote.svg"
+                      alt="Иконка цитаты"
+                    />
+                    <h4 class="heading4">
+                      Платформа дала надежду: кто-то заинтересован в
+                      трудоустройстве инвалидов
+                    </h4>
+                    <p class="main-text">
+                      Максиму Чернышову из Набережных Челнов 32 года. В детстве
+                      он неудачно сделал сальто и повредил позвоночник. С тех
+                      пор ему тяжело передвигаться на большие расстояния
+                    </p>
+                    <button
+                      type="button"
+                      title="История Максима"
+                      class="history__button button-text"
+                    >
+                      История Максима
+                      <img
+                        class="arrow__forward"
+                        src="./images/history/arrow_forward.svg"
+                        alt="Иконка цитаты"
+                      />
+                    </button>
+                  </div>
+                </li>
+                <li class="history__card-small">
+                  <div class="history__story">
+                    <img
+                      class="history__story-image"
+                      src="./images/history/image 9.jpg"
+                      alt="Фото профиля"
+                    />
+                    <div class="history__story-info">
+                      <p class="big-text">Айслу Асан</p>
+                      <h4 class="heading4 history__story-title">
+                        Когда хочется жить
+                      </h4>
+                      <div class="history__audio-info">
+                        <p class="small-text">История Айслу</p>
+                        <button
+                          type="button"
+                          title="История Айслу"
+                          class="history__audio"
+                        ></button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="history__story">
+                    <img
+                      class="history__story-image"
+                      src="./images/history/image 9_1.jpg"
+                      alt="Фото профиля"
+                    />
+                    <div class="history__story-info">
+                      <p class="big-text">Артём Плаксин</p>
+                      <h4 class="heading4 history__story-title">
+                        Не видеть и смотреть в будущее
+                      </h4>
+                      <div class="history__audio-info">
+                        <p class="small-text">История Артёма</p>
+                        <button
+                          type="button"
+                          title="История Артёма"
+                          class="history__audio"
+                        ></button>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Agency projects-->
+      <section id="agency" class="agency">
+        <div class="content agency__content">
+          <h2 class="heading2">Лучшие проекты агентства</h2>
+          <p class="heading4 agency__subtitle">
+            Мы выполняем работы в области веб-разработки, дизайна, права, видео,
+            анимации и контента
+          </p>
+          <ul class="agency__cards">
+            <li class="agency__card">
+              <img
+                class="agency__card-image"
+                src="./images/agency/Image_5.jpg"
+                alt="Фото профиля"
+              />
+              <h5 class="heading5">
+                Скрипты-рекомендации для бизнеса (DisQuestion)
+              </h5>
+            </li>
+            <li class="agency__card">
+              <img
+                class="agency__card-image"
+                src="./images/agency/Image_6.jpg"
+                alt="Фото профиля"
+              />
+              <h5 class="heading5">Проект «Онконавигатор»</h5>
+            </li>
+            <li class="agency__card agency__card_view_hiden">
+              <img
+                class="agency__card-image"
+                src="./images/agency/Image_7.jpg"
+                alt="Фото профиля"
+              />
+              <h5 class="heading5">Проект «Миграции: приоткрывая личное»</h5>
+            </li>
+          </ul>
+          <button
+            type="button"
+            title="Все истории"
+            class="button button_theme_secondary button-text agency__button"
+          >
+            Посмотреть все
+          </button>
+        </div>
+      </section>
+
+      <!-- News -->
+      <section class="news content" aria-label="Новостной раздел" id="news">
+        <h2 class="news__title heading3">Новости</h2>
+        <article class="news__information">
+          <div class="news__card">
+            <p class="news__topic">Тема</p>
+            <img
+              src="./images/image 17.png"
+              class="news__topic-image"
+              alt="Новогодняя открытка"
+            />
+            <div class="news__text">
+              <h3 class="news__topic-title">
+                Ура! Новое партнерство — с PepsiCo
+              </h3>
+              <p class="news__topic-subtitle main-text">
+                Everland совместно с PepsiCo приняли участие в акции
+                «Благотворительность вместо сувениров»
+              </p>
+            </div>
+            <p class="news__topic-date small-text">20&nbsp;сентября 2021</p>
+          </div>
+          <div class="news__card">
+            <p class="news__topic">Тема</p>
+            <div class="news__text">
+              <h3 class="news__topic-title">
+                Трехдневный интенсив для КСО-менеджеров &laquo;Бизнес
+                и&nbsp;инклюзия: как строить эффективные программы&raquo;
+              </h3>
+              <p class="news__topic-subtitle main-text">
+                Эксперты с&nbsp;инвалидностью, представители бизнеса
+                и&nbsp;некоммерческих организаций поговорили о&nbsp;том, что
+                такое инклюзия, рассмотрели подходы к&nbsp;трудоустройству людей
+                с&nbsp;инвалидностью, обсудили проблемы, к&nbsp;которым нужно
+                быть готовым, и&nbsp;поделились успешными кейсами
+              </p>
+            </div>
+            <p class="news__topic-date small-text">20&nbsp;сентября 2021</p>
+          </div>
+          <div class="news__card">
+            <p class="news__topic">Тема</p>
+            <div class="news__text">
+              <h3 class="news__topic-title">
+                Тестируем супермаркеты на&nbsp;доступность
+              </h3>
+              <p class="news__topic-subtitle main-text">
+                Everland совместно с&nbsp;торговой сетью
+                &laquo;Перекресток&raquo; провели аудит продуктовых магазинов
+                на&nbsp;доступность для людей с&nbsp;разными видами инвалидности
+              </p>
+            </div>
+            <img
+              src="./images/image 18.png"
+              class="news__topic-image"
+              alt="Новогодняя открытка"
+            />
+            <p class="news__topic-date small-text">20&nbsp;сентября 2021</p>
+          </div>
+        </article>
+        <button
+          class="button button-text button_theme_secondary button_place_news-section"
+          id="button-news"
+        >
+          Все новости
+        </button>
+      </section>
+
+      <section class="support" id="support">
+        <div class="content">
+          <h2 class="heading2 support__heading">Поддержите нас</h2>
+          <div class="support__container">
+            <form action="#" class="donation-form">
+              <!-- Donation frequency -->
+              <fieldset class="donation-form__fieldset">
+                <div
+                  class="donation-form__radiobuttons-container donation-form__radiobuttons-container_for_frequency"
+                >
+                  <input
+                    type="radio"
+                    name="donation-frequency"
+                    id="donation-frequency-monthly"
+                    class="donation-form__radio"
+                  />
+                  <label
+                    for="donation-frequency-monthly"
+                    class="donation-form__custom-radio donation-form__custom-radio_type_frequency button-text"
+                    >Ежемесячно
+                    <button
+                      type="button"
+                      class="donation-form__question"
+                    ></button>
+                  </label>
+
+                  <input
+                    type="radio"
+                    name="donation-frequency"
+                    id="donation-frequency-once"
+                    class="donation-form__radio"
+                  />
+                  <label
+                    for="donation-frequency-once"
+                    class="donation-form__custom-radio button-text donation-form__custom-radio_type_frequency"
+                    >Разово</label
+                  >
+                </div>
+                <!-- /.donation-form__radiobuttons-container -->
+              </fieldset>
+
+              <!-- Donatiom amount -->
+              <fieldset
+                class="donation-form__fieldset donation-form__fieldset_for_amount"
+              >
+                <legend
+                  class="donation-form__legend donation-form__legend_for_amount heading5"
+                >
+                  Размер пожертвования
+                </legend>
+                <div
+                  class="donation-form__radiobuttons-container donation-form__radiobuttons-container_for_amount"
+                >
+                  <input
+                    type="radio"
+                    name="donation-amount"
+                    id="donation-amount-250"
+                    class="donation-form__radio"
+                  />
+                  <label
+                    for="donation-amount-250"
+                    class="donation-form__custom-radio button-text"
+                    >250</label
+                  >
+
+                  <input
+                    type="radio"
+                    name="donation-amount"
+                    id="donation-amount-500"
+                    class="donation-form__radio"
+                  />
+                  <label
+                    for="donation-amount-500"
+                    class="donation-form__custom-radio button-text"
+                    >500</label
+                  >
+
+                  <input
+                    type="radio"
+                    name="donation-amount"
+                    id="donation-amount-750"
+                    class="donation-form__radio"
+                  />
+                  <label
+                    for="donation-amount-750"
+                    class="donation-form__custom-radio button-text"
+                    >750</label
+                  >
+
+                  <input
+                    type="radio"
+                    name="donation-amount"
+                    id="donation-amount-1000"
+                    class="donation-form__radio"
+                  />
+                  <label
+                    for="donation-amount-1000"
+                    class="donation-form__custom-radio button-text"
+                    >1000</label
+                  >
+
+                  <input
+                    type="radio"
+                    name="donation-amount"
+                    id="donation-amount-other"
+                    class="donation-form__radio"
+                  />
+                  <label
+                    for="donation-amount-other"
+                    class="donation-form__custom-radio donation-form__custom-radio_for_other-sum button-text"
+                    >Другая сумма</label
+                  >
+                </div>
+                <!-- /.donation-form__radiobuttons-container -->
+
+                <p class="donation-form__text small-text">
+                  Регулярные пожертвования очень важны для Everland.
+                  Это&nbsp;то, что помогает нашим программам работать
+                  бесперебойно, что открывает новые востребованные проекты, что
+                  максимально эффективно решает социальную задачу. Если
+                  вы&nbsp;захотите поддерживать наши программы постоянно,
+                  то&nbsp;каждый месяц с&nbsp;вашей карты будет списываться
+                  указанная вами сумма.
+                </p>
+              </fieldset>
+
+              <!-- Donation method -->
+              <fieldset
+                class="donation-form__fieldset donation-form__fieldset_for_method"
+              >
+                <legend
+                  class="donation-form__legend donation-form__legend_for_method heading5"
+                >
+                  Способ оплаты
+                </legend>
+                <div
+                  class="donation-form__radiobuttons-container donation-form__radiobuttons-container_for_methods"
+                >
+                  <input
+                    type="radio"
+                    name="donation-method"
+                    id="donation-method-card"
+                    class="donation-form__radio"
+                  />
+                  <label
+                    for="donation-method-card"
+                    class="donation-form__custom-radio donation-form__custom-radio_for_cards button-text"
+                    ><img
+                      src="./images/payment-methods/mir.svg"
+                      alt="Платежная система Мир."
+                      class="donation-form__payment-logo donation-form__payment-logo_type_mir"
+                    />
+                    <img
+                      src="./images/payment-methods/maestro.svg"
+                      alt="Платежная система Maestro."
+                      class="donation-form__payment-logo donation-form__payment-logo_type_maestro"
+                    />
+                    <img
+                      src="./images/payment-methods/visa.svg"
+                      alt="Платежная система Visa."
+                      class="donation-form__payment-logo donation-form__payment-logo_type_visa"
+                    />
+                    <img
+                      src="./images/payment-methods/mastercard.svg"
+                      alt="Платежная система Mastercard."
+                      class="donation-form__payment-logo donation-form__payment-logo_type_mastercard"
+                    />
+                  </label>
+
+                  <input
+                    type="radio"
+                    name="donation-method"
+                    id="donation-method-umoney"
+                    class="donation-form__radio"
+                  />
+                  <label
+                    for="donation-method-umoney"
+                    class="donation-form__custom-radio button-text"
+                    ><img
+                      src="./images/payment-methods/u-money.svg"
+                      alt="Платежная система ЮMoney."
+                      class="donation-form__payment-logo donation-form__payment-logo_type_umoney"
+                  /></label>
+
+                  <input
+                    type="radio"
+                    name="donation-method"
+                    id="donation-method-webmoney"
+                    class="donation-form__radio"
+                  />
+                  <label
+                    for="donation-method-webmoney"
+                    class="donation-form__custom-radio button-text"
+                    ><img
+                      src="./images/payment-methods/webmoney.svg"
+                      alt="Платежная система Webmoney."
+                      class="donation-form__payment-logo donation-form__payment-logo_type_webmoney"
+                  /></label>
+
+                  <button
+                    type="button"
+                    class="donation-form__right-arrow"
+                  ></button>
+                </div>
+                <!-- /.donation-form__radiobuttons-container -->
+              </fieldset>
+
+              <!-- Your data -->
+              <fieldset
+                class="donation-form__fieldset donation-form__fieldset_for_data"
+              >
+                <legend
+                  class="donation-form__legend heading5 donation-form__legend_for_data"
+                >
+                  Ваши данные
+                </legend>
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="Иван Иванов"
+                  class="main-text donation-form__text-input"
+                />
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="myemail@example.com"
+                  class="main-text donation-form__text-input"
+                />
+
+                <label class="donation-form__checkbox-container">
+                  <input
+                    type="checkbox"
+                    name="offerta"
+                    id="offerta"
+                    class="donation-form__check"
+                  />
+                  <span class="donation-form__custom-check"></span>
+                  <span class="main-text"
+                    >Соглашаюсь с&nbsp;
+                    <a
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="donation-form__link"
+                    >
+                      офертой</a
+                    ></span
+                  >
+                </label>
+
+                <label class="donation-form__checkbox-container">
+                  <input
+                    type="checkbox"
+                    name="personal-data"
+                    id="personal-data"
+                    class="donation-form__check"
+                  />
+                  <span class="donation-form__custom-check"></span>
+                  <span class="main-text"
+                    >Соглашаюсь на&nbsp;
+                    <a
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="donation-form__link"
+                    >
+                      обработку моих персональных данных
+                    </a></span
+                  >
+                </label>
+              </fieldset>
+
+              <button
+                type="submit"
+                class="button button_theme_primary button-text donation-form__submit-button"
+              >
+                Поддержать
+              </button>
+            </form>
+            <div>
+              <h3 class="heading4 support__contributors-heading">
+                Everland создается силами многих. Мы&nbsp;благодарны каждому
+                за&nbsp;поддержку!
+              </h3>
+              <ul class="support__contributors-list">
+                <li class="support__contributor">
+                  <span class="support__contributor-name main-text"
+                    >Аноним</span
+                  >
+                  <div class="support__contributor-dots"></div>
+                  <span class="main-text">500&nbsp;&#8381;</span>
+                  <span class="support__contributor-date main-text"
+                    >2 часа назад</span
+                  >
+                </li>
+                <li class="support__contributor">
+                  <span class="support__contributor-name main-text"
+                    >Татьяна</span
+                  >
+                  <div class="support__contributor-dots"></div>
+                  <span class="main-text">600&nbsp;&#8381;</span>
+                  <span class="support__contributor-date main-text"
+                    >3 часа назад</span
+                  >
+                </li>
+                <li class="support__contributor">
+                  <span class="support__contributor-name main-text"
+                    >Аноним</span
+                  >
+                  <div class="support__contributor-dots"></div>
+                  <span class="main-text">300&nbsp;&#8381;</span>
+                  <span class="support__contributor-date main-text"
+                    >4 часа назад</span
+                  >
+                </li>
+                <li class="support__contributor">
+                  <span class="support__contributor-name main-text"
+                    >Аноним</span
+                  >
+                  <div class="support__contributor-dots"></div>
+                  <span class="main-text">200&nbsp;&#8381;</span>
+                  <span class="support__contributor-date main-text"
+                    >4 часа назад</span
+                  >
+                </li>
+                <li class="support__contributor">
+                  <span class="support__contributor-name main-text"
+                    >Аноним</span
+                  >
+                  <div class="support__contributor-dots"></div>
+                  <span class="main-text">100&nbsp;&#8381;</span>
+                  <span class="support__contributor-date main-text"
+                    >6 часа назад</span
+                  >
+                </li>
+                <li class="support__contributor">
+                  <span class="support__contributor-name main-text"
+                    >Наталья</span
+                  >
+                  <div class="support__contributor-dots"></div>
+                  <span class="main-text">600&nbsp;&#8381;</span>
+                  <span class="support__contributor-date main-text"
+                    >9 часа назад</span
+                  >
+                </li>
+                <li class="support__contributor">
+                  <span class="support__contributor-name main-text"
+                    >Наталья</span
+                  >
+                  <div class="support__contributor-dots"></div>
+                  <span class="main-text">600&nbsp;&#8381;</span>
+                  <span class="support__contributor-date main-text"
+                    >9 часа назад</span
+                  >
+                </li>
+                <li class="support__contributor">
+                  <span class="support__contributor-name main-text"
+                    >Наталья</span
+                  >
+                  <div class="support__contributor-dots"></div>
+                  <span class="main-text">600&nbsp;&#8381;</span>
+                  <span class="support__contributor-date main-text"
+                    >9 часа назад</span
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- /.support__container -->
+        </div>
+        <!-- /.content -->
+      </section>
+      <!-- /.support -->
     </main>
+
+    <footer class="footer">
+      <div class="content footer__grid">
+        <div class="footer__project-description">
+          <img
+            class="logo logo_place_footer"
+            src="./images/logo.svg"
+            alt="Логотип"
+          />
+          <p class="small-text">
+            Платформа Everland&nbsp;&mdash; инклюзивный социальный
+            предпринимательский проект.
+          </p>
+          <p class="small-text">
+            Реализуется ООО &laquo;ЭВЕРЛЭНД&raquo;, АНО &laquo;Пространство
+            равных&nbsp;возможностей&raquo;.
+          </p>
+        </div>
+        <!-- <div class="footer__navigation"> -->
+        <nav class="footer__navigation">
+          <ul class="footer__menu main-text">
+            <li><a href="#" class="footer__link">О проекте</a></li>
+            <li><a href="#" class="footer__link">Программы</a></li>
+            <li><a href="#" class="footer__link">Услуги</a></li>
+            <li><a href="#" class="footer__link">Платформа</a></li>
+            <li>
+              <a href="#" class="footer__link">Людям с&nbsp;инвалидностью</a>
+            </li>
+            <li><a href="#" class="footer__link">Мы&nbsp;благодарим</a></li>
+          </ul>
+        </nav>
+        <!--       </div> -->
+        <div class="footer__supported">
+          <h4 class="heading4">При поддержке</h4>
+          <ul class="footer__supported-logos">
+            <li>
+              <a href="https://beeline.ru" class="footer__link"
+                ><img
+                  class="footer__supported-logo"
+                  src="./images/beeline.png"
+                  alt="Логотип Билайн"
+              /></a>
+            </li>
+            <li>
+              <a
+                href="https://xn--80afcdbalict6afooklqi5o.xn--p1ai/"
+                class="footer__link"
+                ><img
+                  class="footer__supported-logo"
+                  src="./images/fpg.png"
+                  alt="Логотип Фонда президентских грантов"
+              /></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__contacts">
+          <ul class="footer__contacts-phones">
+            <li class="small-text">+7 (495) 646 04 28</li>
+            <li class="small-text">+7 (985) 473 08 93</li>
+          </ul>
+          <div class="footer__contacts-address">
+            <p class="small-text">
+              Гоголевский бульвар, дом&nbsp;8, строение&nbsp;2, офис 8, Москва,
+              Россия.
+            </p>
+          </div>
+        </div>
+        <div class="footer__social">
+          <h4 class="heading4">
+            Подписывайтесь на&nbsp;нас&nbsp;в&nbsp;соцсетях
+          </h4>
+          <ul class="footer__social-logos">
+            <li>
+              <img
+                class="footer__social-logo"
+                src="./images/telegram.svg"
+                alt="Логотип мессенджера Телеграм"
+              />
+            </li>
+            <li>
+              <img
+                class="footer__social-logo"
+                src="./images/vk.svg"
+                alt="Логотип ВК"
+              />
+            </li>
+          </ul>
+        </div>
+        <div class="footer__copyrights">
+          <p class="small-text">
+            &COPY; ООО &laquo;ЭВЕРЛЭНД&raquo;, АНО &laquo;Пространство равных
+            возможностей&raquo;.
+          </p>
+          <p class="small-text">
+            Если не&nbsp;указано иначе, все материалы сайта доступны
+            по&nbsp;лицензии Creative&nbsp;Commons&nbsp;CC-BY-SA 3.0
+          </p>
+        </div>
+        <div class="footer__yandex-praktikum">
+          <a href="https://praktikum.yandex.ru" class="footer__link"
+            ><img
+              class="footer__yandex-praktikum-logo"
+              src="./images/yandexPraktikum.svg"
+              alt="Логотип Яндекс.Практикум"
+          /></a>
+          <p class="small-text">сделано при участии Яндекс Практикума</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./pages/index.js"></script>
   </body>
 </html>

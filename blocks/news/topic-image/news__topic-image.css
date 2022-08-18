@@ -1,0 +1,27 @@
+.news__topic-image {
+  grid-area: news__topic-image;
+  -ms-grid-row: 2;
+  grid-row: 2;
+  background-size: cover;
+  border-radius: 30px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 380px;
+  height: 300px;
+}
+
+@media screen and (max-width: 1439px) {
+  .news__topic-image {
+    width: 274px;
+    height: 212px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .news__topic-image {
+    width: 252px;
+    height: 192px;
+  }
+}
