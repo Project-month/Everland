@@ -5,7 +5,7 @@
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1439px) {
   .image {
     width: 259px;
     height: 284px;
@@ -13,7 +13,7 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 767px) {
   .image {
     width: 300px;
     height: 200px;
