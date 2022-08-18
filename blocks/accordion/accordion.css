@@ -15,3 +15,18 @@
   border: solid 2px #DADADA;
   border-radius: 30px;
 }
+
+
+@media screen and (max-width: 1439px) {
+  .accordion{
+    width: 688px;
+    padding: 20px 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .accordion{
+    width: 300px;
+    padding: 18px 16px;
+  }
+}
