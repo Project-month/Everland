@@ -5,6 +5,7 @@
 @media screen and (max-width: 1439px) {
   .capital__content {
     max-width: 768px;
+    padding-right: 0;
   }
 }
 
