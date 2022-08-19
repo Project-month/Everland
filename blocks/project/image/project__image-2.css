@@ -1,0 +1,33 @@
+.project__image-2 {
+  width: 555px;
+  height: 393px;
+  grid-row: 1/5;
+  grid-column: 3;
+  justify-self: end;
+  background-image: url(https://cool-shina.ru/wp-content/uploads/2/9/7/2973aa635c6fe699f9fb5f1ad8389d47.jpeg);
+  border-radius: 30px;
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (max-width: 1439px) {
+  .project__image-2 {
+    background-image: url(https://cool-shina.ru/wp-content/uploads/2/9/7/2973aa635c6fe699f9fb5f1ad8389d47.jpeg);
+    width: 259px;
+    height: 284px;
+    border-radius: 10px;
+    grid-column: 2;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .project__image-2 {
+    background-image: url(https://cool-shina.ru/wp-content/uploads/2/9/7/2973aa635c6fe699f9fb5f1ad8389d47.jpeg);
+    width: 254px;
+    height: 180px;
+    grid-column: 1;
+    grid-row: 2;
+    justify-self: start;
+    margin-top: 8px;
+  }
+}

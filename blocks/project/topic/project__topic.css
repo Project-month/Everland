@@ -1,0 +1,22 @@
+.project__topic {
+  grid-area: project__topic;
+  grid-row: 1;
+  grid-column: 1;
+  margin: 0;
+  padding: 0;
+  min-width: 167px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media screen and (max-width: 1439px) {
+  .project__topic {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .project__topic {
+    font-size: 14px;
+  }
+}
