@@ -9,6 +9,12 @@
   text-overflow: ellipsis;
 }
 
+@media screen and (max-width: 1439px) {
+  .project__topic {
+    font-size: 16px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .project__topic {
     font-size: 14px;

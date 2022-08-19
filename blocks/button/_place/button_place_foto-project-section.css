@@ -11,6 +11,7 @@
 
 @media screen and (max-width: 1439px) {
   .button_place_foto-project-section {
+    width: 200px;
   }
 }
 
