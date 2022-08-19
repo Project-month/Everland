@@ -1,16 +1,16 @@
 .cards__link_color_orange {
-  background-color: #FEEFEA;
+  background-color: #feefea;
 }
 
 .cards__link_color_orange:hover {
-  background-color: #E98509;
+  background-color: #e98509;
 }
 
 .cards__link_color_orange:active {
-  background-color: #864A00;
+  background-color: #864a00;
 }
 
 .cards__link_color_orange:disabled {
-  background: #C4C4C4;
+  background: #c4c4c4;
   cursor: not-allowed;
 }

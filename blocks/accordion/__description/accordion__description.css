@@ -1,4 +1,4 @@
-.accordion__description{
+.accordion__description {
   margin-top: 20px;
-  transition: height 0.3s linear,margin 0.3s ease-in-out;
+  transition: height 0.3s linear, margin 0.3s ease-in-out;
 }

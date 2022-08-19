@@ -13,7 +13,6 @@
   }
 }
 
-
 @media (max-width: 767px) {
   .history__card-small {
     flex-direction: column;

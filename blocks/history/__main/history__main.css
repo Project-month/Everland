@@ -19,7 +19,6 @@
   .history__main > button:nth-child(2) {
     grid-row: 4 / 5;
     margin: 40px auto 50px;
-
   }
 }
 

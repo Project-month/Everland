@@ -1,7 +1,7 @@
-.accordions{
+.accordions {
   display: flex;
-  margin: 50px auto 0;
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
+  margin: 50px auto 0;
 }

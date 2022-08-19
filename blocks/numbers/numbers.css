@@ -1,4 +1,4 @@
-.numbers{
+.numbers {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -9,13 +9,13 @@
 }
 
 @media screen and (max-width: 1439px) {
-  .numbers{
+  .numbers {
     width: 688px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .numbers{
+  .numbers {
     gap: 16px;
     row-gap: 16px;
     width: 300px;

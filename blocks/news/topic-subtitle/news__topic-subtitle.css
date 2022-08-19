@@ -1,13 +1,13 @@
 .news__topic-subtitle {
   margin: 20px 0 0;
   padding: 0;
-  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  font-family: 'Raleway', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 130%;
-  -webkit-font-feature-settings: "pnum" on, "lnum" on;
-  font-feature-settings: "pnum" on, "lnum" on;
+  -webkit-font-feature-settings: 'pnum' on, 'lnum' on;
+  font-feature-settings: 'pnum' on, 'lnum' on;
   -o-text-overflow: ellipsis;
   text-overflow: ellipsis;
   -webkit-box-sizing: border-box;

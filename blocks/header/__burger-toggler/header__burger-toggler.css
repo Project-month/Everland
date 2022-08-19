@@ -1,7 +1,7 @@
 .header__burger-toggler {
-  opacity: 0;
+  height: 0;
   margin: 0;
+  opacity: 0;
   padding: 0;
   width: 0;
-  height: 0;
 }

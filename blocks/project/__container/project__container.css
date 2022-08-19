@@ -8,10 +8,10 @@
   grid-template-columns: minmax(603px) minmax(142px) minmax(555px);
   grid-template-rows: repeat(auto-fit, 4fr);
   grid-template-areas:
-    "project__topic"
-    "project__topic-title"
-    "project__topic-subtitle"
-    "buttons";
+    'project__topic'
+    'project__topic-title'
+    'project__topic-subtitle'
+    'buttons';
   margin: 0 auto;
   box-sizing: border-box;
   overflow: hidden;
@@ -27,18 +27,18 @@
 
 @-webkit-keyframes fade {
   from {
-      opacity: .4
+    opacity: 0.4;
   }
   to {
-      opacity: 1
+    opacity: 1;
   }
 }
 @keyframes fade {
   from {
-      opacity: .4
+    opacity: 0.4;
   }
   to {
-      opacity: 1
+    opacity: 1;
   }
 }
 
@@ -60,5 +60,3 @@
     min-height: 496px;
   }
 }
-
-
