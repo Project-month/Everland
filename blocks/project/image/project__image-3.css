@@ -4,7 +4,7 @@
   grid-row: 1/5;
   grid-column: 3;
   justify-self: end;
-  background-image: url(../../../images/Image_1.jpg);
+  background-image: url(https://img.1tv.com/img/2020-04-27/fmt_117_524_1.jpg);
   border-radius: 30px;
   background-size: cover;
   background-position: center;
@@ -12,7 +12,7 @@
 
 @media screen and (max-width: 1439px) {
   .project__image-3 {
-    background-image: url(../../../images/Image_1.jpg); /*Изображение на фото тоже самое, но сама фотография другая (первый вариант не подходит под Perfect-Pixel)*/
+    background-image: url(https://img.1tv.com/img/2020-04-27/fmt_117_524_1.jpg);
     width: 259px;
     height: 284px;
     border-radius: 10px;
@@ -22,7 +22,7 @@
 
 @media screen and (max-width: 767px) {
   .project__image-3 {
-    background-image: url(../../../images/Image_1.jpg);
+    background-image: url(https://img.1tv.com/img/2020-04-27/fmt_117_524_1.jpg);
     width: 254px;
     height: 180px;
     grid-column: 1;

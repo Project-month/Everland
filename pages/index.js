@@ -18,15 +18,16 @@ if (
 let btnSliderFwd = document.querySelector("#btn-slider-fwd");
 let btnSliderBack = document.querySelector("#btn-slider-back");
 
+
 let slideIndex = 1;
 showSlides(slideIndex);
 
-function forward() {
-  showSlides((slideIndex += 1));
-}
-
 function back() {
   showSlides((slideIndex -= 1));
+}
+
+function forward() {
+  showSlides((slideIndex += 1));
 }
 
 function currentSlide(n) {
@@ -35,7 +36,8 @@ function currentSlide(n) {
 
 function showSlides(n) {
   let i;
-  let slides = document.querySelectorAll("#sld");
+  let slides = document.querySelectorAll(".project__container");
+
   if (n > slides.length) {
     slideIndex = 1;
   }
@@ -48,7 +50,6 @@ function showSlides(n) {
   slides[slideIndex - 1].style.display = "grid";
 }
 
-btnSliderBack.addEventListener("click", () => back());
-btnSliderFwd.addEventListener("click", () => forward());
+
 //Для слайдера  - конец
 //-------------------------------------------

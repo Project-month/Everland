@@ -4,7 +4,7 @@
   grid-row: 1/5;
   grid-column: 3;
   justify-self: end;
-  background-image: url(../../../images/Image_2.jpg);
+  background-image: url(https://cool-shina.ru/wp-content/uploads/2/9/7/2973aa635c6fe699f9fb5f1ad8389d47.jpeg);
   border-radius: 30px;
   background-size: cover;
   background-position: center;
@@ -12,7 +12,7 @@
 
 @media screen and (max-width: 1439px) {
   .project__image-2 {
-    background-image: url(../../../images/Image_2.jpg); /*Изображение на фото тоже самое, но сама фотография другая (первый вариант не подходит под Perfect-Pixel)*/
+    background-image: url(https://cool-shina.ru/wp-content/uploads/2/9/7/2973aa635c6fe699f9fb5f1ad8389d47.jpeg);
     width: 259px;
     height: 284px;
     border-radius: 10px;
@@ -22,7 +22,7 @@
 
 @media screen and (max-width: 767px) {
   .project__image-2 {
-    background-image: url(../../../images/Image_2.jpg);
+    background-image: url(https://cool-shina.ru/wp-content/uploads/2/9/7/2973aa635c6fe699f9fb5f1ad8389d47.jpeg);
     width: 254px;
     height: 180px;
     grid-column: 1;
