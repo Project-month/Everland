@@ -3,13 +3,13 @@
 }
 
 .cards__link_color_white:hover .cards__link-arrow_color_black {
-  color: #00275C;
+  color: #00275c;
 }
 
 .cards__link_color_white:active .cards__link-arrow_color_black {
-  color: #0C4BA0;
+  color: #0c4ba0;
 }
 
 .cards__link_color_white:disabled .cards__link-arrow_color_black {
-  color: #C4C4C4;
+  color: #c4c4c4;
 }

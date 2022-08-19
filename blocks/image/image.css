@@ -1,9 +1,8 @@
-.image{
+.image {
   width: 555px;
   height: 368px;
   border-radius: 30px;
 }
-
 
 @media screen and (max-width: 1439px) {
   .image {

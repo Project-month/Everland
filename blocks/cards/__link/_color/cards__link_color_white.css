@@ -1,8 +1,8 @@
 .cards__link_color_white {
-  background-color: #FFFFFF;
+  background-color: #fff;
 }
 
 .cards__link_color_white:disabled {
-  color: #C4C4C4;
+  color: #c4c4c4;
   cursor: not-allowed;
 }

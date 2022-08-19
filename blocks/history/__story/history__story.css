@@ -1,6 +1,6 @@
 .history__story {
   align-items: center;
-  background: #EAE6FF;
+  background: #eae6ff;
   border-radius: 30px;
   display: flex;
   gap: 20px;
@@ -19,4 +19,3 @@
     padding: 16px;
   }
 }
-

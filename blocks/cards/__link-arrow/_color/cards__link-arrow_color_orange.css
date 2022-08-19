@@ -1,9 +1,9 @@
 .cards__link-arrow_color_orange {
-  color: #E98509;
+  color: #e98509;
 }
 
 .cards__link_color_orange:hover .cards__link-arrow_color_orange {
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .cards__link-arrow_color_orange:disabled {

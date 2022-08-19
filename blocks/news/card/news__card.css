@@ -2,10 +2,10 @@
   display: -ms-grid;
   display: grid;
   grid-template-areas:
-    "news__topic"
-    "news__topic-image"
-    "news__text"
-    "news__topic-date";
+    'news__topic'
+    'news__topic-image'
+    'news__text'
+    'news__topic-date';
   -ms-grid-columns: auto;
   grid-template-columns: auto;
   -ms-grid-rows: 23px 30px 302px 30px 302px 30px 23px;

@@ -1,18 +1,18 @@
 .header__menu-item-toggler {
-    display: none;
-    opacity: 0;
-    margin: 0;
-    padding: 0;
-    width: 0;
-    height: 0;    
- }
+  display: none;
+  opacity: 0;
+  margin: 0;
+  padding: 0;
+  width: 0;
+  height: 0;
+}
 
 .header__menu-item-toggler:checked ~ .header__menu-item-arrow {
-    transform: rotate(-45deg);
-    top: 8px;
-    transition-duration: 0.25s;
-  }
+  transform: rotate(-45deg);
+  top: 8px;
+  transition-duration: 0.25s;
+}
 
-  .header__menu-item-toggler:checked ~ .header__submenu-items {
-    display: flex;
-  }
+.header__menu-item-toggler:checked ~ .header__submenu-items {
+  display: flex;
+}

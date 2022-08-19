@@ -1,8 +1,8 @@
 .capital__slide {
-display: flex;
-gap: 10px;
-align-items: center;
-margin-top: 173px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 173px;
 }
 
 @media screen and (max-width: 1439px) {

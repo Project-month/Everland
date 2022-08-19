@@ -8,8 +8,7 @@
   height: 302px;
   overflow: hidden;
   -o-text-overflow: ellipsis;
-     text-overflow: ellipsis;
-
+  text-overflow: ellipsis;
 }
 
 .news__text:nth-child(2) {
