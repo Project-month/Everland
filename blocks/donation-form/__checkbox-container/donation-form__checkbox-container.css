@@ -1,0 +1,10 @@
+.donation-form__checkbox-container {
+  align-items: center;
+  display: flex;
+  margin-bottom: 18px;
+  width: fit-content;
+}
+
+.donation-form__checkbox-container:last-child {
+  margin-bottom: 0;
+}

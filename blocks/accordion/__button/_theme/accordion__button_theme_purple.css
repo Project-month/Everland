@@ -1,0 +1,12 @@
+.accordion__button_theme_purple{
+  background-color: #EAE6FF;
+  stroke: #8B75FF;
+}
+
+.accordion__button.accordion__button_theme_purple:hover{
+  background-color: #8B75FF;
+}
+
+.accordion__button_close.accordion__button_theme_purple{
+  background-color: #8B75FF;
+}

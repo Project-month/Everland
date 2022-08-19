@@ -8,3 +8,20 @@
   align-items: center;
   display: flex;
 }
+
+@media screen and (max-width: 1439px) {
+  .cards__link {
+    max-width: 139px;
+    height: 44px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cards__link {
+    max-width: 128px;
+    margin-left: 24px;
+    margin-bottom: 24px;
+  }
+}

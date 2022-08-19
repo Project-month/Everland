@@ -1,0 +1,13 @@
+.donation-form__radiobuttons-container_for_methods {
+  align-items: center;
+  column-gap: 18px;
+  grid-template: 1fr / repeat(3, 1fr) auto;
+  justify-content: center;
+}
+
+@media screen and (max-width: 767px) {
+  .donation-form__radiobuttons-container_for_methods {
+    grid-template: repeat(3, 1fr) auto / minmax(auto, 260px);
+    gap: 16px;
+  }
+}

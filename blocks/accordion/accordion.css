@@ -1,0 +1,32 @@
+.accordion{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+  width: 670px;
+  height: fit-content;
+
+
+  padding: 29px 20px;
+
+  box-sizing: border-box;
+
+  border: solid 2px #DADADA;
+  border-radius: 30px;
+}
+
+
+@media screen and (max-width: 1439px) {
+  .accordion{
+    width: 688px;
+    padding: 20px 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .accordion{
+    width: 300px;
+    padding: 18px 16px;
+  }
+}

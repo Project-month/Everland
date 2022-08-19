@@ -1,0 +1,23 @@
+.numbers{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  row-gap: 30px;
+
+  width: 670px;
+}
+
+@media screen and (max-width: 1439px) {
+  .numbers{
+    width: 688px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .numbers{
+    gap: 16px;
+    row-gap: 16px;
+    width: 300px;
+  }
+}

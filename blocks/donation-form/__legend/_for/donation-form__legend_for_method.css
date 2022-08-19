@@ -1,0 +1,9 @@
+.donation-form__legend_for_method {
+  margin-bottom: 16px;
+}
+
+@media screen and (max-width: 1439px) and (min-width: 768px) {
+  .donation-form__legend_for_method {
+    margin-bottom: 24px;
+  }
+}

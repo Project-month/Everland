@@ -1,0 +1,9 @@
+.donation-form__radio {
+  clip: rect(0 0 0 0);
+  height: 1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  width: 1px;
+  z-index: -1;
+}

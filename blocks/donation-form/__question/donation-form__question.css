@@ -1,0 +1,29 @@
+.donation-form__question {
+  background-image: url(../../../images/question/question.svg);
+  border: none;
+  cursor: pointer;
+  height: 10px;
+  padding: 0;
+  width: 10px;
+  border-radius: 100%;
+  margin-left: 10px;
+  /* transition property make backround ugly blink */
+}
+
+.donation-form__question:hover {
+  background-image: url(../../../images/question/question_hover.svg);
+}
+
+.donation-form__question:active {
+  background-image: url(../../../images/question/question_clicked.svg);
+}
+
+.donation-form__question:disabled {
+  background-image: url(../../../images/question/question_disabled.svg);
+}
+
+@media screen and (max-width: 767px) {
+  .donation-form__question {
+    margin-left: 4px;
+  }
+}

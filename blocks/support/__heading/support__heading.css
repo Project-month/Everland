@@ -1,0 +1,10 @@
+.support__heading {
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 1439px) {
+  .support__heading {
+    margin-bottom: 24px;
+    text-align: center;
+  }
+}

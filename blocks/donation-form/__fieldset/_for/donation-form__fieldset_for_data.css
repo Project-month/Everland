@@ -1,0 +1,15 @@
+.donation-form__fieldset_for_data {
+  margin-top: 41px;
+}
+
+@media screen and (max-width: 1439px) {
+  .donation-form__fieldset_for_data {
+    margin-top: 48px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .donation-form__fieldset_for_data {
+    margin-top: 19px;
+  }
+}

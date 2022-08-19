@@ -8,6 +8,21 @@
   background-position: center;
   border-radius: 10px;
   border: none;
+  cursor: pointer;
+}
+
+.button__click-forward:hover {
+  background-color: #4183DC;
+}
+
+.button__click-forward:active {
+  background-color: #00275C;
+}
+
+.button__click-forward:disabled {
+  background-color: #C4C4C4;
+  color: rgba(38, 38, 38, 0.5);
+  cursor: not-allowed;
 }
 
 @media screen and (max-width: 1439px) {
