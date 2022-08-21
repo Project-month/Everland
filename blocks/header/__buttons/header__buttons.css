@@ -5,6 +5,7 @@
   display: flex;
   list-style-type: none;
   gap: 16px;
+  align-self: center;
 }
 @media screen and (max-width: 1439px) {
   .header__buttons {

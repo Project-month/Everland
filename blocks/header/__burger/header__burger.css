@@ -4,12 +4,29 @@
   align-items: center;
   justify-content: center;
   gap: 12px;
-  padding-left: 90px;
+  cursor: pointer;
+}
+
+.header__burger:hover > .header__navigation {
+  display: block;
+  top: 80px;
+}
+
+.header__burger:hover > .header__burger-button > span {
+  transform: rotate(45deg);
+}
+.header__burger:hover > .header__burger-button > span::before {
+  top: 0;
+  transform: rotate(0);
+}
+.header__burger:hover > .header__burger-button > span::after {
+  top: 0;
+  transform: rotate(90deg);
 }
 
 @media screen and (max-width: 1439px) {
   .header__burger {
-    align-items: flex-end;
+    align-items: center;
     justify-content: flex-end;
     gap: 10px;
     padding-left: 14px;
@@ -20,10 +37,14 @@
 
 @media screen and (max-width: 767px) {
   .header__burger {
-    align-items: flex-end;
+    align-items: center;
     justify-content: flex-end;
     gap: 0;
     padding-top: 8px;
     padding-right: 0;
   }
+
+  .header__burger:hover > .header__navigation {
+    top: 54px;
+  }  
 }

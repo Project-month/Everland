@@ -12,6 +12,7 @@
   z-index: 1;
   padding-left: 40px;
   padding-right: 40px;
+  cursor: auto;
 }
 
 @media screen and (max-width: 1439px) {
