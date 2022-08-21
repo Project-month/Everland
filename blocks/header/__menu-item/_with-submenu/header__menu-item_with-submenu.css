@@ -15,4 +15,16 @@
     padding-bottom: 0;
     position: relative;
   }
+
+  .header__menu-item_with-submenu:hover > .header__menu-item-arrow {
+    transform: rotate(-45deg);
+    top: 8px;
+    transition-duration: 0.25s;
+  }
+
+  .header__menu-item_with-submenu:hover > .header__submenu-items {
+    display: flex;
+  }  
+
 }
+
