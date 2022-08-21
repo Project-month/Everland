@@ -1,15 +1,15 @@
-.header__menu-item_place_row3col2 {
+.header__menu-item_name_we-thank {
   grid-area: unset;
 }
 
 @media screen and (max-width: 1439px) {
-  .header__menu-item_place_row3col2 {
-    grid-area: 3 / 2;
+  .header__menu-item_name_we-thank {
+    grid-area: 2 / 1;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .header__menu-item_place_row3col2 {
+  .header__menu-item_name_we-thank {
     grid-area: unset;
   }
 }
