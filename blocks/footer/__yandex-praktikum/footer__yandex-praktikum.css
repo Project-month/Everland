@@ -17,8 +17,9 @@
 /* Нижестоящее правило не нужно, оставил чтобы визуально быстро понять что для "мобилок" этот элемент обработан */
 @media screen and (max-width: 767px) {
   .footer__yandex-praktikum {
+    padding: 13px 0 0;
     align-items: flex-start;
     flex-direction: column;
-    gap: 7px;
+    gap: 4px;
   }
 }
