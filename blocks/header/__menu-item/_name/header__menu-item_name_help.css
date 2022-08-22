@@ -1,0 +1,15 @@
+.header__menu-item_name_help {
+  grid-area: unset;
+}
+
+@media screen and (max-width: 1439px) {
+  .header__menu-item_name_help {
+    grid-area: 3 / 2;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__menu-item_name_help {
+    grid-area: unset;
+  }
+}

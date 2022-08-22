@@ -5,10 +5,10 @@
       max-content
     );
   grid-template-areas:
-    "description navigation"
-    "supported social"
-    "contacts copyrights"
-    "yandex-praktikum yandex-praktikum";
+    'description navigation'
+    'supported social'
+    'contacts copyrights'
+    'yandex-praktikum yandex-praktikum';
   column-gap: 39px;
   row-gap: 30px;
 }
@@ -26,14 +26,14 @@
   .footer__grid {
     grid-template-columns: 2fr;
     grid-template-areas:
-      "description"
-      "navigation"
-      "supported"
-      "contacts"
-      "social"
-      "copyrights"
-      "yandex-praktikum";
+      'description'
+      'navigation'
+      'supported'
+      'contacts'
+      'social'
+      'copyrights'
+      'yandex-praktikum';
     column-gap: 0;
-    row-gap: 22px;
+    row-gap: 24px;
   }
 }

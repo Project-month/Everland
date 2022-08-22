@@ -7,9 +7,9 @@
   display: -ms-grid;
   display: grid;
   grid-template-areas:
-    "news__title"
-    "news__information"
-    "button_place_news-section";
+    'news__title'
+    'news__information'
+    'button_place_news-section';
   grid-template-columns: repeat(3, minmax(440px));
   grid-template-rows: repeat(3, minmax(880px));
   max-width: 1440px;

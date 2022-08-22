@@ -1,24 +1,18 @@
-.accordion{
+.accordion {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-
   width: 670px;
   height: fit-content;
-
-
   padding: 27.5px 20px;
-
   box-sizing: border-box;
-
-  outline: #DADADA solid 2px ;
+  border: 2px solid #dadada;
   border-radius: 30px;
 }
 
-
 @media screen and (max-width: 1439px) {
-  .accordion{
+  .accordion {
     width: 688px;
     padding: 20px 20px;
     border-radius: 20px;
@@ -26,7 +20,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .accordion{
+  .accordion {
     width: 300px;
     border-radius: 15px;
     padding: 12px 16px;

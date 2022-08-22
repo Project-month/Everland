@@ -1,0 +1,19 @@
+.support__contributors-heading {
+  margin-bottom: 74px;
+  max-width: 488px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1439px) {
+  .support__contributors-heading {
+    margin-bottom: 32px;
+    max-width: 531px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .support__contributors-heading {
+    margin-bottom: 36px;
+    max-width: 300px;
+  }
+}

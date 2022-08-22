@@ -1,0 +1,33 @@
+.project__image-3 {
+  width: 555px;
+  height: 393px;
+  grid-row: 1/5;
+  grid-column: 3;
+  justify-self: end;
+  background-image: url(https://img.1tv.com/img/2020-04-27/fmt_117_524_1.jpg);
+  border-radius: 30px;
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (max-width: 1439px) {
+  .project__image-3 {
+    background-image: url(https://img.1tv.com/img/2020-04-27/fmt_117_524_1.jpg);
+    width: 259px;
+    height: 284px;
+    border-radius: 10px;
+    grid-column: 2;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .project__image-3 {
+    background-image: url(https://img.1tv.com/img/2020-04-27/fmt_117_524_1.jpg);
+    width: 254px;
+    height: 180px;
+    grid-column: 1;
+    grid-row: 2;
+    justify-self: start;
+    margin-top: 8px;
+  }
+}

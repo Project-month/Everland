@@ -1,18 +1,30 @@
 .header__menu-item_with-submenu {
-    grid-row: span 5;
+  grid-row: span 5;
 }
 
 @media screen and (max-width: 1439px) {
-    .header__menu-item_with-submenu {
-        grid-row: span 1;
-        padding-bottom: 40px;
-    }
+  .header__menu-item_with-submenu {
+    grid-row: span 1;
+    padding-bottom: 40px;
+  }
 }
 
 @media screen and (max-width: 767px) {
-    .header__menu-item_with-submenu {
-        grid-row: unset;
-        padding-bottom: 0;
-        position: relative;
-    }
+  .header__menu-item_with-submenu {
+    grid-row: unset;
+    padding-bottom: 0;
+    position: relative;
+  }
+
+  .header__menu-item_with-submenu:hover > .header__menu-item-arrow {
+    transform: rotate(-45deg);
+    top: 8px;
+    transition-duration: 0.25s;
+  }
+
+  .header__menu-item_with-submenu:hover > .header__submenu-items {
+    display: flex;
+  }  
+
 }
+

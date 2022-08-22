@@ -1,0 +1,17 @@
+.forwhom__content {
+  padding-right: 0;
+}
+
+@media screen and (max-width: 1439px) {
+  .forwhom__content {
+    max-width: 768px;
+    padding-left: 158px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .forwhom__content {
+    max-width: 320px;
+    padding-left: 10px;
+  }
+}

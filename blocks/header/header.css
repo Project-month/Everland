@@ -5,8 +5,9 @@
   margin: 0;
   padding: 0;
   width: 100%;
-  background: #ffffff;
+  background: #fff;
   min-height: 80px;
+  z-index: 50;
 }
 
 @media screen and (max-width: 1439px) {

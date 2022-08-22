@@ -1,8 +1,6 @@
-.accordion__description_close{
-  margin: 0;
+.accordion__description_close {
   height: 0;
-
+  margin: 0;
   opacity: 0;
-
-  transition: height 0.3s linear,margin 0.3s ease-in-out;
+  transition: height 0.3s linear, margin 0.3s ease-in-out;
 }

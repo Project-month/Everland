@@ -1,20 +1,19 @@
 .header__menu-item-arrow {
-    display: none;
-    width: 7px;
-    height: 7px;
-    border-top: 2px solid #333333;
-    border-right: 2px solid #333333; 
-    transform: rotate(-225deg);
-    transition-duration: 0.25s; 
-    position: static;
+  display: none;
+  width: 7px;
+  height: 7px;
+  border-top: 2px solid #333;
+  border-right: 2px solid #333;
+  transform: rotate(-225deg);
+  transition-duration: 0.25s;
+  position: static;
 }
 
 @media screen and (max-width: 767px) {
-    .header__menu-item-arrow {
-      display: inline;
-      position: absolute;
-      top: 4px;
-      right: 8px;
-    }
+  .header__menu-item-arrow {
+    display: inline;
+    position: absolute;
+    top: 4px;
+    right: 8px;
   }
-  
+}

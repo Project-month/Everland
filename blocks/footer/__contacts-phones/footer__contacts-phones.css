@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   list-style-type: none;
-  flex-basis: 251px;
+  min-width: 30%;
   display: flex;
   flex-direction: column;
   gap: 2px;
@@ -19,6 +19,6 @@
     flex-basis: unset;
     flex-direction: row;
     gap: 16px;
-    padding-top: 27px;
+    padding-top: 24px;
   }
 }

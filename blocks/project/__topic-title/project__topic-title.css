@@ -1,0 +1,22 @@
+.project__topic-title {
+  grid-area: project__topic-title;
+  grid-row: 2/3;
+  grid-column: 1;
+  margin: 0;
+  padding: 0;
+  width: 582px;
+}
+
+@media screen and (max-width: 1439px) {
+  .project__topic-title {
+    width: 339px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .project__topic-title {
+    grid-row: 3;
+    width: 245px;
+    margin-top: 14px;
+  }
+}

@@ -1,6 +1,6 @@
 .header__navigation {
   box-sizing: border-box;
-  background-color: white;
+  background-color: #fff;
   display: none;
   left: 0;
   margin: 0;
@@ -12,6 +12,7 @@
   z-index: 1;
   padding-left: 40px;
   padding-right: 40px;
+  cursor: auto;
 }
 
 @media screen and (max-width: 1439px) {

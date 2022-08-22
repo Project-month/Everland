@@ -1,0 +1,7 @@
+.cards__link-text_color_orange {
+  color: #e98509;
+}
+
+.cards__link_color_orange:hover .cards__link-text_color_orange {
+  color: #fff;
+}

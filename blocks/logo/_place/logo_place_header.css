@@ -1,6 +1,8 @@
 .logo_place_header {
   width: 171.32px;
   height: 30px;
+  padding-right: 90px;
+  align-self: center;
 }
 
 @media screen and (max-width: 1439px) {

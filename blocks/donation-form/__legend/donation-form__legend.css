@@ -1,5 +1,7 @@
 .donation-form__legend {
+  overflow: hidden;
   text-align: center;
+  width: 100%;
 }
 
 .donation-form__legend::before,
@@ -7,7 +9,7 @@
   background-color: #dadada;
   content: '';
   display: inline-block;
-  height: 1px;
+  height: 2px;
   position: relative;
   vertical-align: middle;
   width: 100%;
@@ -15,10 +17,30 @@
 
 .donation-form__legend::before {
   margin-left: -100%;
-  left: -14px;
+  left: -10px;
 }
 
 .donation-form__legend::after {
   margin-right: -100%;
-  right: -14px;
+  right: -10px;
+}
+
+@media screen and (max-width: 1439px) {
+  .donation-form__legend::before {
+    left: -14px;
+  }
+
+  .donation-form__legend::after {
+    right: -14px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .donation-form__legend::before {
+    left: -8px;
+  }
+
+  .donation-form__legend::after {
+    right: -8px;
+  }
 }

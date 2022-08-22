@@ -1,12 +1,12 @@
-.accordion__button_theme_purple{
-  background-color: #EAE6FF;
-  stroke: #8B75FF;
+.accordion__button_theme_purple {
+  background-color: #eae6ff;
+  stroke: #8b75ff;
 }
 
-.accordion__button.accordion__button_theme_purple:hover{
-  background-color: #8B75FF;
+.accordion__button.accordion__button_theme_purple:hover {
+  background-color: #8b75ff;
 }
 
-.accordion__button_close.accordion__button_theme_purple{
-  background-color: #8B75FF;
+.accordion__button_close.accordion__button_theme_purple {
+  background-color: #8b75ff;
 }

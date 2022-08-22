@@ -1,12 +1,12 @@
-.accordion__button_theme_green{
-  background-color: #DAEFD5;
-  stroke: #319B17;
+.accordion__button_theme_green {
+  background-color: #daefd5;
+  stroke: #319b17;
 }
 
-.accordion__button.accordion__button_theme_green:hover{
-  background-color: #319B17;
+.accordion__button.accordion__button_theme_green:hover {
+  background-color: #319b17;
 }
 
-.accordion__button_close.accordion__button_theme_green{
-  background-color: #319B17;
+.accordion__button_close.accordion__button_theme_green {
+  background-color: #319b17;
 }
