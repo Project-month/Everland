@@ -31,14 +31,15 @@
 
 .news__card:nth-child(2) .news__text {
   -ms-grid-row: 2;
-  -ms-grid-row-span: 1;
-  grid-row: 2/3;
+  grid-row: 2;
+  height: 634px;
+  grid-template-rows: 244px 380px;
 }
 
 .news__card:nth-child(3) .news__text {
   -ms-grid-row: 2;
   grid-row: 2; /*переворачиваем содержиое в третьей карточке*/
-  height: 302px;
+  max-height: 302px;
 }
 
 .news__card:nth-child(3) .news__topic-image {
@@ -58,11 +59,12 @@
   }
 
   .news__card:nth-child(1) .news__text {
-    height: 185px;
+    max-height: 185px;
   }
 
   .news__card:nth-child(2) .news__text {
-    height: 417px;
+    max-height: 417px;
+    grid-template-rows: 225px 200px;
   }
 }
 
@@ -86,15 +88,19 @@
   }
 
   .news__card:nth-child(1) .news__text {
-    height: 120px;
+    max-height: 120px;
+    /* display: block; */
+    grid-template-rows: 43px 95px;
   }
 
   .news__card:nth-child(2) .news__text {
-    height: 262px;
+    max-height: 262px;
+    display: block;
   }
 
   .news__card:nth-child(3) .news__text {
-    height: 140px;
+    max-height: 140px;
+   grid-template-rows: 43px 95px;
   }
 }
 

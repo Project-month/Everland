@@ -2,6 +2,8 @@
   grid-area: news__text;
   -ms-grid-row: 3;
   grid-row: 3;
+  display: grid;
+  grid-template-rows: 122px 208px;
   padding: 0;
   max-width: 380px;
   margin: 0;
@@ -9,8 +11,4 @@
   overflow: hidden;
   -o-text-overflow: ellipsis;
   text-overflow: ellipsis;
-}
-
-.news__text:nth-child(2) {
-  height: 634px;
 }
