@@ -172,6 +172,7 @@
 
 /* History */
 @import url(../blocks/history/history.css);
+@import url(../blocks/history/_arrow-forward/history_arrow-forward.css);
 @import url(../blocks/history/__main/history__main.css);
 @import url(../blocks/history/__content/history__content.css);
 @import url(../blocks/history/__cards/history__cards.css);
