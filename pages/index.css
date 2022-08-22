@@ -120,6 +120,7 @@
 /* Numbers*/
 @import url(../blocks/numbers/numbers.css);
 @import url(../blocks/number/number.css);
+@import url(../blocks/number/__title/number__title.css);
 @import url(../blocks/number/__description/number__description.css);
 @import url(../blocks/number/__count/number__count.css);
 
