@@ -5,3 +5,17 @@
   gap: 20px;
   justify-content: center;
 }
+
+
+@media screen and (max-width: 1439px){
+  .accordions{
+    margin: 32px auto 0;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .accordions{
+    margin: 24px auto 0;
+    gap: 16px;
+  }
+}
