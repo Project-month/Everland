@@ -26,8 +26,8 @@
 @import url(../blocks/button/__click-back/button__click-back.css);
 @import url(../blocks/button/__click-forward/button__click-forward.css);
 @import url(../blocks/button/_place/button_place_foto-project-section.css);
-@import url(../blocks/button/_theme/button_theme_black_click-back.css);
-@import url(../blocks/button/_theme/button_theme_black_click-forward.css);
+@import url(../blocks/button/_theme/button_theme_black-click-back.css);
+@import url(../blocks/button/_theme/button_theme_black-click-forward.css);
 
 /* Logo */
 @import url(../blocks/logo/logo.css);
