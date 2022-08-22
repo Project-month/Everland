@@ -1,13 +1,19 @@
 .button_theme_black_click-forward {
   background-color: rgb(51, 51, 51);
-  cursor: pointer;
+  background-image: url(../../../images/icon/arrow_everlandforward.svg);
+  background-size: 17px 17px;
+  width: 35px;
+  height: 35px;
   background-repeat: no-repeat;
   background-position: center;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
 }
 
 .button_theme_black_click-forward:hover {
   background: #0c4ba0;
-  background-image: url(../../../images/icon/arrow_slider_white-m.svg);
+  background-image: url(../../../images/icon/arrow_everlandforward.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -15,7 +21,7 @@
 .button_theme_black_click-forward:active {
   background: #00275c;
   color: #fff;
-  background-image: url(../../../images/icon/arrow_slider_white-m.svg);
+  background-image: url(../../../images/icon/arrow_everlandforward.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -29,10 +35,13 @@
 
 @media screen and (max-width: 1439px) {
   .button_theme_black_click-forward {
+    background-size: 10px 10px;
     width: 24px;
     height: 24px;
+    border-radius: 6px;
+    padding: 0;
   }
   .button_theme_black_click-forward:hover {
-    background-image: url(../../../images/icon/arrow_slider_white-s.svg);
+    background-size: 10px 10px;
   }
 }
