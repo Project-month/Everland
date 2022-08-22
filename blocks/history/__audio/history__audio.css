@@ -12,8 +12,8 @@
   content: '';
   background-image: url(../../../images/history/Icon_play.svg);
   background-repeat: no-repeat;
-  width: 30%;
-  height: 30%;
+  width: 20%;
+  height: 20%;
   position: absolute;
   left: 0;
   right: 0;
@@ -26,6 +26,15 @@
 
 .history__audio:hover {
   cursor: pointer;
+}
+
+@media (max-width: 1439px) {
+  .history__audio {
+    position: absolute;
+    left: 138px;
+    min-height: 28px;
+    width: 28px;
+  }
 }
 
 @media (max-width: 767px) {

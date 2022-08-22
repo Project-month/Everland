@@ -7,7 +7,7 @@
   padding: 30px;
 }
 
-@media (max-width: 1289px) {
+@media (max-width: 1439px) {
   .history__story {
     padding: 25px 20px;
     gap: 16px;

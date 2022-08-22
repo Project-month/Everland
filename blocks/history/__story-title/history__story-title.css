@@ -1,5 +1,9 @@
 .history__story-title {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
   height: 120px;
+  overflow: hidden;
 }
 
 @media (max-width: 1439px) {
@@ -10,6 +14,8 @@
 
 @media (max-width: 767px) {
   .history__story-title {
-    height: auto;
+    -webkit-line-clamp: 2;
+    height: 38px;
+    width: 172px;
   }
 }

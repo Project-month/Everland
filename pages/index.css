@@ -15,6 +15,7 @@
 @import url(../blocks/big-text/big-text.css);
 @import url(../blocks/main-text/main-text.css);
 @import url(../blocks/small-text/small-text.css);
+@import url(../blocks/small-text/_mobile-as-main-text/small-text_mobile-as-main-text.css);
 @import url(../blocks/button-text/button-text.css);
 
 /* Buttons */
@@ -172,6 +173,7 @@
 
 /* History */
 @import url(../blocks/history/history.css);
+@import url(../blocks/history/_arrow-forward/history_arrow-forward.css);
 @import url(../blocks/history/__main/history__main.css);
 @import url(../blocks/history/__content/history__content.css);
 @import url(../blocks/history/__cards/history__cards.css);
@@ -182,6 +184,7 @@
 @import url(../blocks/history/__info/history__info.css);
 @import url(../blocks/history/__Icon-quote/history__Icon-quote.css);
 @import url(../blocks/history/__card/_view/history__card_view_reverse.css);
+@import url(../blocks/history/__card/_quote/history__card_quote_indent.css);
 @import url(../blocks/history/__button/history__button.css);
 @import url(../blocks/arrow__forward/arrow__forward.css);
 @import url(../blocks/history/__story/history__story.css);
