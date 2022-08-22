@@ -3,7 +3,7 @@
   max-width: 224px;
 }
 
-@media (max-width: 1289px) {
+@media (max-width: 1439px) {
   .history__story-image {
     max-width: 120px;
   }

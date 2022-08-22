@@ -1,0 +1,9 @@
+.history__card_quote_indent {
+  margin-top: 6px;
+}
+
+@media (max-width: 767px) {
+  .history__audio {
+    margin-top: 2px;
+  }
+}

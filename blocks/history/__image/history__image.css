@@ -9,7 +9,7 @@
   }
 }
 
-@media (max-width: 1289px) {
+@media (max-width: 767px) {
   .history__image {
     max-width: 80px;
   }

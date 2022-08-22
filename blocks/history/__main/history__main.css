@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr auto;
   grid-template-rows: repeat(2, auto);
-  padding-top: 100px;
+  padding-top: 150px;
   align-items: center;
 }
 
@@ -10,10 +10,10 @@
   grid-column: 1 / -1;
 }
 
-@media (max-width: 1289px) {
+@media (max-width: 1439px) {
   .history__main {
     grid-template-columns: 1fr;
-    padding-top: 64px;
+    padding-top: 100px;
   }
 
   .history__main > button:nth-child(2) {
@@ -25,5 +25,12 @@
 @media (max-width: 767px) {
   .history__main > button:nth-child(2) {
     margin: 24px auto 32px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .history__main {
+    padding-top: 64px;
   }
 }
