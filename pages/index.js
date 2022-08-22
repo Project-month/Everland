@@ -18,11 +18,11 @@ function changeNameButtonNews() {
 }
 
 function closeDescription(evt) {
-  const clickedButton = evt.target
-    .closest('.accordion')
+  const currentAccordion = evt.target
+    .closest('.accordion');
+  const clickedButton = currentAccordion
     .querySelector('.accordion__button');
-  const descriptionElement = clickedButton
-    .closest('.accordion')
+  const descriptionElement = currentAccordion
     .querySelector('.accordion__description');
 
   if (
@@ -31,12 +31,14 @@ function closeDescription(evt) {
   ) {
     descriptionElement.classList.add('accordion__description_close');
     clickedButton.classList.remove('accordion__button_close');
+    currentAccordion.classList.remove('accordion_close')
   } else if (
     descriptionElement &&
     descriptionElement.classList.contains('accordion__description_close')
   ) {
     descriptionElement.classList.remove('accordion__description_close');
     clickedButton.classList.add('accordion__button_close');
+    currentAccordion.classList.add('accordion_close')
   }
 }
 

@@ -125,6 +125,7 @@
 
 /*Accordion*/
 @import url(../blocks/accordion/accordion.css);
+@import url(../blocks/accordion/_close/accordion_close.css);
 @import url(../blocks/accordion/_theme/accordion_theme_green.css);
 @import url(../blocks/accordion/_theme/accordion_theme_orange.css);
 @import url(../blocks/accordion/_theme/accordion_theme_blue.css);
