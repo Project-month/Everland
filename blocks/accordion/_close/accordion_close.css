@@ -1,0 +1,5 @@
+.accordion_close{
+  padding-top: 30px;
+
+  transition: padding-top 0.3s linear;
+}
