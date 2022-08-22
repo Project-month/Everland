@@ -1,3 +1,19 @@
 .agency__subtitle {
   padding-top: 20px;
+  max-width: 955px;
+}
+
+@media (max-width: 1439px) {
+  .agency__subtitle {
+    padding-top: 15px;
+    max-width: 504px;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .agency__subtitle {
+    padding-top: 10px;
+    max-width: 300px;
+  }
 }
