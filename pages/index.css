@@ -174,6 +174,7 @@
 @import url(../blocks/project/__btn-wrapper/project__btn-wrapper.css);
 @import url(../blocks/project/__image/project__image-2.css);
 @import url(../blocks/project/__image/project__image-3.css);
+@import url(../blocks/project/__container/_slider/project__container_slider.css);
 
 /* History */
 @import url(../blocks/history/history.css);
@@ -285,3 +286,7 @@
 @import url(../blocks/footer/__copyrights/footer__copyrights.css);
 @import url(../blocks/footer/__yandex-praktikum/footer__yandex-praktikum.css);
 @import url(../blocks/footer/__yandex-praktikum-logo/footer__yandex-praktikum-logo.css);
+
+.opaciry0 {
+  background-color: red;
+}
