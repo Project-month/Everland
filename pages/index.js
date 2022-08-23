@@ -4,8 +4,16 @@ const donatForm = document.querySelector('.donat .donation-form');
 const submitButton = donatForm.querySelector('.donation-form__submit-button');
 
 const supportSection = document.querySelector('.support');
+// Support form
 const supportForm = supportSection.querySelector('.donation-form');
+const nameInput = supportForm.querySelector('#name');
+const emailInput = supportForm.querySelector('#email');
 const amountInput = supportForm.querySelector('#amount');
+const offertaCheck = supportForm.querySelector('#offerta');
+const personalDataCheck = supportForm.querySelector('#personal-data');
+const donationFormSubmitButton = supportForm.querySelector(
+  '.donation-form__submit-button'
+);
 const amountRadios = supportForm
   .querySelector('.donation-form__fieldset_for_amount')
   .querySelectorAll("input[name='donation-amount']");
@@ -15,8 +23,32 @@ let btnSliderFwd = document.querySelector('#btn-slider-fwd');
 let btnSliderBack = document.querySelector('#btn-slider-back');
 let slideIndex = 1;
 
+nameInput.addEventListener('input', validateForm);
+emailInput.addEventListener('input', validateForm);
+amountInput.addEventListener('input', validateForm);
+offertaCheck.addEventListener('change', validateForm);
+personalDataCheck.addEventListener('change', validateForm);
+
+function validateForm() {
+  const isNameFilled = nameInput.value.length > 0;
+  const isEmailFilled = emailInput.value.length > 0;
+  const isAmountFilled = !amountInput.visible || amountInput.value.length > 0;
+  const offertaChecked = offertaCheck.checked;
+  const personalDataChecked = personalDataCheck.checked;
+
+  const isFormValid =
+    isNameFilled &&
+    isEmailFilled &&
+    isAmountFilled &&
+    offertaChecked &&
+    personalDataChecked;
+
+  donationFormSubmitButton.disabled = !isFormValid;
+}
+
 function showElement(elem) {
   if (elem.classList.contains('hidden')) {
+    elem.visible = true;
     elem.classList.remove('hidden');
     setTimeout(function () {
       elem.classList.remove('visuallyhidden');
@@ -26,6 +58,7 @@ function showElement(elem) {
 
 function hideElement(elem) {
   if (!elem.classList.contains('hidden')) {
+    elem.visible = false;
     elem.classList.add('visuallyhidden');
     elem.addEventListener('transitionend', () => elem.classList.add('hidden'), {
       capture: false,
@@ -42,6 +75,8 @@ function handleAmountRadioChange(evt) {
   } else {
     hideElement(amountInput);
   }
+
+  validateForm();
 }
 
 function changeNameButtonNews() {
