@@ -1,18 +1,18 @@
 .capital__slide {
+  grid-area: buttons;
   display: flex;
   gap: 10px;
-  align-items: center;
-  margin-top: 173px;
+  align-items: flex-end;
 }
 
 @media screen and (max-width: 1439px) {
   .capital__slide {
-    margin-top: 47px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .capital__slide {
-    margin-top: 242px;
+    align-self: center;
+    justify-content: center;
   }
 }

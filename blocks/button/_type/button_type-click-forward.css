@@ -1,4 +1,4 @@
-.button__click-forward {
+.button_type_click-forward {
   background-color: #0c4ba0;
   background-image: url(../../../images/icon/arrow_everlandforward.svg);
   background-size: 17px 17px;
@@ -11,22 +11,22 @@
   cursor: pointer;
 }
 
-.button__click-forward:hover {
+.button_type_click-forward:hover {
   background-color: #4183dc;
 }
 
-.button__click-forward:active {
+.button_type_click-forward:active {
   background-color: #00275c;
 }
 
-.button__click-forward:disabled {
+.button_type_click-forward:disabled {
   background-color: #c4c4c4;
   color: rgba(38, 38, 38, 0.5);
   cursor: not-allowed;
 }
 
 @media screen and (max-width: 1439px) {
-  .button__click-forward {
+  .button_type_click-forward {
     background-size: 10px 10px;
     width: 24px;
     height: 24px;

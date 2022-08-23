@@ -1,0 +1,33 @@
+.capital__image_type_under {
+  width: 352px;
+  height: 315px;
+  grid-column: -1 / 6;
+  grid-row: 1;
+  z-index: -1;
+  justify-self: end;
+}
+
+@media screen and (max-width: 1439px) {
+  .capital__image_type_under {
+    padding-top: 14px;
+    width: 100%;
+    height: 52%;
+    max-width: 352px;
+    max-height: 315px;
+    min-width: 184px;
+    min-height: 152px;
+
+    grid-column: -1 / 5;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .capital__image_type_under {
+    padding: 0;
+    min-width: 184px;
+    min-height: 144px;
+    height: 45%;
+    max-width: 190px;
+    max-height: 152px;
+  }
+}
