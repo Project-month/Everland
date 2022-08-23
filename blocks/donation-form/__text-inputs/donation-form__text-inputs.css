@@ -1,0 +1,13 @@
+.donation-form__text-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+  margin-bottom: 39px;
+}
+
+@media screen and (max-width: 1439px) {
+  .donation-form__text-inputs {
+    gap: 16px;
+    margin-bottom: 24px;
+  }
+}
