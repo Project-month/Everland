@@ -16,3 +16,9 @@
 .donation-form__radio:checked + .donation-form__custom-radio {
   border: 1px solid #0c4ba0;
 }
+
+@media screen and (max-width: 1439px) {
+  .donation-form__custom-radio {
+    height: 44px;
+  }
+}
