@@ -1,4 +1,4 @@
-.project__container_slider {
+.project__container_showed {
   max-width: 1360px;
   max-height: 453px;
   background: rgb(231, 240, 255);
@@ -43,7 +43,7 @@
 }
 
 @media screen and (max-width: 1439px) {
-  .project__container_slider {
+  .project__container_showed {
     grid-template-columns: minmax(320px) minmax(259px);
     border-radius: 20px;
     width: 688px;
@@ -51,7 +51,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .project__container_slider {
+  .project__container_showed {
     grid-template-columns: repeat(auto-fit, 1fr);
     grid-template-rows: repeat(auto-fit, 4fr);
     border-radius: 20px;

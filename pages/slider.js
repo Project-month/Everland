@@ -5,11 +5,11 @@ let slider = document.querySelectorAll(".project__container");
 let currentSlide = 0;
 
 function hideSlide() {
-  slider[currentSlide].classList.remove("project__container_slider");
+  slider[currentSlide].classList.remove("project__container_showed");
 }
 
 function showSlides() {
-  slider[currentSlide].classList.add("project__container_slider");
+  slider[currentSlide].classList.add("project__container_showed");
  /*в макете, указан список рекомендуемых цветов для фона слайдера. Добавим случайный порядок их перименения*/
   let colors = ["#E7F0FF", "#FEEFEA", "#DAEFD5", "#EAE6FF"];
   let randomColorsSlider = colors[Math.floor(Math.random() * colors.length)];
