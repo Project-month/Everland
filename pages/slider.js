@@ -4,6 +4,18 @@
 let slider = document.querySelectorAll(".project__container");
 let currentSlide = 0;
 
+const capitalContentSection = document.querySelector('.capital__content');
+const capitalSubtitle = capitalContentSection.querySelector('.capital__subtitle');
+const capitalPreTitle = capitalContentSection.querySelector('.capital__everland');
+const capitalTitle = capitalContentSection.querySelector('.capital__title');
+const capitalSliderCount = capitalContentSection.querySelector('.big-text');
+const capitalPreviousSlideButton = capitalContentSection.querySelector('.button__click-back');
+const capitalNextSlideButton = capitalContentSection.querySelector('.button__click-forward');
+const capitalFirstImage = capitalContentSection.querySelector('.capital__image-one');
+const capitalSecondImage = capitalContentSection.querySelector('.capital__image-two');
+
+const sliderInfoList = [{preTitleColored : "Мы работаем с",title : " 2016 года по России и СНГ и помогаем людям с инвалидностью. ",subtitle : "Everland — социальный предпринимательский проект",imageFirst: {alt: "Семинары", src : "./images/Image_2.jpg"},imageSecond: {alt: "Беседы", src : "./images/Image_1.jpg"}},{preTitleColored : "Everland",title : " — социальный предпринимательский проект",subtitle : "Мы работаем с 2016 года по России и СНГ и помогаем людям с инвалидностью устойчиво интегрироваться в открытый рынок труда",imageFirst: {alt: "Беседы", src : "./images/Image_1.jpg"},imageSecond: {alt: "Семинары", src : "./images/Image_2.jpg"}}]
+
 function hideSlide() {
   slider[currentSlide].classList.remove("project__container_showed");
 }
@@ -16,52 +28,6 @@ function showSlides() {
   slider[currentSlide].style.backgroundColor = randomColorsSlider;
 }
 
-showSlides();
-
-document.querySelectorAll(".button_theme_black-click-forward").forEach((btn) =>
-  btn.addEventListener("click", () => {
-    hideSlide();
-    if (currentSlide - 1 == -1) {
-      currentSlide = slider.length - 1;
-    } else {
-      currentSlide--;
-    }
-    showSlides();
-  })
-);
-
-document.querySelectorAll(".button_theme_black-click-back").forEach((btn) =>
-  btn.addEventListener("click", () => {
-    hideSlide();
-    if (currentSlide + 1 == slider.length) {
-      currentSlide = 0;
-    } else {
-      currentSlide++;
-    }
-    showSlides();
-  })
-);
-/* конец */
-
-
-const capitalContentSection = document.querySelector('.capital__content');
-const capitalSubtitle = capitalContentSection.querySelector('.capital__subtitle');
-const capitalPreTitle = capitalContentSection.querySelector('.capital__everland');
-const capitalTitle = capitalContentSection.querySelector('.capital__title');
-const capitalSliderCount = capitalContentSection.querySelector('.big-text');
-const capitalPreviousSlideButton = capitalContentSection.querySelector('.button__click-back');
-const capitalNextSlideButton = capitalContentSection.querySelector('.button__click-forward');
-
-const capitalFirstImage = capitalContentSection.querySelector('.capital__image-one');
-const capitalSecondImage = capitalContentSection.querySelector('.capital__image-two');
-
-
-
-
-const sliderInfoList = [{preTitleColored : "Мы работаем с",title : " 2016 года по России и СНГ и помогаем людям с инвалидностью. ",subtitle : "Everland — социальный предпринимательский проект",imageFirst: {alt: "Семинары", src : "./images/Image_2.jpg"},imageSecond: {alt: "Беседы", src : "./images/Image_1.jpg"}},{preTitleColored : "Everland",title : " — социальный предпринимательский проект",subtitle : "Мы работаем с 2016 года по России и СНГ и помогаем людям с инвалидностью устойчиво интегрироваться в открытый рынок труда",imageFirst: {alt: "Беседы", src : "./images/Image_1.jpg"},imageSecond: {alt: "Семинары", src : "./images/Image_2.jpg"}}]
-
-
-
 function getSlideInfo(){
   const sliderCountList =  capitalSliderCount.textContent.split("/")
   let currentCount = Number(sliderCountList[0])
@@ -72,7 +38,6 @@ function getSlideInfo(){
     return sliderInfoList[0]
   }
 }
-
 function nextSlide(){
   const sliderCountList =  capitalSliderCount.textContent.split("/")
   let currentCount = Number(sliderCountList[0])
@@ -119,6 +84,33 @@ function forwardSlide(){
   }
 
 }
+
+showSlides();
+
+document.querySelectorAll(".button_theme_black-click-forward").forEach((btn) =>
+  btn.addEventListener("click", () => {
+    hideSlide();
+    if (currentSlide - 1 == -1) {
+      currentSlide = slider.length - 1;
+    } else {
+      currentSlide--;
+    }
+    showSlides();
+  })
+);
+
+document.querySelectorAll(".button_theme_black-click-back").forEach((btn) =>
+  btn.addEventListener("click", () => {
+    hideSlide();
+    if (currentSlide + 1 == slider.length) {
+      currentSlide = 0;
+    } else {
+      currentSlide++;
+    }
+    showSlides();
+  })
+);
+/* конец */
 
 capitalNextSlideButton.addEventListener("click",() => nextSlide())
 capitalPreviousSlideButton.addEventListener("click",() => forwardSlide())
