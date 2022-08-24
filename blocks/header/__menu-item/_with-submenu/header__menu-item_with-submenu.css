@@ -24,7 +24,5 @@
 
   .header__menu-item_with-submenu:hover > .header__submenu-items {
     display: flex;
-  }  
-
+  }
 }
-

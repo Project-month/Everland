@@ -10,7 +10,6 @@
   border-radius: 10px;
   border: none;
   cursor: pointer;
-
 }
 
 .button_theme_black-click-back:hover {
@@ -47,6 +46,5 @@
 
   .button_theme_black-click-back:hover {
     background-size: 10px 10px;
-
   }
 }

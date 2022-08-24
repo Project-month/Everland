@@ -1,9 +1,9 @@
 .header__content {
   display: grid;
-  grid-template-columns: minmax(min-content, max-content) minmax(min-content, max-content) minmax(
+  grid-template-columns: minmax(min-content, max-content) minmax(
       min-content,
       max-content
-    );
+    ) minmax(min-content, max-content);
   grid-template-areas: 'logo burger links';
   grid-template-rows: 80px;
   justify-content: space-between;
@@ -14,9 +14,9 @@
 @media screen and (max-width: 1439px) {
   .header__content {
     grid-template-columns: minmax(min-content, max-content) 1fr minmax(
-      min-content,
-      max-content
-    );
+        min-content,
+        max-content
+      );
     grid-template-areas: 'logo links burger';
   }
 }

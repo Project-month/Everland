@@ -23,10 +23,8 @@
   }
 }
 
-
 @media (max-width: 767px) {
   .history__info {
     row-gap: 14px;
   }
-
 }
