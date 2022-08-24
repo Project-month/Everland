@@ -1,5 +1,6 @@
 "use strict";
 /* для слайдера в разделе секции фото-проекты */
+
 let slider = document.querySelectorAll(".project__container");
 let currentSlide = 0;
 
@@ -9,6 +10,10 @@ function hideSlide() {
 
 function showSlides() {
   slider[currentSlide].classList.add("project__container_slider");
+ /*в макете, указан список рекомендуемых цветов для фона слайдера. Добавим случайный порядок их перименения*/
+  let colors = ["#E7F0FF", "#FEEFEA", "#DAEFD5", "#EAE6FF"];
+  let randomColorsSlider = colors[Math.floor(Math.random() * colors.length)];
+  slider[currentSlide].style.backgroundColor = randomColorsSlider;
 }
 
 showSlides();
