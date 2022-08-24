@@ -10,6 +10,17 @@
     "subtitle images"
     "buttons images";
   row-gap: 20px;
+  animation-name: fade-out;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 @media screen and (max-width: 1439px) {

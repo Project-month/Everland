@@ -34,7 +34,6 @@
 @import url(../blocks/button/_theme/button_theme_black-click-back.css);
 @import url(../blocks/button/_theme/button_theme_black-click-forward.css);
 
-
 /* Logo */
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/_place/logo_place_header.css);
@@ -79,8 +78,6 @@
 @import url(../blocks/capital/__image/capital__image.css);
 @import url(../blocks/capital/__image/_type/capital__image_type_above.css);
 @import url(../blocks/capital/__image/_type/capital__image_type_under.css);
-@import url(../blocks/capital/__image-one/capital__image-one.css);
-@import url(../blocks/capital/__image-two/capital__image-two.css);
 @import url(../blocks/capital/__slide/capital__slide.css);
 @import url(../blocks/capital/__slide-text/capital__slide-text.css);
 @import url(../blocks/capital/__subtitle/capital__subtitle.css);
