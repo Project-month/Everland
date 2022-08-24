@@ -4,10 +4,13 @@
   gap: 10px;
   justify-content: start;
   align-self: end;
+  padding-bottom: 5px;
 }
 
 @media screen and (max-width: 1439px) {
   .capital__slide {
+    padding-bottom: 0px;
+    padding-top: 0;
   }
 }
 
