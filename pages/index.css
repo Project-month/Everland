@@ -34,6 +34,7 @@
 @import url(../blocks/button/_theme/button_theme_black-click-back.css);
 @import url(../blocks/button/_theme/button_theme_black-click-forward.css);
 
+
 /* Logo */
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/_place/logo_place_header.css);
@@ -72,6 +73,7 @@
 
 /* Capital */
 @import url(../blocks/capital/capital.css);
+@import url(../blocks/capital/__cards/capital__cards.css);
 @import url(../blocks/capital/__card/capital__card.css);
 @import url(../blocks/capital/__images/capital__images.css);
 @import url(../blocks/capital/__image/capital__image.css);
@@ -290,3 +292,12 @@
 @import url(../blocks/footer/__copyrights/footer__copyrights.css);
 @import url(../blocks/footer/__yandex-praktikum/footer__yandex-praktikum.css);
 @import url(../blocks/footer/__yandex-praktikum-logo/footer__yandex-praktikum-logo.css);
+
+/* Slider */
+@import url(../blocks/slider/slider.css);
+@import url(../blocks/slider/__action/slider__action.css);
+@import url(../blocks/slider/__action/_type/slider__action_type_back.css);
+@import url(../blocks/slider/__action/_type/slider__action_type_forward.css);
+@import url(../blocks/slider/__items/slider__items.css);
+@import url(../blocks/slider/__item/slider__item.css);
+@import url(../blocks/slider/__item/_hidden/slider__item_hidden.css);

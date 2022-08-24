@@ -1,7 +1,8 @@
 .capital__image {
   margin: 0;
+  padding: 0;
   border: none;
   border-radius: 10px;
-  width: 100%;
-  display: block;
+  object-fit: contain;
+  object-position: center left;
 }

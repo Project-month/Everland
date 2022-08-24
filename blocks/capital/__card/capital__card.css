@@ -1,6 +1,7 @@
 .capital__card {
+  width: 100%;
   display: grid;
-  grid-template-columns: 1fr 38.24%;
+  grid-template-columns: 1fr 520px;
   grid-template-rows:
     minmax(min-content, max-content) minmax(min-content, max-content)
     1fr;
@@ -9,7 +10,6 @@
     "subtitle images"
     "buttons images";
   row-gap: 20px;
-  align-items: flex-end;
 }
 
 @media screen and (max-width: 1439px) {
@@ -20,8 +20,8 @@
 
 @media screen and (max-width: 767px) {
   .capital__card {
+    row-gap: 0;
     display: flex;
-    row-gap: 18px;
     flex-direction: column;
     grid-template-columns: minmax(min-content, max-content);
     grid-template-rows: repeat(4, minmax(min-content, max-content));

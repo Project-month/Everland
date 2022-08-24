@@ -12,6 +12,7 @@
 
 @media screen and (max-width: 767px) {
   .capital__subtitle {
+    padding-top: 16px;
     max-width: none;
   }
 }
