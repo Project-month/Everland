@@ -78,8 +78,8 @@
 @import url(../blocks/capital/__image/capital__image.css);
 @import url(../blocks/capital/__image/_type/capital__image_type_above.css);
 @import url(../blocks/capital/__image/_type/capital__image_type_under.css);
-@import url(../blocks/capital/__slide/capital__slide.css);
-@import url(../blocks/capital/__slide-text/capital__slide-text.css);
+@import url(../blocks/capital/__buttons/capital__buttons.css);
+@import url(../blocks/capital/__buttons-text/capital__buttons-text.css);
 @import url(../blocks/capital/__subtitle/capital__subtitle.css);
 @import url(../blocks/capital/__title/capital__title.css);
 @import url(../blocks/capital/__everland/capital__everland.css);
