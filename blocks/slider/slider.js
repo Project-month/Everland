@@ -18,8 +18,8 @@ function addActionsToSlides(slides) {
 
 function addSliderFunctionalityToSection(section) {
 
-  slider = section.querySelectorAll('.slider__items');
-  slides = section.querySelectorAll('.slider__item');
+  const slider = section.querySelectorAll('.slider__items');
+  const slides = section.querySelectorAll('.slider__item');
   
   if (!slider || !slides) return;
   
@@ -28,4 +28,4 @@ function addSliderFunctionalityToSection(section) {
 }
 
 const sectionsWithSlider = [...document.querySelectorAll('.slider')];
-sectionsWithSlider.map(item => addSliderFunctionalityToSection(item));
+sectionsWithSlider.forEach(item => addSliderFunctionalityToSection(item));
