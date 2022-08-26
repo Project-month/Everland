@@ -1,4 +1,16 @@
 .donat {
-  padding-top: 92px;
+  padding-top: 45px;
   padding-bottom: 50px;
+}
+
+@media screen and (max-width: 1439px) {
+  .donat {
+    padding-top: 25px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .donat {
+    padding-top: 20px;
+  }
 }
