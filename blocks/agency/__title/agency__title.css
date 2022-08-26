@@ -1,0 +1,13 @@
+.agency__title {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: left;
+  align-self: start;
+}
+
+@media (max-width: 1439px) {
+  .agency__title {
+    max-width: 400px;
+  }
+}
