@@ -1,4 +1,4 @@
-.project__image {
+.special-projects__image {
   width: 555px;
   height: 393px;
   grid-row: 1/5;
@@ -11,7 +11,7 @@
 }
 
 @media screen and (max-width: 1439px) {
-  .project__image {
+  .special-projects__image {
     background-image: url(../../../images/Imageqwe.png); /*Изображение на фото тоже самое, но сама фотография другая (первый вариант не подходит под Perfect-Pixel)*/
     width: 259px;
     height: 284px;
@@ -21,7 +21,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .project__image {
+  .special-projects__image {
     background-image: url(../../../images/Image_fpf.png);
     width: 254px;
     height: 180px;

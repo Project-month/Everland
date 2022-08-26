@@ -1,4 +1,4 @@
-.project__btn-wrapper {
+.special-projects__buttons {
   grid-area: buttons;
   box-sizing: border-box;
   grid-row: 1/5;
@@ -13,7 +13,7 @@
 }
 
 @media screen and (max-width: 1439px) {
-  .project__btn-wrapper {
+  .special-projects__buttons {
     grid-column: 1;
     grid-row: 1/5;
     justify-self: end;
@@ -23,7 +23,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .project__btn-wrapper {
+  .special-projects__buttons {
     grid-row: 1;
     grid-column: 1;
     margin-right: 0px;

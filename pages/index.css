@@ -168,17 +168,18 @@
 @import url(../blocks/number/__description/number__description.css);
 @import url(../blocks/number/__count/number__count.css);
 
-/* Photo project "Family as a family" */
-@import url(../blocks/project/project.css);
-@import url(../blocks/project/__container/project__container.css);
-@import url(../blocks/project/__topic/project__topic.css);
-@import url(../blocks/project/__topic-title/project__topic-title.css);
-@import url(../blocks/project/__topic-subtitle/project__topic-subtitle.css);
-@import url(../blocks/project/__image/project__image.css);
-@import url(../blocks/project/__btn-wrapper/project__btn-wrapper.css);
-@import url(../blocks/project/__image/project__image-2.css);
-@import url(../blocks/project/__image/project__image-3.css);
-@import url(../blocks/project/__container/_showed/project__container_showed.css);
+/* Special projects */
+@import url(../blocks/special-projects/special-projects.css);
+@import url(../blocks/special-projects/__legend/special-projects__legend.css);
+@import url(../blocks/special-projects/__items/special-projects__items.css);
+@import url(../blocks/special-projects/__item/special-projects__item.css);
+@import url(../blocks/special-projects/__item-title/special-projects__item-title.css);
+@import url(../blocks/special-projects/__item-subtitle/special-projects__item-subtitle.css);
+
+@import url(../blocks/special-projects/__image/special-projects__image.css);
+@import url(../blocks/special-projects/__buttons/special-projects__buttons.css);
+@import url(../blocks/special-projects/__image/special-projects__image-2.css);
+@import url(../blocks/special-projects/__image/special-projects__image-3.css);
 
 /* History */
 @import url(../blocks/history/history.css);
