@@ -1,6 +1,6 @@
-.button__click-back {
+.button_type_click-forward {
   background-color: #0c4ba0;
-  background-image: url(../../../images/icon/arrow_back.svg);
+  background-image: url(../../../images/icon/arrow_everlandforward.svg);
   background-size: 17px 17px;
   width: 35px;
   height: 35px;
@@ -11,25 +11,27 @@
   cursor: pointer;
 }
 
-.button__click-back:hover {
+.button_type_click-forward:hover {
   background-color: #4183dc;
 }
 
-.button__click-back:active {
+.button_type_click-forward:active {
   background-color: #00275c;
 }
 
-.button__click-back:disabled {
+.button_type_click-forward:disabled {
   background-color: #c4c4c4;
   color: rgba(38, 38, 38, 0.5);
   cursor: not-allowed;
 }
 
 @media screen and (max-width: 1439px) {
-  .button__click-back {
+  .button_type_click-forward {
     background-size: 10px 10px;
     width: 24px;
     height: 24px;
     border-radius: 6px;
+    padding: 0;
+    margin: 0;
   }
 }

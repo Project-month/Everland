@@ -28,8 +28,8 @@
 @import url(../blocks/button/_theme/button_theme_secondary.css);
 @import url(../blocks/button/_theme/button_theme_secondary-black.css);
 @import url(../blocks/button/_place/button_place_news-section.css);
-@import url(../blocks/button/__click-back/button__click-back.css);
-@import url(../blocks/button/__click-forward/button__click-forward.css);
+@import url(../blocks/button/_type/button_type_click-back.css);
+@import url(../blocks/button/_type/button_type-click-forward.css);
 @import url(../blocks/button/_place/button_place_foto-project-section.css);
 @import url(../blocks/button/_theme/button_theme_black-click-back.css);
 @import url(../blocks/button/_theme/button_theme_black-click-forward.css);
@@ -72,10 +72,14 @@
 
 /* Capital */
 @import url(../blocks/capital/capital.css);
-@import url(../blocks/capital/__content/capital__content.css);
-@import url(../blocks/capital/__image-one/capital__image-one.css);
-@import url(../blocks/capital/__image-two/capital__image-two.css);
-@import url(../blocks/capital/__slide/capital__slide.css);
+@import url(../blocks/capital/__cards/capital__cards.css);
+@import url(../blocks/capital/__card/capital__card.css);
+@import url(../blocks/capital/__images/capital__images.css);
+@import url(../blocks/capital/__image/capital__image.css);
+@import url(../blocks/capital/__image/_type/capital__image_type_above.css);
+@import url(../blocks/capital/__image/_type/capital__image_type_under.css);
+@import url(../blocks/capital/__buttons/capital__buttons.css);
+@import url(../blocks/capital/__buttons-text/capital__buttons-text.css);
 @import url(../blocks/capital/__subtitle/capital__subtitle.css);
 @import url(../blocks/capital/__title/capital__title.css);
 @import url(../blocks/capital/__everland/capital__everland.css);
@@ -287,6 +291,11 @@
 @import url(../blocks/footer/__yandex-praktikum/footer__yandex-praktikum.css);
 @import url(../blocks/footer/__yandex-praktikum-logo/footer__yandex-praktikum-logo.css);
 
-.opaciry0 {
-  background-color: red;
-}
+/* Slider */
+@import url(../blocks/slider/slider.css);
+@import url(../blocks/slider/__action/slider__action.css);
+@import url(../blocks/slider/__action/_type/slider__action_type_back.css);
+@import url(../blocks/slider/__action/_type/slider__action_type_forward.css);
+@import url(../blocks/slider/__items/slider__items.css);
+@import url(../blocks/slider/__item/slider__item.css);
+@import url(../blocks/slider/__item/_hidden/slider__item_hidden.css);
