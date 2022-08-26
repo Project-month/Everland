@@ -1,18 +1,19 @@
 .agency__button {
   margin: 0 auto;
-  margin-top: 50px;
-  display: block;
+  margin-top: 25px;
+  width: 204px;
 }
 
-@media (max-width: 1439px) {
+@media screen and (max-width: 1439px) {
   .agency__button {
-    margin-top: 32px;
+    margin-top: 16px;
   }
 }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .agency__button {
-    margin-top: 24px;
+    margin-top: 8px;
     width: 100%;
+    max-width: 300px;
   }
 }
