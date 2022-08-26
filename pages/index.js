@@ -19,10 +19,6 @@ const amountRadios = supportForm
   .querySelectorAll("input[name='donation-amount']");
 const SHOW_ANIMATION_DELAY = 20;
 
-let btnSliderFwd = document.querySelector('#btn-slider-fwd');
-let btnSliderBack = document.querySelector('#btn-slider-back');
-let slideIndex = 1;
-
 nameInput.addEventListener('input', validateForm);
 emailInput.addEventListener('input', validateForm);
 amountInput.addEventListener('input', validateForm);
@@ -131,33 +127,6 @@ function handleDonatFormSubmit(evt) {
   supportForm.scrollIntoView();
 }
 
-function back() {
-  showSlides((slideIndex -= 1));
-}
-
-function forward() {
-  showSlides((slideIndex += 1));
-}
-
-function currentSlide(n) {
-  showSlides((slideIndex = n));
-}
-
-function showSlides(n) {
-  let i;
-  let slides = document.querySelectorAll('.project__container');
-
-  if (n > slides.length) {
-    slideIndex = 1;
-  }
-  if (n < 1) {
-    slideIndex = slides.length;
-  }
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = 'none';
-  }
-  slides[slideIndex - 1].style.display = 'grid';
-}
 
 document.querySelectorAll('.accordion__button').forEach((button) => {
   button.addEventListener('click', (evt) => closeDescription(evt));
@@ -176,4 +145,4 @@ if (
   changeNameButtonNews();
 }
 
-showSlides(slideIndex);
+

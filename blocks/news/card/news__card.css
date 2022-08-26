@@ -100,7 +100,7 @@
 
   .news__card:nth-child(3) .news__text {
     max-height: 140px;
-   grid-template-rows: 43px 95px;
+    grid-template-rows: 43px 95px;
   }
 }
 

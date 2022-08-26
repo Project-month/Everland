@@ -178,6 +178,7 @@
 @import url(../blocks/project/__btn-wrapper/project__btn-wrapper.css);
 @import url(../blocks/project/__image/project__image-2.css);
 @import url(../blocks/project/__image/project__image-3.css);
+@import url(../blocks/project/__container/_showed/project__container_showed.css);
 
 /* History */
 @import url(../blocks/history/history.css);

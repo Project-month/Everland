@@ -1,5 +1,7 @@
 .donation-form__submit-button {
   align-self: center;
+  box-sizing: border-box;
+  height: 48px;
   margin-top: 24px;
   width: 194px;
 }

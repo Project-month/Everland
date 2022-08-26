@@ -1,4 +1,4 @@
-.accordion__title{
+.accordion__title {
   max-width: 565px;
   line-height: 40.8px;
 }
@@ -14,7 +14,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .accordion__title{
+  .accordion__title {
     max-width: 200px;
     font-style: normal;
     font-weight: 700;
