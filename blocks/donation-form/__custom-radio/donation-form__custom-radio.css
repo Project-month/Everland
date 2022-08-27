@@ -1,0 +1,24 @@
+.donation-form__custom-radio {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid #dadada;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-flex;
+  height: 48px;
+  justify-content: center;
+  padding: 5px 10px;
+  position: relative;
+  text-align: center;
+}
+
+.donation-form__radio:checked + .donation-form__custom-radio {
+  border: 1px solid #0c4ba0;
+}
+
+@media screen and (max-width: 1439px) {
+  .donation-form__custom-radio {
+    height: 44px;
+  }
+}

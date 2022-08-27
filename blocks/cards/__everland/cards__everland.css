@@ -1,0 +1,5 @@
+@media screen and (max-width: 1439px) {
+  .cards__everland::after {
+    content: ' Everland';
+  }
+}

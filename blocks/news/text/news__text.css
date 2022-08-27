@@ -1,0 +1,14 @@
+.news__text {
+  grid-area: news__text;
+  -ms-grid-row: 3;
+  grid-row: 3;
+  display: grid;
+  grid-template-rows: 122px 208px;
+  padding: 0;
+  max-width: 380px;
+  margin: 0;
+  height: 302px;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}

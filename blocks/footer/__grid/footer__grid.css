@@ -1,0 +1,39 @@
+.footer__grid {
+  display: grid;
+  grid-template-columns: minmax(min-content, 560px) minmax(
+      min-content,
+      max-content
+    );
+  grid-template-areas:
+    'description navigation'
+    'supported social'
+    'contacts copyrights'
+    'yandex-praktikum yandex-praktikum';
+  column-gap: 39px;
+  row-gap: 30px;
+}
+
+@media screen and (max-width: 1439px) {
+  .footer__grid {
+    grid-template-columns: 3fr 3fr;
+    column-gap: 20px;
+    row-gap: 28px;
+  }
+}
+
+/* Нижестоящее правило не нужно, оставил чтобы визуально быстро понять что для "мобилок" этот элемент обработан */
+@media screen and (max-width: 767px) {
+  .footer__grid {
+    grid-template-columns: 2fr;
+    grid-template-areas:
+      'description'
+      'navigation'
+      'supported'
+      'contacts'
+      'social'
+      'copyrights'
+      'yandex-praktikum';
+    column-gap: 0;
+    row-gap: 24px;
+  }
+}

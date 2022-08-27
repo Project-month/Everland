@@ -1,0 +1,12 @@
+.navigation__link {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: unset;
+  transition: opacity 0.1s linear;
+}
+
+.navigation__link:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}

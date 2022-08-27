@@ -1,0 +1,14 @@
+.agency__card_view_hidden {
+}
+
+@media screen and (max-width: 1439px) {
+  .agency__card_view_hidden {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .agency__card_view_hidden {
+    display: flex;
+  }
+}

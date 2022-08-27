@@ -1,0 +1,20 @@
+.header__buttons {
+  grid-area: links;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style-type: none;
+  gap: 16px;
+  align-self: center;
+}
+@media screen and (max-width: 1439px) {
+  .header__buttons {
+    justify-content: flex-end;
+    gap: 8px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .header__buttons {
+    display: none;
+  }
+}

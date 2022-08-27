@@ -1,0 +1,27 @@
+.capital__images {
+  width: 100%;
+  height: 100%;
+  grid-area: images;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(32, 1fr);
+  grid-template-rows: repeat(32, 1fr);
+  position: relative;
+}
+
+@media screen and (max-width: 1439px) {
+  .capital__images {
+    padding-top: 14px;
+    /*     grid-template-columns: repeat(32, minxmax(min-content, max-content)); */
+    grid-template-rows: repeat(32, minmax(min-content, max-content));
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .capital__images {
+    padding-top: 23px;
+    padding-bottom: 15px;
+    margin: 0 auto;
+    max-width: 300px;
+  }
+}

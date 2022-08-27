@@ -1,0 +1,11 @@
+.cards__link-arrow_color_blue {
+  color: #0c4ba0;
+}
+
+.cards__link_color_blue:hover .cards__link-arrow_color_blue {
+  color: #fff;
+}
+
+.cards__link-arrow_color_blue:disabled {
+  color: rgba(38, 38, 38, 0.5);
+}

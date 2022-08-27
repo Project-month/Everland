@@ -1,0 +1,23 @@
+.whom__item {
+  background-color: #fff;
+  width: 100%;
+  min-height: 428px;
+  border-radius: 30px;
+  display: grid;
+  gap: 40px;
+}
+
+@media screen and (max-width: 1439px) {
+  .whom__item {
+    min-height: 272px;
+    gap: 20px;
+    border-radius: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .whom__item {
+    min-height: 293px;
+    max-width: 300px;
+  }
+}

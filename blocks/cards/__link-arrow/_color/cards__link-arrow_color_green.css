@@ -1,0 +1,11 @@
+.cards__link-arrow_color_green {
+  color: #319b17;
+}
+
+.cards__link_color_green:hover .cards__link-arrow_color_green {
+  color: #fff;
+}
+
+.cards__link-arrow_color_green:disabled {
+  color: rgba(38, 38, 38, 0.5);
+}

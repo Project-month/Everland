@@ -1,0 +1,21 @@
+.special-projects__item-subtitle {
+  grid-area: project__topic-subtitle;
+  grid-row: 3/3;
+  grid-column: 1;
+  width: 427px;
+  padding-bottom: 8px;
+}
+
+@media screen and (max-width: 1439px) {
+  .special-projects__item-subtitle {
+    max-width: 315px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .special-projects__item-subtitle {
+    grid-row: 4;
+    width: 244px;
+    margin-bottom: 48px;
+  }
+}

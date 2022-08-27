@@ -1,0 +1,28 @@
+.agency__cards {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin-block: 0;
+  padding-inline: 0;
+  padding-top: 50px;
+  gap: 30px;
+  padding-bottom: 25px;
+  width: 100%;
+}
+
+@media screen and (max-width: 1439px) {
+  .agency__cards {
+    padding-top: 22px;
+    padding-bottom: 16px;
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .agency__cards {
+    flex-direction: column;
+    padding-top: 24px;
+    padding-bottom: 12px;
+    gap: 30px;
+  }
+}

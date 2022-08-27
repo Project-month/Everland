@@ -1,0 +1,5 @@
+@media screen and (max-width: 767px) {
+  .donation-form__custom-radio_for_other-sum {
+    grid-column: 1 / span 2;
+  }
+}

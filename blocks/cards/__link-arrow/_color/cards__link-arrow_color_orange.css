@@ -1,0 +1,11 @@
+.cards__link-arrow_color_orange {
+  color: #e98509;
+}
+
+.cards__link_color_orange:hover .cards__link-arrow_color_orange {
+  color: #fff;
+}
+
+.cards__link-arrow_color_orange:disabled {
+  color: rgba(38, 38, 38, 0.5);
+}

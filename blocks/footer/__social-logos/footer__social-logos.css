@@ -1,0 +1,20 @@
+.footer__social-logos {
+  display: flex;
+  gap: 10px;
+  list-style-type: none;
+  margin: 0;
+  padding: 11px 0 0;
+}
+
+@media screen and (max-width: 1439px) {
+  .footer__social-logos {
+    gap: 4px;
+    padding: 12px 0 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__social-logos {
+    padding: 7px 0 0;
+  }
+}

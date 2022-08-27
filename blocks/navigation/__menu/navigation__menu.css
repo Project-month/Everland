@@ -1,0 +1,9 @@
+.navigation__menu {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  list-style-type: none;
+  justify-content: space-between;
+  align-items: center;
+}

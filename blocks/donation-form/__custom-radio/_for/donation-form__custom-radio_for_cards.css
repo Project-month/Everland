@@ -1,0 +1,11 @@
+.donation-form__custom-radio_for_cards {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .donation-form__custom-radio_for_cards {
+    height: 48px;
+  }
+}

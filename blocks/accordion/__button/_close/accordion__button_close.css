@@ -1,0 +1,8 @@
+.accordion__button_close {
+  background-color: #0c4ba0;
+  stroke: white;
+}
+.accordion__button_close .accordion__button-icon {
+  stroke: white;
+  transform: rotate(45deg);
+}

@@ -1,0 +1,18 @@
+.capital__subtitle {
+  padding-bottom: 5px;
+  grid-area: subtitle;
+  max-width: 543px;
+}
+
+@media screen and (max-width: 1439px) {
+  .capital__subtitle {
+    max-width: 401px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .capital__subtitle {
+    padding-top: 16px;
+    max-width: unset;
+  }
+}

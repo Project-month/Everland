@@ -1,0 +1,21 @@
+.heading5 {
+  font-family: 'Raleway', Arial, Helvetica, sans-serif;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1439px) {
+  .heading5 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .heading5 {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,16 @@
+.donation-form__submit-button_for_donat {
+  margin: 0;
+  max-width: 179px;
+}
+
+@media screen and (max-width: 1439px) {
+  .donation-form__submit-button_for_donat {
+    max-width: 143px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .donation-form__submit-button_for_donat {
+    max-width: 260px;
+  }
+}

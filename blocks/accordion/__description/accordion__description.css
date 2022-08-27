@@ -1,0 +1,10 @@
+.accordion__description {
+  margin-top: 20px;
+  max-width: 628px;
+  transition: height 0.3s linear, margin 0.3s ease-in-out;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+}

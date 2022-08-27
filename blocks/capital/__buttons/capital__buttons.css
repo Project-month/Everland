@@ -1,0 +1,22 @@
+.capital__buttons {
+  grid-area: buttons;
+  display: flex;
+  gap: 10px;
+  justify-content: start;
+  align-self: end;
+  padding-bottom: 5px;
+}
+
+@media screen and (max-width: 1439px) {
+  .capital__buttons {
+    padding-bottom: 0px;
+    padding-top: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .capital__buttons {
+    align-self: center;
+    justify-content: center;
+  }
+}

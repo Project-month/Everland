@@ -1,0 +1,10 @@
+.accordion_close {
+  padding-top: 30px;
+  transition: padding-top 0.3s linear;
+}
+
+@media screen and (max-width: 767px) {
+  .accordion_close {
+    padding-top: 16px;
+  }
+}

@@ -1,0 +1,15 @@
+.heading4_mobile-as-heading5 {
+  font-size: 34px;
+}
+
+@media screen and (max-width: 1439px) {
+  .heading4_mobile-as-heading5 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .heading4_mobile-as-heading5 {
+    font-size: 16px;
+  }
+}

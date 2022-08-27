@@ -1,0 +1,15 @@
+.special-projects {
+  padding-top: 150px;
+}
+
+@media screen and (max-width: 1439px) {
+  .special-projects {
+    padding-top: 100px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .special-projects {
+    padding-top: 64px;
+  }
+}

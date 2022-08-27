@@ -1,0 +1,19 @@
+.agency__button {
+  margin: 0 auto;
+  margin-top: 25px;
+  width: 204px;
+}
+
+@media screen and (max-width: 1439px) {
+  .agency__button {
+    margin-top: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .agency__button {
+    margin-top: 8px;
+    width: 100%;
+    max-width: 300px;
+  }
+}

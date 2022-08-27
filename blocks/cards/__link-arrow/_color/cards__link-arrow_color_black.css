@@ -1,0 +1,15 @@
+.cards__link-arrow_color_black {
+  color: #333333;
+}
+
+.cards__link_color_white:hover .cards__link-arrow_color_black {
+  color: #00275c;
+}
+
+.cards__link_color_white:active .cards__link-arrow_color_black {
+  color: #0c4ba0;
+}
+
+.cards__link_color_white:disabled .cards__link-arrow_color_black {
+  color: #c4c4c4;
+}

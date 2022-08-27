@@ -1,0 +1,28 @@
+.news__topic-date {
+  grid-area: news__topic-date;
+  -ms-grid-row: 4;
+  grid-row: 4;
+  line-height: 130%;
+  -webkit-font-feature-settings: 'pnum' on, 'lnum' on;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: rgba(38, 38, 38, 0.5);
+  margin: 0;
+  padding: 0;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+
+@media screen and (max-width: 1439px) {
+  .news__topic-date {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .news__topic-date {
+    font-size: 12px;
+    line-height: 120%;
+  }
+}

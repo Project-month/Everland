@@ -1,0 +1,31 @@
+.news__topic {
+  grid-area: news__topic;
+  -ms-grid-row: 1;
+  grid-row: 1;
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  -webkit-font-feature-settings: 'pnum' on, 'lnum' on;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: rgb(51, 51, 51);
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+
+@media screen and (max-width: 1439px) {
+  .news__topic {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .news__topic {
+    font-size: 12px;
+  }
+}

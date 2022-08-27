@@ -1,0 +1,32 @@
+.special-projects__buttons {
+  grid-area: buttons;
+  box-sizing: border-box;
+  grid-row: 1/5;
+  grid-column: 2;
+  margin-right: 4px;
+  justify-self: center;
+  align-self: end;
+  height: 35px;
+  margin: 0;
+  padding: 0;
+  justify-self: start;
+}
+
+@media screen and (max-width: 1439px) {
+  .special-projects__buttons {
+    grid-column: 1;
+    grid-row: 1/5;
+    justify-self: end;
+    height: 24px;
+    margin-right: 12px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .special-projects__buttons {
+    grid-row: 1;
+    grid-column: 1;
+    margin-right: 0px;
+    align-self: flex-start;
+  }
+}

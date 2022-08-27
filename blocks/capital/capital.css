@@ -1,0 +1,18 @@
+.capital {
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+
+@media screen and (max-width: 1439px) {
+  .capital {
+    padding-top: 56px;
+    padding-bottom: 25px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .capital {
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+}

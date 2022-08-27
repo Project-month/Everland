@@ -1,0 +1,16 @@
+.capital__title {
+  letter-spacing: -0.02em;
+  grid-area: title;
+}
+
+@media screen and (max-width: 1439px) {
+  .capital__title {
+    letter-spacing: -0.03em;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .capital__title {
+    letter-spacing: -0.03em;
+  }
+}

@@ -1,0 +1,13 @@
+.cards__link-arrow {
+  width: 16px;
+  height: 16px;
+  padding: 16px 14px;
+}
+
+@media screen and (max-width: 1439px) {
+  .cards__link-arrow {
+    width: 13px;
+    height: 13px;
+    padding: 15px 13px;
+  }
+}

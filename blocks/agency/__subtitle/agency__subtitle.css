@@ -1,0 +1,22 @@
+.agency__subtitle {
+  margin: 0;
+  padding: 0;
+  padding-top: 20px;
+  width: 100%;
+  max-width: 955px;
+  align-self: flex-start;
+}
+
+@media (max-width: 1439px) {
+  .agency__subtitle {
+    padding-top: 15px;
+    max-width: 504px;
+  }
+}
+
+@media (max-width: 767px) {
+  .agency__subtitle {
+    padding-top: 10px;
+    max-width: 300px;
+  }
+}
