@@ -1,4 +1,4 @@
-.project__topic {
+.special-projects__legend {
   grid-area: project__topic;
   grid-row: 1;
   grid-column: 1;
@@ -10,13 +10,13 @@
 }
 
 @media screen and (max-width: 1439px) {
-  .project__topic {
+  .special-projects__legend {
     font-size: 16px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .project__topic {
+  .special-projects__legend {
     font-size: 14px;
   }
 }

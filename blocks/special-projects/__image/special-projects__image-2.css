@@ -1,4 +1,4 @@
-.project__image-2 {
+.special-projects__image-2 {
   width: 555px;
   height: 393px;
   grid-row: 1/5;
@@ -11,7 +11,7 @@
 }
 
 @media screen and (max-width: 1439px) {
-  .project__image-2 {
+  .special-projects__image-2 {
     background-image: url(https://cool-shina.ru/wp-content/uploads/2/9/7/2973aa635c6fe699f9fb5f1ad8389d47.jpeg);
     width: 259px;
     height: 284px;
@@ -21,7 +21,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .project__image-2 {
+  .special-projects__image-2 {
     background-image: url(https://cool-shina.ru/wp-content/uploads/2/9/7/2973aa635c6fe699f9fb5f1ad8389d47.jpeg);
     width: 254px;
     height: 180px;

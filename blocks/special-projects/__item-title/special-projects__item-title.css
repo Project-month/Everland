@@ -1,4 +1,4 @@
-.project__topic-title {
+.special-projects__item-title {
   grid-area: project__topic-title;
   grid-row: 2/3;
   grid-column: 1;
@@ -8,13 +8,13 @@
 }
 
 @media screen and (max-width: 1439px) {
-  .project__topic-title {
+  .special-projects__item-title {
     width: 339px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .project__topic-title {
+  .special-projects__item-title {
     grid-row: 3;
     width: 245px;
     margin-top: 14px;

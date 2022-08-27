@@ -1,4 +1,4 @@
-.project__image-3 {
+.special-projects__image-3 {
   width: 555px;
   height: 393px;
   grid-row: 1/5;
@@ -11,7 +11,7 @@
 }
 
 @media screen and (max-width: 1439px) {
-  .project__image-3 {
+  .special-projects__image-3 {
     background-image: url(https://img.1tv.com/img/2020-04-27/fmt_117_524_1.jpg);
     width: 259px;
     height: 284px;
@@ -21,7 +21,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .project__image-3 {
+  .special-projects__image-3 {
     background-image: url(https://img.1tv.com/img/2020-04-27/fmt_117_524_1.jpg);
     width: 254px;
     height: 180px;

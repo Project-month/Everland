@@ -1,4 +1,4 @@
-.project__topic-subtitle {
+.special-projects__item-subtitle {
   grid-area: project__topic-subtitle;
   grid-row: 3/3;
   grid-column: 1;
@@ -7,13 +7,13 @@
 }
 
 @media screen and (max-width: 1439px) {
-  .project__topic-subtitle {
+  .special-projects__item-subtitle {
     max-width: 315px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .project__topic-subtitle {
+  .special-projects__item-subtitle {
     grid-row: 4;
     width: 244px;
     margin-bottom: 48px;
